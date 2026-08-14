@@ -1,0 +1,11 @@
+.DS_Store
+~$*
+.env
+.env.*
+courseware/.env
+.claude/
+assessment/
+reference/
+tmp/
+courseware/build/
+*.pyc
