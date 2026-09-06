@@ -73,3 +73,7 @@ All pilot cases have a complete audit trail, delivery remains human-controlled a
 ---
 
 *Enhance Work Productivity with Microsoft 365 Copilot · TGS-2024043856 · Version v8.0 · © 2026 Tertiary Infotech Academy Pte Ltd*
+
+## SharePoint agent extension
+
+Continue with [SHAREPOINT-AGENT-EXTENSION.pdf](SHAREPOINT-AGENT-EXTENSION.pdf). The matching Markdown source, agent-configs.json and sharepoint-knowledge folder are included here. Keep using this lab’s original Excel evidence workbook.

@@ -9,3 +9,5 @@ reference/
 tmp/
 courseware/build/
 *.pyc
+
+courseware/archive/

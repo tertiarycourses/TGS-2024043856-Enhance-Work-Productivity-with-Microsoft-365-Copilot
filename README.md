@@ -22,9 +22,19 @@ Detailed click-by-click procedures and complete prompts are in the Learner Guide
 
 ## Training accounts
 
-The two Microsoft 365 training account usernames are listed in `activities/tools.md`. Passwords are distributed by the trainer and are intentionally excluded from this public repository.
+For SharePoint Labs 12–16, use the tenant work accounts assigned by the trainer. Earlier consumer account examples in `activities/tools.md` are not the SharePoint sign-in identities. Passwords are distributed privately and excluded from this repository.
 
 ## Distribution boundary
 
 Assessment papers, answer keys, reference material, build sources containing assessment content, and `.env` files are private and are not published to GitHub.
 
+
+## SharePoint agent enhancement v8.1
+
+The package retains all 127 original slides and adds 13 editable visual slides (140 total). Labs 12–16 include a SharePoint agent extension, synthetic source documents and agent configurations. Existing Excel workbooks and assessment instruments are retained.
+
+[Open the private course SharePoint site](https://tertiaryinfotech.sharepoint.com/sites/TGS-2024043856-LuminaCopilot) using your assigned work account. Policy, campaign and routing agents each use a selected source document. The earlier consumer account examples do not provide access to this tenant.
+
+Read `SHAREPOINT-AGENT-EXTENSION.pdf` in each agent lab for detailed procedures and citation checks.
+
+![SharePoint agent architecture](screenshot.png)
