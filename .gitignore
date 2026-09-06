@@ -11,3 +11,6 @@ courseware/build/
 *.pyc
 
 courseware/archive/
+
+# iCloud conflict copies of private environment files
+.env *
