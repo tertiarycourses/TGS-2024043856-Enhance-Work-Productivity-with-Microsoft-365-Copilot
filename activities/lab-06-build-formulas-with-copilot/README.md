@@ -1,67 +1,46 @@
-# Lab 06: Build and Audit Excel Formulas with Copilot
+# Lab 06 Build the sales and financial formulas in Excel
 
-**Topic 02** · **Foundation** · **Excel + Copilot** · **K3 · A2**
+**Course:** TGS-2024043856 | **Version:** v8.2 | **Apps:** Excel + Copilot | **Alignment:** K3 · A2
 
-## Goal
+## Company and role
 
-Use Copilot to propose calculated columns while retaining formula transparency and controls.
+You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries. Your role in this lab is Finance calculations.
 
-## Expected output
+## Input and handoff
 
-Formula-driven campaign table with revenue, margin, conversion, status and error controls.
+Use Lumina-Business-Data.xlsx. Prefer your prior-lab output. The scenario folder provides a supplied fallback so this lab can run independently. Save your work in your own SW-2026 folder and record whether you used your own output or a supplied example.
 
-## Files
+Use `Lumina-Living-Lab-06.xlsx` as the evidence workbook. `completed/` contains comparison examples, not proof that your action ran. The primary app output is `Lumina-Analysis.xlsx`.
 
-- `Lumina-Living-Lab-06.xlsx` — learner starter and control workbook
-- `completed/Lumina-Living-Lab-06-completed.xlsx` — completed comparison copy
-- `LAB-06-Instructions.pdf` — printable detailed guide
-- Other Office files in this folder are specific to this lab
+## Four-part prompt
 
-## Primary prompt
+**Goal:** From Campaign_Data, calculate revenue, cost, margin, conversion and return rates using formulas. Define the denominator for each rate. Check 96 source records and handle zero denominators explicitly.
 
-> In the Campaign_Data table, propose formulas for Revenue, Margin, Margin_Percent, Conversion_Rate and Target_Status. Use structured references, make divisions zero-safe, and reference thresholds from the Assumptions sheet. Explain each formula and identify two edge cases to test before applying it.
+**Context:** You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries.
+
+**Source:** Lumina-Business-Data.xlsx. Use your own reviewed prior-lab files first; scenario/ contains supplied fallback examples.
+
+**Expectations:** Save Lumina-Analysis.xlsx. Record source version, verified facts, unresolved questions and reviewer in Lumina-Living-Lab-06.xlsx. Keep project SW-2026 and action IDs A01–A04 unchanged. Label every output Draft until reviewed; record actual app actions separately.
 
 ## Procedure
 
-1. **Convert the Campaign_Data range to an Excel Table.**
+1. Save the source workbook as Lumina-Analysis.xlsx. Inspect the 96 records, one header row, record IDs and numeric columns.
 
-   Name it tblCampaign and confirm one header row.
+2. Use the complete prompt to generate formulas. Review revenue minus cost for margin; use orders/clicks for conversion and returns/orders for return rate. Label zero-denominator cases rather than hiding undefined rates.
 
-2. **Inspect blanks, zeros and unexpected types.**
+3. Reconcile revenue SGD 933,290.00, cost SGD 521,097.41 and margin SGD 412,192.59 against the original ranges. Check a zero-denominator test in a separate test row.
 
-   Record exceptions before generating formulas.
+4. Save the workbook, formula evidence and control results for Lab 7.
 
-3. **Submit the formula prompt.**
+## Acceptance and next handoff
 
-   > In the Campaign_Data table, propose formulas for Revenue, Margin, Margin_Percent, Conversion_Rate and Target_Status. Use structured references, make divisions zero-safe, and reference thresholds from the Assumptions sheet. Explain each formula and identify two edge cases to test before applying it.
-
-4. **Apply one formula at a time and inspect the full column.**
-
-   Reject any formula with hardcoded thresholds or mismatched row references.
-
-5. **Test zero impressions, zero revenue and negative cost.**
-
-   Use a copy of the test rows; do not corrupt the source table.
-
-6. **Create a Controls sheet.**
-
-   Count blanks, formula errors, negative values and rows with Review status.
-
-7. **Save the audited workbook.**
-
-   All controls must show PASS or an owned exception.
+The output belongs to Lumina SW-2026; the named sources support its facts; the reviewer and source version are recorded; and `Lumina-Analysis.xlsx` is available to the next activity. Check each step’s numerical or behavioral expectation. A draft is not a sent email, a posted Teams message or an executed flow.
 
 
-## Acceptance test
+## Financial data and Copilot analysis
 
-All derived columns use auditable formulas, zero denominators are handled intentionally and the Controls sheet contains no unexplained errors.
+Use scenario/Lumina-Sales-Mock-Data.csv (96 synthetic sales summaries) and Lumina-Financial-Analysis-Sample.xlsx as the comparison sample. Revenue means sales value; Orders means order count. This is not an invoice ledger. Costs omit overhead and tax, so margin is not net profit.
 
-## Evidence
+Ask Copilot to add margin, margin percentage, target variance and revenue per order formulas; explain each denominator. Build monthly and channel summaries. Verify totals against the raw CSV and inspect representative formulas before trusting the sample.
 
-- Completed workbook with Prompt_Log and Evidence_Register
-- App-specific artifact and a credential-safe screenshot
-- Verification, exception and human-approval note
-
----
-
-*Enhance Work Productivity with Microsoft 365 Copilot · TGS-2024043856 · Version v8.0 · © 2026 Tertiary Infotech Academy Pte Ltd*
+Save your own financial workbook. Transfer the checked financial charts and caveats into the Word management report and PowerPoint decision deck. Use the supplied completed sample only for comparison, not as proof that Copilot ran.

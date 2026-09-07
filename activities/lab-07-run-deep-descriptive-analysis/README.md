@@ -1,71 +1,46 @@
-# Lab 07: Run Deep Descriptive and Diagnostic Analysis in Excel
+# Lab 07 Analyze sales, revenue and financial performance
 
-**Topic 02** · **Intermediate** · **Excel + Copilot** · **K3 · A2**
+**Course:** TGS-2024043856 | **Version:** v8.2 | **Apps:** Excel + Copilot | **Alignment:** K3 · A2
 
-## Goal
+## Company and role
 
-Move from summary statistics to segmented drivers, anomalies and evidence-backed explanations.
+You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries. Your role in this lab is Management analysis.
 
-## Expected output
+## Input and handoff
 
-Diagnostic workbook with KPI summary, segment analysis, anomaly log and management findings.
+Use Lumina-Analysis.xlsx; Lumina-HR-Facts.docx. Prefer your prior-lab output. The scenario folder provides a supplied fallback so this lab can run independently. Save your work in your own SW-2026 folder and record whether you used your own output or a supplied example.
 
-## Files
+Use `Lumina-Living-Lab-07.xlsx` as the evidence workbook. `completed/` contains comparison examples, not proof that your action ran. The primary app output is `Lumina-Management-Report.docx`.
 
-- `Lumina-Living-Lab-07.xlsx` — learner starter and control workbook
-- `completed/Lumina-Living-Lab-07-completed.xlsx` — completed comparison copy
-- `LAB-07-Instructions.pdf` — printable detailed guide
-- Other Office files in this folder are specific to this lab
+## Four-part prompt
 
-## Primary prompt
+**Goal:** Produce three evidence-backed findings, the three charts and a one-page management report. Distinguish margin from net profit, historical results from targets, and observation from causal explanation.
 
-> Analyse the Campaign_Data table in four passes: descriptive, segmented, anomaly and diagnostic. Calculate volume, revenue, margin, conversion and return metrics; compare channel, region and product; flag unusual values using robust rules; then propose three likely drivers. Separate observed evidence from hypotheses and cite the supporting table or chart.
+**Context:** You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries.
+
+**Source:** Lumina-Analysis.xlsx; Lumina-HR-Facts.docx. Use your own reviewed prior-lab files first; scenario/ contains supplied fallback examples.
+
+**Expectations:** Save Lumina-Management-Report.docx. Record source version, verified facts, unresolved questions and reviewer in Lumina-Living-Lab-07.xlsx. Keep project SW-2026 and action IDs A01–A04 unchanged. Label every output Draft until reviewed; record actual app actions separately.
 
 ## Procedure
 
-1. **Confirm the data table grain and period.**
+1. Open your Lab 6 workbook or the scenario fallback. Use example 2 to request analysis, then inspect the actual formulas and ranges.
 
-   One row must represent one campaign-week-product combination.
+2. Verify Events has the highest historical margin at SGD 121,247.22; do not repeat earlier generic example findings about other channels. Check 47/56 trained and nine outstanding.
 
-2. **Ask Copilot for a staged analysis plan.**
+3. Create the three charts from Lab 5. Write a one-page management report in Word using the checked figures and chart images/objects.
 
-   > Analyse the Campaign_Data table in four passes: descriptive, segmented, anomaly and diagnostic. Calculate volume, revenue, margin, conversion and return metrics; compare channel, region and product; flag unusual values using robust rules; then propose three likely drivers. Separate observed evidence from hypotheses and cite the supporting table or chart.
+4. Record each claim, source range, chart, caveat and proposed action in the evidence workbook. Save report and workbook for Labs 8, 9 and 15.
 
-3. **Build descriptive KPI formulas and reconcile totals.**
+## Acceptance and next handoff
 
-   Use SUMIFS, COUNTIFS, AVERAGEIFS, MEDIAN and STDEV.S where appropriate.
-
-4. **Create PivotTables for channel, region and product.**
-
-   Show revenue, margin, conversion and return rate with consistent number formats.
-
-5. **Create trend and variance charts.**
-
-   Use native Excel charts and label period and unit.
-
-6. **Investigate anomalies.**
-
-   Record the row key, rule, observed value, possible cause and verification owner.
-
-7. **Ask Copilot to critique the findings.**
-
-   > Challenge these findings. Identify alternative explanations, missing data and any claim that is stronger than the evidence.
-
-8. **Write the management findings.**
-
-   Each finding must include evidence, caveat, action and owner.
+The output belongs to Lumina SW-2026; the named sources support its facts; the reviewer and source version are recorded; and `Lumina-Management-Report.docx` is available to the next activity. Check each step’s numerical or behavioral expectation. A draft is not a sent email, a posted Teams message or an executed flow.
 
 
-## Acceptance test
+## Financial data and Copilot analysis
 
-The workbook separates facts from hypotheses, reconciles totals, documents anomalies and presents three defensible findings with caveats.
+Use scenario/Lumina-Sales-Mock-Data.csv (96 synthetic sales summaries) and Lumina-Financial-Analysis-Sample.xlsx as the comparison sample. Revenue means sales value; Orders means order count. This is not an invoice ledger. Costs omit overhead and tax, so margin is not net profit.
 
-## Evidence
+Ask Copilot which months and channels contribute most revenue and margin, where sales miss target, and whether growth changes month to month. Create revenue/cost, actual/target and channel-margin charts. Check aggregation before drawing conclusions; compare observations with hypotheses about their causes.
 
-- Completed workbook with Prompt_Log and Evidence_Register
-- App-specific artifact and a credential-safe screenshot
-- Verification, exception and human-approval note
-
----
-
-*Enhance Work Productivity with Microsoft 365 Copilot · TGS-2024043856 · Version v8.0 · © 2026 Tertiary Infotech Academy Pte Ltd*
+Save your own financial workbook. Transfer the checked financial charts and caveats into the Word management report and PowerPoint decision deck. Use the supplied completed sample only for comparison, not as proof that Copilot ran.

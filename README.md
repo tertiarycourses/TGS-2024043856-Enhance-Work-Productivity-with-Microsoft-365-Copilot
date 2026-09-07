@@ -37,4 +37,11 @@ The package retains 125 original slides and 13 editable visual slides (138 total
 
 Read `SHAREPOINT-AGENT-EXTENSION.pdf` in each agent lab for detailed procedures and citation checks.
 
-![SharePoint agent architecture](screenshot.png)
+![Lumina Living company scenario](screenshot.png)
+
+
+## Connected company workflow v8.2
+
+All 16 labs follow Lumina Living’s SW-2026 Sustainable Workspace Launch across HR, Marketing, Finance and Operations. Three four-part prompt examples are in activities/PROMPT-EXAMPLES.md. The 149-slide deck retains the prior 138 slides and adds three worked examples, a handoff map and seven company/financial/research visuals. Each lab includes current source/handoff files and an Excel evidence workbook. The final chain joins Word policy, Excel analysis/charts, Word report, PowerPoint decision deck, Outlook draft, reviewed Teams post and one shared Loop action register.
+
+Includes financial Copilot analysis with 96 synthetic sales records, a 56-row mock employee register, grounded marketing/strategy research, editable charts and a professional six-slide presentation sample. See [the live HR agent demo](activities/LIVE-SHAREPOINT-DEMO.md) for verified source citations, account membership and upload status. The SharePoint site requires tenant sign-in; anonymous Anyone links are unavailable.

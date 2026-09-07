@@ -1,71 +1,40 @@
-# Lab 13: Build an Intake and Routing Agent
+# Lab 13 Route a launch service issue with an agent
 
-**Topic 04** · **Intermediate Agent** · **Copilot Studio / Agent Builder + Excel** · **K4 · A4**
+**Course:** TGS-2024043856 | **Version:** v8.2 | **Apps:** Copilot Studio / Agent Builder + Excel | **Alignment:** K4 · A4
 
-## Goal
+## Company and role
 
-Build a retrieval-and-routing agent that validates inputs and escalates exceptions.
+You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries. Your role in this lab is Operations intake.
 
-## Expected output
+## Input and handoff
 
-Working intake agent, controlled instructions, knowledge source and routed test results.
+Use Lumina-Service-Routing.docx; Lumina-Company-Brief.docx. Prefer your prior-lab output. The scenario folder provides a supplied fallback so this lab can run independently. Save your work in your own SW-2026 folder and record whether you used your own output or a supplied example.
 
-## Files
+Use `Lumina-Living-Lab-13.xlsx` as the evidence workbook. `completed/` contains comparison examples, not proof that your action ran. The primary app output is `Lumina-Routing-Test-Register.xlsx`.
 
-- `Lumina-Living-Lab-13.xlsx` — learner starter and control workbook
-- `completed/Lumina-Living-Lab-13-completed.xlsx` — completed comparison copy
-- `LAB-13-Instructions.pdf` — printable detailed guide
-- Other Office files in this folder are specific to this lab
+## Four-part prompt
 
-## Primary prompt
+**Goal:** For SW-2026 request REQ-101, a chair is damaged and delivery is due tomorrow. Recommend queue and priority, cite SR-01, ask for missing facts and do not submit a ticket. Preserve the request ID in the evidence register.
 
-> You are the Lumina Living Campaign Intake Agent. Use only the approved campaign process knowledge. Ask for Campaign Name, Sponsor, Objective, Audience, Budget Band, Launch Date and Data Classification. Validate completeness; summarise the request; recommend one route: Standard Review, Fast-Track Review or Specialist Review. Explain the rule used. Never approve, send or modify the official register. Escalate conflicting, restricted or incomplete cases.
+**Context:** You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries.
+
+**Source:** Lumina-Service-Routing.docx; Lumina-Company-Brief.docx. Use your own reviewed prior-lab files first; scenario/ contains supplied fallback examples.
+
+**Expectations:** Save Lumina-Routing-Test-Register.xlsx. Record source version, verified facts, unresolved questions and reviewer in Lumina-Living-Lab-13.xlsx. Keep project SW-2026 and action IDs A01–A04 unchanged. Label every output Draft until reviewed; record actual app actions separately.
 
 ## Procedure
 
-1. **Create the agent in the tenant surface demonstrated by the trainer.**
+1. Open the service source and keep REQ-101 under project SW-2026 in the original intake workbook.
 
-   Use Agent Builder or Copilot Studio according to available licensing.
+2. Test the existing routing agent or a learner copy with the damaged-chair request. Verify Operations and High against SR-01.
 
-2. **Add the approved process document as knowledge.**
+3. Remove the due date and retest; the agent should ask for it. Record recommendation, source, missing fields and reviewer; do not record a ticket ID yet.
 
-   Do not connect a broad SharePoint site for a narrow lab agent.
+## Acceptance and next handoff
 
-3. **Paste and refine the system instructions.**
+The output belongs to Lumina SW-2026; the named sources support its facts; the reviewer and source version are recorded; and `Lumina-Routing-Test-Register.xlsx` is available to the next activity. Check each step’s numerical or behavioral expectation. A draft is not a sent email, a posted Teams message or an executed flow.
 
-   > You are the Lumina Living Campaign Intake Agent. Use only the approved campaign process knowledge. Ask for Campaign Name, Sponsor, Objective, Audience, Budget Band, Launch Date and Data Classification. Validate completeness; summarise the request; recommend one route: Standard Review, Fast-Track Review or Specialist Review. Explain the rule used. Never approve, send or modify the official register. Escalate conflicting, restricted or incomplete cases.
-
-4. **Configure conversation starters.**
-
-   Use one complete, one incomplete and one policy question.
-
-5. **Run the ten test cases from Excel.**
-
-   Capture actual route, explanation, citation and pass/fail.
-
-6. **Fix instructions or knowledge gaps.**
-
-   Change one variable at a time and retest.
-
-7. **Publish only to the trainer-approved test audience.**
-
-   Record version and owner in Agent_Register.
+Use SHAREPOINT-AGENT-EXTENSION.pdf for the existing agent setup and source-access procedures. The shared policy agent uses EXP-01; HR policy testing requires your learner-owned agent with the reviewed HR source added.
 
 
-## Acceptance test
-
-The agent gathers mandatory fields, cites approved knowledge, routes correctly and refuses approval or external-send requests.
-
-## Evidence
-
-- Completed workbook with Prompt_Log and Evidence_Register
-- App-specific artifact and a credential-safe screenshot
-- Verification, exception and human-approval note
-
----
-
-*Enhance Work Productivity with Microsoft 365 Copilot · TGS-2024043856 · Version v8.0 · © 2026 Tertiary Infotech Academy Pte Ltd*
-
-## SharePoint agent extension
-
-Continue with [SHAREPOINT-AGENT-EXTENSION.pdf](SHAREPOINT-AGENT-EXTENSION.pdf). The matching Markdown source, agent-configs.json and sharepoint-knowledge folder are included here. Keep using this lab’s original Excel evidence workbook.
+[Live Lumina SharePoint site](https://tertiaryinfotech.sharepoint.com/sites/TGS-2024043856-LuminaCopilot) — use the assigned tenant account; anonymous Anyone links are unavailable.

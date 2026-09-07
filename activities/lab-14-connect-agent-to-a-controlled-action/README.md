@@ -1,75 +1,42 @@
-# Lab 14: Connect an Agent to a Controlled Action
+# Lab 14 Connect the recommendation to a reviewed action
 
-**Topic 04** · **Advanced Agent** · **Copilot Studio + Power Automate + Excel** · **K4 · A4**
+**Course:** TGS-2024043856 | **Version:** v8.2 | **Apps:** Copilot Studio + Power Automate + Excel | **Alignment:** K4 · A4
 
-## Goal
+## Company and role
 
-Add an action that writes a validated intake to a controlled queue while preserving approval and audit evidence.
+You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries. Your role in this lab is Operations action control.
 
-## Expected output
+## Input and handoff
 
-Agent-to-queue flow with validation, approval state, response ID and run audit.
+Use Lumina-Routing-Test-Register.xlsx; Lumina-Service-Routing.docx. Prefer your prior-lab output. The scenario folder provides a supplied fallback so this lab can run independently. Save your work in your own SW-2026 folder and record whether you used your own output or a supplied example.
 
-## Files
+Use `Lumina-Living-Lab-14.xlsx` as the evidence workbook. `completed/` contains comparison examples, not proof that your action ran. The primary app output is `Lumina-Action-Run-Register.xlsx`.
 
-- `Lumina-Living-Lab-14.xlsx` — learner starter and control workbook
-- `completed/Lumina-Living-Lab-14-completed.xlsx` — completed comparison copy
-- `LAB-14-Instructions.pdf` — printable detailed guide
-- Other Office files in this folder are specific to this lab
+## Four-part prompt
 
-## Primary prompt
+**Goal:** Pass a reviewed routing recommendation to a separately configured training flow. Validate required fields, require human review and record the returned item/run ID. If no flow is configured, record Not run rather than claiming success.
 
-> Extend the Campaign Intake Agent with one controlled action: create a Draft queue record only after required fields pass validation. Return the Queue ID and Draft status. If data is missing, restricted or conflicting, do not call the action; explain the issue and route to a human. Never mark Approved and never send external email.
+**Context:** You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries.
+
+**Source:** Lumina-Routing-Test-Register.xlsx; Lumina-Service-Routing.docx. Use your own reviewed prior-lab files first; scenario/ contains supplied fallback examples.
+
+**Expectations:** Save Lumina-Action-Run-Register.xlsx. Record source version, verified facts, unresolved questions and reviewer in Lumina-Living-Lab-14.xlsx. Keep project SW-2026 and action IDs A01–A04 unchanged. Label every output Draft until reviewed; record actual app actions separately.
 
 ## Procedure
 
-1. **Open the Action_Map workbook and inspect required input/output schema.**
+1. Inspect the original controlled-action lab and the class’s configured training flow, if one is available. Confirm its connection identity, target test list, required fields and approval stage.
 
-   Campaign ID must remain the idempotency key.
+2. Pass only a reviewed recommendation with REQ-101 and SW-2026. Test missing required input and verify no write occurs for the invalid case.
 
-2. **Create a Power Automate flow or agent action with explicit inputs.**
+3. For a valid approved run, open the destination item and compare every stored field with the request. Record the real item ID and run result.
 
-   Include Campaign ID, sponsor, route, summary and classification.
+4. Without a configured flow, complete the design and validation evidence, mark execution Not run, and retain the recommendation for the capstone.
 
-3. **Add validation before the write step.**
+## Acceptance and next handoff
 
-   Terminate safely when mandatory data is missing or restricted.
+The output belongs to Lumina SW-2026; the named sources support its facts; the reviewer and source version are recorded; and `Lumina-Action-Run-Register.xlsx` is available to the next activity. Check each step’s numerical or behavioral expectation. A draft is not a sent email, a posted Teams message or an executed flow.
 
-4. **Add the action to the agent.**
-
-   > Extend the Campaign Intake Agent with one controlled action: create a Draft queue record only after required fields pass validation. Return the Queue ID and Draft status. If data is missing, restricted or conflicting, do not call the action; explain the issue and route to a human. Never mark Approved and never send external email.
-
-5. **Test one valid, one incomplete and one duplicate case.**
-
-   A duplicate Campaign ID must not create a second active queue record.
-
-6. **Record the run ID, input hash, result and reviewer.**
-
-   Use Run_Audit in the workbook.
-
-7. **Review permissions and connection ownership.**
-
-   Document the service/owner account and least-privilege scope.
-
-8. **Keep the action in test mode.**
-
-   Do not connect production mailboxes or lists during class.
+Use SHAREPOINT-AGENT-EXTENSION.pdf for the existing agent setup and source-access procedures. The shared policy agent uses EXP-01; HR policy testing requires your learner-owned agent with the reviewed HR source added.
 
 
-## Acceptance test
-
-Only validated cases create Draft records, duplicate submissions are controlled and every run has traceable evidence.
-
-## Evidence
-
-- Completed workbook with Prompt_Log and Evidence_Register
-- App-specific artifact and a credential-safe screenshot
-- Verification, exception and human-approval note
-
----
-
-*Enhance Work Productivity with Microsoft 365 Copilot · TGS-2024043856 · Version v8.0 · © 2026 Tertiary Infotech Academy Pte Ltd*
-
-## SharePoint agent extension
-
-Continue with [SHAREPOINT-AGENT-EXTENSION.pdf](SHAREPOINT-AGENT-EXTENSION.pdf). The matching Markdown source, agent-configs.json and sharepoint-knowledge folder are included here. Keep using this lab’s original Excel evidence workbook.
+[Live Lumina SharePoint site](https://tertiaryinfotech.sharepoint.com/sites/TGS-2024043856-LuminaCopilot) — use the assigned tenant account; anonymous Anyone links are unavailable.

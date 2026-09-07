@@ -1,0 +1,5 @@
+Action_ID,Project_ID,Department,Action,Owner,Due_date,Status,Evidence,Last_review
+A01,SW-2026,HR,Train nine remaining staff,Aisha Tan,2026-09-24,In progress,Learner to add actual artifact link,2026-09-07
+A02,SW-2026,Marketing,Review claims and launch copy,Daniel Lim,2026-09-23,Open,Learner to add actual artifact link,2026-09-07
+A03,SW-2026,Finance,Review budget and calculation evidence,Mei Chen,2026-09-25,Open,Learner to add actual artifact link,2026-09-07
+A04,SW-2026,Operations,Check damaged-item routing and readiness,Harish Rao,2026-09-25,Open,Learner to add actual artifact link,2026-09-07

@@ -1,71 +1,39 @@
-# Lab 05: Enhance PowerPoint with Native Charts and Speaker Notes
+# Lab 05 Add Excel visualizations to Word and PowerPoint
 
-**Topic 01** · **Intermediate** · **PowerPoint + Excel + Copilot** · **K1 · A1**
+**Course:** TGS-2024043856 | **Version:** v8.2 | **Apps:** PowerPoint + Excel + Copilot | **Alignment:** K1 · A1
 
-## Goal
+## Company and role
 
-Use native PowerPoint charts to strengthen a leadership narrative and prepare a concise delivery.
+You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries. Your role in this lab is Evidence visuals.
 
-## Expected output
+## Input and handoff
 
-Polished deck with native trend, contribution and variance charts plus verified speaker notes.
+Use Lumina-Business-Data.xlsx; Lumina-Management-Report.docx; Lumina-Decision-Deck.pptx. Prefer your prior-lab output. The scenario folder provides a supplied fallback so this lab can run independently. Save your work in your own SW-2026 folder and record whether you used your own output or a supplied example.
 
-## Files
+Use `Lumina-Living-Lab-05.xlsx` as the evidence workbook. `completed/` contains comparison examples, not proof that your action ran. The primary app output is `Lumina-Visual-Evidence.pptx`.
 
-- `Lumina-Living-Lab-05.xlsx` — learner starter and control workbook
-- `completed/Lumina-Living-Lab-05-completed.xlsx` — completed comparison copy
-- `LAB-05-Instructions.pdf` — printable detailed guide
-- Other Office files in this folder are specific to this lab
+## Four-part prompt
 
-## Primary prompt
+**Goal:** Use the Monthly, Channels and HR_Readiness tables to produce three charts. Add them to the Word report and the presentation. Keep PowerPoint chart data editable, show units and source ranges, and reconcile totals.
 
-> Improve the attached leadership deck using the workbook as the only numerical source. Recommend where a trend chart, contribution chart and variance chart add decision value. For each, state the takeaway title, the correct chart type, the data range and one caveat. Then draft speaker notes of 60-90 words per chart slide.
+**Context:** You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries.
+
+**Source:** Lumina-Business-Data.xlsx; Lumina-Management-Report.docx; Lumina-Decision-Deck.pptx. Use your own reviewed prior-lab files first; scenario/ contains supplied fallback examples.
+
+**Expectations:** Save Lumina-Visual-Evidence.pptx. Record source version, verified facts, unresolved questions and reviewer in Lumina-Living-Lab-05.xlsx. Keep project SW-2026 and action IDs A01–A04 unchanged. Label every output Draft until reviewed; record actual app actions separately.
 
 ## Procedure
 
-1. **Open the workbook Chart_Data sheet and reconcile totals.**
+1. Open scenario/Lumina-Business-Data.xlsx. Inspect Monthly, Channels and HR_Readiness. For this early chart-transfer practice, use the supplied verified dataset; Labs 6–8 reproduce and extend it.
 
-   The control row must show PASS before charting.
+2. In Excel, use Copilot or Insert Chart to create a line chart from Monthly!A1:B7, a column chart from Channels!A1:A5 and D1:D5, and a completion chart from HR_Readiness!A1:A5 and E1:E5.
 
-2. **Ask Copilot to recommend chart placements.**
+3. Open the Word report. Copy the charts from Excel; use an embedded chart if supported, or a clearly labelled image with source range and date. Verify labels and numbers after pasting.
 
-   > Improve the attached leadership deck using the workbook as the only numerical source. Recommend where a trend chart, contribution chart and variance chart add decision value. For each, state the takeaway title, the correct chart type, the data range and one caveat. Then draft speaker notes of 60-90 words per chart slide.
+4. Open the PowerPoint decision draft. Paste an editable Excel chart or use Insert Chart and copy the verified values into its data sheet. Do not assume Copilot preserves editability.
 
-3. **Insert native PowerPoint charts using Insert > Chart.**
+5. Change a value in a learner copy and check the handoff behavior. Record whether each chart is embedded, linked or an image; manually refresh static copies. Save both artifacts.
 
-   Use line for time trend, bar for contribution and clustered column for actual versus target.
+## Acceptance and next handoff
 
-4. **Edit the embedded chart data to match the workbook.**
-
-   Do not paste chart screenshots.
-
-5. **Apply takeaway titles and direct labels where appropriate.**
-
-   Remove redundant legends and decorative 3D effects.
-
-6. **Add and review speaker notes.**
-
-   Notes must explain meaning, caveat and decision; they must not repeat every visual label.
-
-7. **Validate charts by comparing three sample points with the workbook.**
-
-   Record checks in Chart_QA.
-
-8. **Save the enhanced deck and export a PDF for review.**
-
-   Confirm charts remain editable in the PPTX.
-
-
-## Acceptance test
-
-The PPTX contains three editable native charts, sample values reconcile, and each chart communicates a decision-relevant takeaway.
-
-## Evidence
-
-- Completed workbook with Prompt_Log and Evidence_Register
-- App-specific artifact and a credential-safe screenshot
-- Verification, exception and human-approval note
-
----
-
-*Enhance Work Productivity with Microsoft 365 Copilot · TGS-2024043856 · Version v8.0 · © 2026 Tertiary Infotech Academy Pte Ltd*
+Verify all three chart values, labels and source ranges. Record reviewer, source version and chart editability. Save the updated Word report and `Lumina-Visual-Evidence.pptx` for the next activity.

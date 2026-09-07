@@ -1,67 +1,37 @@
-# Lab 04: Build a PowerPoint Story from Word and Excel
+# Lab 04 Generate the leadership presentation from Word
 
-**Topic 01** · **Intermediate** · **PowerPoint + Word + Excel + Copilot** · **K1 · A1**
+**Course:** TGS-2024043856 | **Version:** v8.2 | **Apps:** PowerPoint + Word + Excel + Copilot | **Alignment:** K1 · A1
 
-## Goal
+## Company and role
 
-Convert the approved brief and performance data into a decision-led presentation structure.
+You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries. Your role in this lab is Leadership narrative.
 
-## Expected output
+## Input and handoff
 
-Eight-slide leadership deck with one message per slide and a documented evidence map.
+Use Lumina-Launch-Brief.docx; Lumina-HR-Policy.docx. Prefer your prior-lab output. The scenario folder provides a supplied fallback so this lab can run independently. Save your work in your own SW-2026 folder and record whether you used your own output or a supplied example.
 
-## Files
+Use `Lumina-Living-Lab-04.xlsx` as the evidence workbook. `completed/` contains comparison examples, not proof that your action ran. The primary app output is `Lumina-Leadership-Draft.pptx`.
 
-- `Lumina-Living-Lab-04.xlsx` — learner starter and control workbook
-- `completed/Lumina-Living-Lab-04-completed.xlsx` — completed comparison copy
-- `LAB-04-Instructions.pdf` — printable detailed guide
-- Other Office files in this folder are specific to this lab
+## Four-part prompt
 
-## Primary prompt
+**Goal:** Create six slides: launch decision, business evidence needed, HR readiness, campaign plan, risks and actions. Leave quantitative historical charts for the verified data handoff in Labs 5–8. Preserve source references in notes.
 
-> Create an eight-slide leadership presentation for the Sustainable Workspace campaign using the attached project brief and workbook. Build a decision-led story: context, customer need, campaign idea, target audience, timeline, budget, risks and approval request. Use concise slide titles that state the takeaway. Do not invent numbers.
+**Context:** You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries.
+
+**Source:** Lumina-Launch-Brief.docx; Lumina-HR-Policy.docx. Use your own reviewed prior-lab files first; scenario/ contains supplied fallback examples.
+
+**Expectations:** Save Lumina-Leadership-Draft.pptx. Record source version, verified facts, unresolved questions and reviewer in Lumina-Living-Lab-04.xlsx. Keep project SW-2026 and action IDs A01–A04 unchanged. Label every output Draft until reviewed; record actual app actions separately.
 
 ## Procedure
 
-1. **Review the Project_Brief and Presentation_Data workbook.**
+1. Open the reviewed Word launch brief and HR policy. Use PowerPoint Copilot to create a presentation from the launch brief where available.
 
-   Complete the Evidence_Map before generating slides.
+2. Ask for the six-slide narrative below. Review the generated outline before accepting slides. Add HR implications from the reviewed policy.
 
-2. **Open the supplied blank deck and confirm the 16:9 layout.**
+3. Give each slide a decision-led title and place source filenames/sections in speaker notes. Mark missing analytical figures Pending Lab 7 verification.
 
-   Retain the Lumina Living theme and footer.
+4. Save Lumina-Leadership-Draft.pptx. Lab 5 introduces chart transfer; Labs 7 and 15 replace provisional evidence with the learner’s verified analysis.
 
-3. **Create an outline with Copilot.**
+## Acceptance and next handoff
 
-   > Create an eight-slide leadership presentation for the Sustainable Workspace campaign using the attached project brief and workbook. Build a decision-led story: context, customer need, campaign idea, target audience, timeline, budget, risks and approval request. Use concise slide titles that state the takeaway. Do not invent numbers.
-
-4. **Review the outline before creating slides.**
-
-   Every slide must answer why it matters or what decision is needed.
-
-5. **Generate the presentation and replace generic imagery with editable shapes or approved visuals.**
-
-   Do not use decorative charts or unsupported statistics.
-
-6. **Check every number against the workbook.**
-
-   Record slide number, source sheet and cell range in Evidence_Map.
-
-7. **Run a final accessibility and legibility check.**
-
-   Check title size, contrast, alt text and reading order.
-
-
-## Acceptance test
-
-The deck contains eight coherent slides, all quantitative claims trace to the workbook and the final slide asks for a specific decision.
-
-## Evidence
-
-- Completed workbook with Prompt_Log and Evidence_Register
-- App-specific artifact and a credential-safe screenshot
-- Verification, exception and human-approval note
-
----
-
-*Enhance Work Productivity with Microsoft 365 Copilot · TGS-2024043856 · Version v8.0 · © 2026 Tertiary Infotech Academy Pte Ltd*
+The output belongs to Lumina SW-2026; the named sources support its facts; the reviewer and source version are recorded; and `Lumina-Leadership-Draft.pptx` is available to the next activity. Check each step’s numerical or behavioral expectation. A draft is not a sent email, a posted Teams message or an executed flow.

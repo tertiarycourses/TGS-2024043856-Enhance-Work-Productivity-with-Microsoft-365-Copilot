@@ -1,63 +1,40 @@
-# Lab 01: Set Up Microsoft 365 Copilot and Prompt Safely
+# Lab 01 Set up the Lumina project and compare prompts
 
-**Topic 01** · **Foundation** · **Microsoft 365 Copilot Chat + Excel** · **K1 · A1**
+**Course:** TGS-2024043856 | **Version:** v8.2 | **Apps:** Microsoft 365 Copilot Chat + Excel | **Alignment:** K1 · A1
 
-## Goal
+## Company and role
 
-Establish the licensed work surface, distinguish work from web grounding and record safe-use controls.
+You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries. Your role in this lab is Project intake and source register.
 
-## Expected output
+## Input and handoff
 
-Completed setup, grounding and prompt-review register in Excel.
+Use Lumina-Company-Brief.docx. Prefer your prior-lab output. The scenario folder provides a supplied fallback so this lab can run independently. Save your work in your own SW-2026 folder and record whether you used your own output or a supplied example.
 
-## Files
+Use `Lumina-Living-Lab-01.xlsx` as the evidence workbook. `completed/` contains comparison examples, not proof that your action ran. The primary app output is `SW-2026-Source-Register.xlsx`.
 
-- `Lumina-Living-Lab-01.xlsx` — learner starter and control workbook
-- `completed/Lumina-Living-Lab-01-completed.xlsx` — completed comparison copy
-- `LAB-01-Instructions.pdf` — printable detailed guide
-- Other Office files in this folder are specific to this lab
+## Four-part prompt
 
-## Primary prompt
+**Goal:** Identify the project objective, four department owners, source authority and missing facts. Compare a vague prompt with a complete Goal–Context–Source–Expectations prompt.
 
-> Using the attached workbook and only the information it contains, summarise the three highest-priority readiness gaps for Lumina Living. For each gap, cite the sheet and row evidence, state the risk, propose one control, and label anything you cannot verify.
+**Context:** You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries.
+
+**Source:** Lumina-Company-Brief.docx. Use your own reviewed prior-lab files first; scenario/ contains supplied fallback examples.
+
+**Expectations:** Save SW-2026-Source-Register.xlsx. Record source version, verified facts, unresolved questions and reviewer in Lumina-Living-Lab-01.xlsx. Keep project SW-2026 and action IDs A01–A04 unchanged. Label every output Draft until reviewed; record actual app actions separately.
 
 ## Procedure
 
-1. **Sign in with the training account allocated by the trainer and confirm the Microsoft 365 Copilot work surface is available.**
+1. Create a personal SW-2026 folder in your assigned OneDrive or SharePoint location. Keep the shared class baseline unchanged.
 
-   Do not paste the password into the workbook, prompt history or screenshots.
+2. Read the Company Brief and inventory the files in scenario/. Record owner, version, purpose and confidentiality in the original Excel evidence workbook.
 
-2. **Open the workbook and review the Readiness_Register table.**
+3. In Copilot Chat, compare “Help with our launch” with the complete four-part prompt above. Record both outputs and the missing facts they reveal.
 
-   Confirm that the fields Owner, Evidence, Risk and Control are present.
+4. Save your project source register and hand its file link to Lab 2.
 
-3. **Select work-grounded context when available and attach the workbook.**
+## Acceptance and next handoff
 
-   If work grounding is unavailable, continue with the attached file and record the limitation.
-
-4. **Submit the supplied prompt without adding unsupported company facts.**
-
-   > Using the attached workbook and only the information it contains, summarise the three highest-priority readiness gaps for Lumina Living. For each gap, cite the sheet and row evidence, state the risk, propose one control, and label anything you cannot verify.
-
-5. **Verify every cited row and revise any unsupported statement.**
-
-   Record Pass, Corrected or Not verifiable in Prompt_Review.
-
-6. **Save the workbook with your initials and retain one screenshot of the grounded response.**
-
-   Use the Evidence_Register sheet; do not capture credentials.
+The output belongs to Lumina SW-2026; the named sources support its facts; the reviewer and source version are recorded; and `SW-2026-Source-Register.xlsx` is available to the next activity. Check each step’s numerical or behavioral expectation. A draft is not a sent email, a posted Teams message or an executed flow.
 
 
-## Acceptance test
-
-The register identifies the active Copilot surface, grounding source, three evidence-backed gaps and a verification status for every claim.
-
-## Evidence
-
-- Completed workbook with Prompt_Log and Evidence_Register
-- App-specific artifact and a credential-safe screenshot
-- Verification, exception and human-approval note
-
----
-
-*Enhance Work Productivity with Microsoft 365 Copilot · TGS-2024043856 · Version v8.0 · © 2026 Tertiary Infotech Academy Pte Ltd*
+[Live Lumina SharePoint site](https://tertiaryinfotech.sharepoint.com/sites/TGS-2024043856-LuminaCopilot) — use the assigned tenant account; anonymous Anyone links are unavailable.

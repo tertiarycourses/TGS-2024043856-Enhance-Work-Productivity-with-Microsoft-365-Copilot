@@ -1,71 +1,48 @@
-# Lab 11: Build a Living Implementation and Training Plan in Loop
+# Lab 11 Monitor launch readiness in Loop
 
-**Topic 03** · **Advanced** · **Loop + Teams + Excel + Copilot** · **K2 · A3 · A4**
+**Course:** TGS-2024043856 | **Version:** v8.2 | **Apps:** Loop + Teams + Excel + Copilot | **Alignment:** K2 · A3 · A4
 
-## Goal
+## Company and role
 
-Translate adoption risks into a living implementation plan and role-based staff enablement schedule.
+You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries. Your role in this lab is Shared action tracking.
 
-## Expected output
+## Input and handoff
 
-Loop workspace design, transition backlog, training matrix and adoption dashboard.
+Use Lumina-Loop-Tasks.csv; Lumina-Teams-Update.md. Prefer your prior-lab output. The scenario folder provides a supplied fallback so this lab can run independently. Save your work in your own SW-2026 folder and record whether you used your own output or a supplied example.
 
-## Files
+Use `Lumina-Living-Lab-11.xlsx` as the evidence workbook. `completed/` contains comparison examples, not proof that your action ran. The primary app output is `Lumina-Loop-Evidence.xlsx`.
 
-- `Lumina-Living-Lab-11.xlsx` — learner starter and control workbook
-- `completed/Lumina-Living-Lab-11-completed.xlsx` — completed comparison copy
-- `LAB-11-Instructions.pdf` — printable detailed guide
-- Other Office files in this folder are specific to this lab
+## Four-part prompt
 
-## Primary prompt
+**Goal:** Create one shared SW-2026 Loop task table. Keep action IDs, owners, dates, statuses, evidence links and last review. Embed the same component in Teams and an Outlook draft, then verify an edit through both views.
 
-> Create a Microsoft Loop implementation workspace for the Copilot rollout. Use the Transition_Register to produce objectives, workstreams, milestones, risks, decisions, a role-based training matrix and weekly adoption measures. Keep accountable owners and due dates. Distinguish confirmed decisions from proposals.
+**Context:** You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries.
+
+**Source:** Lumina-Loop-Tasks.csv; Lumina-Teams-Update.md. Use your own reviewed prior-lab files first; scenario/ contains supplied fallback examples.
+
+**Expectations:** Save Lumina-Loop-Evidence.xlsx. Record source version, verified facts, unresolved questions and reviewer in Lumina-Living-Lab-11.xlsx. Keep project SW-2026 and action IDs A01–A04 unchanged. Label every output Draft until reviewed; record actual app actions separately.
 
 ## Procedure
 
-1. **Review the Transition_Register and identify workstreams.**
+1. Open Loop and create a personal or trainer-assigned SW-2026 page. Create a task table using the supplied CSV values; CSV is a source for copy/paste, not a promised automatic import.
 
-   Group by People, Process, Data, Technology and Governance.
+2. Use columns Action ID, Department, Action, Owner, Due date, Status, Evidence link and Last review. Map fictional owners to assigned participants only in the sandbox.
 
-2. **Create a Loop workspace and page structure.**
+3. Share the Loop page/component with the intended class users. Paste the same component link into Teams and an Outlook draft where supported; do not create two disconnected copies.
 
-   Use pages for Overview, Backlog, Decisions, Training and Measures.
+4. Change A01 to In progress and add an evidence link. Verify both views reflect the same component, then record its URL, permissions and check time in your workbook.
 
-3. **Generate the initial plan.**
+5. At the next simulated review, check overdue/Open tasks and request an owner update. Monitoring here is a human review cadence unless a separately configured automation is demonstrated.
 
-   > Create a Microsoft Loop implementation workspace for the Copilot rollout. Use the Transition_Register to produce objectives, workstreams, milestones, risks, decisions, a role-based training matrix and weekly adoption measures. Keep accountable owners and due dates. Distinguish confirmed decisions from proposals.
+## Acceptance and next handoff
 
-4. **Convert key lists to Loop tables or task lists.**
-
-   Keep shared components small and decision-focused.
-
-5. **Share one component into Teams or Outlook.**
-
-   Verify access before sharing.
-
-6. **Update the Excel Training_Matrix from the approved Loop plan.**
-
-   Record role, task, learning method, evidence and owner.
-
-7. **Define adoption measures and review cadence.**
-
-   Include usage, quality, time saved, error rate and exception count.
-
-8. **Save evidence screenshots without credentials.**
-
-   Record the workspace link only in the private class copy.
+The output belongs to Lumina SW-2026; the named sources support its facts; the reviewer and source version are recorded; and `Lumina-Loop-Evidence.xlsx` is available to the next activity. Check each step’s numerical or behavioral expectation. A draft is not a sent email, a posted Teams message or an executed flow.
 
 
-## Acceptance test
+Include links to the reviewed Lumina-Marketing-Report.docx and Lumina-Strategy-Report.docx in this handoff. The scenario folder contains labelled samples if your own reports are unavailable. Keep report versions and action IDs consistent.
 
-The plan covers transition risks and staff training, distinguishes decisions from proposals and has measurable adoption controls.
+[Live Lumina SharePoint site](https://tertiaryinfotech.sharepoint.com/sites/TGS-2024043856-LuminaCopilot) — use the assigned tenant account; anonymous Anyone links are unavailable.
 
-## Evidence
+## Staff enablement and pilot measures
 
-- Completed workbook with Prompt_Log and Evidence_Register
-- App-specific artifact and a credential-safe screenshot
-- Verification, exception and human-approval note
-
----
-
-*Enhance Work Productivity with Microsoft 365 Copilot · TGS-2024043856 · Version v8.0 · © 2026 Tertiary Infotech Academy Pte Ltd*
+Create a training matrix for Users, Reviewers and Owners. Use HR-01 and the synthetic employee data: define each role’s skills, four-hour training requirement, owner, due date and completion evidence. Track four pilot measures in Loop: citation accuracy, absent-fact handling, review time and training completion. Explain the baseline, target and collection method for each.

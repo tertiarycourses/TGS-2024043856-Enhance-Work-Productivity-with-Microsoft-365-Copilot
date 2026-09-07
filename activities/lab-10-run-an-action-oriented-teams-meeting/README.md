@@ -1,67 +1,40 @@
-# Lab 10: Run an Action-Oriented Teams Meeting
+# Lab 10 Run the launch review and post the Teams update
 
-**Topic 03** · **Intermediate** · **Teams + Excel + Copilot** · **K2 · A3**
+**Course:** TGS-2024043856 | **Version:** v8.2 | **Apps:** Teams + Excel + Copilot | **Alignment:** K2 · A3
 
-## Goal
+## Company and role
 
-Use meeting preparation, Facilitator or recap capabilities to convert discussion into owned outcomes.
+You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries. Your role in this lab is Meeting and department handover.
 
-## Expected output
+## Input and handoff
 
-Meeting brief, decision log, action register and reviewed follow-up message.
+Use Lumina-Meeting-Transcript.txt; Lumina-Management-Report.docx. Prefer your prior-lab output. The scenario folder provides a supplied fallback so this lab can run independently. Save your work in your own SW-2026 folder and record whether you used your own output or a supplied example.
 
-## Files
+Use `Lumina-Living-Lab-10.xlsx` as the evidence workbook. `completed/` contains comparison examples, not proof that your action ran. The primary app output is `Lumina-Teams-Update.md`.
 
-- `Lumina-Living-Lab-10.xlsx` — learner starter and control workbook
-- `completed/Lumina-Living-Lab-10-completed.xlsx` — completed comparison copy
-- `LAB-10-Instructions.pdf` — printable detailed guide
-- Other Office files in this folder are specific to this lab
+## Four-part prompt
 
-## Primary prompt
+**Goal:** Summarize decisions separately from proposals. Create a 120-word Teams update with A01–A04, owners and dates. Post only to the trainer-assigned sandbox after review, and retain the actual post link.
 
-> Prepare a 30-minute campaign readiness meeting using the Meeting_Register. Create an outcome-led agenda, five decision questions and required pre-reads. After the simulated meeting, summarise decisions, actions, owners, due dates, risks and unresolved questions. Do not invent agreement; label uncertain items for confirmation.
+**Context:** You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries.
+
+**Source:** Lumina-Meeting-Transcript.txt; Lumina-Management-Report.docx. Use your own reviewed prior-lab files first; scenario/ contains supplied fallback examples.
+
+**Expectations:** Save Lumina-Teams-Update.md. Record source version, verified facts, unresolved questions and reviewer in Lumina-Living-Lab-10.xlsx. Keep project SW-2026 and action IDs A01–A04 unchanged. Label every output Draft until reviewed; record actual app actions separately.
 
 ## Procedure
 
-1. **Review the Meeting_Register and filter unresolved risks.**
+1. Open the supplied synthetic meeting transcript and label it as simulated evidence. Alternatively hold a sandbox review meeting and use its transcript if enabled and participants are informed.
 
-   Select only items requiring group decision.
+2. Use Copilot to separate decisions, actions and unresolved proposals. Compare the proposed extra budget with the actual decision: the budget remains SGD 18,000.
 
-2. **Generate the agenda and decision questions.**
+3. Draft the Teams update, retaining the four action IDs and dates. Review the recipients/channel, message, report/deck links and source permissions.
 
-   > Prepare a 30-minute campaign readiness meeting using the Meeting_Register. Create an outcome-led agenda, five decision questions and required pre-reads. After the simulated meeting, summarise decisions, actions, owners, due dates, risks and unresolved questions. Do not invent agreement; label uncertain items for confirmation.
+4. Post the approved message in the trainer-assigned SW-2026 training channel or chat. Copy the real post link into the evidence register. If no channel is available, retain the draft and mark Not posted.
 
-3. **Configure meeting AI settings according to the trainer demonstration.**
+## Acceptance and next handoff
 
-   Use Facilitator or recap only where the training tenant permits it.
-
-4. **Run the simulated discussion and capture notes.**
-
-   Participants must confirm sensitive or consequential statements.
-
-5. **Review the recap against the notes.**
-
-   Correct owners, dates and decisions before sharing.
-
-6. **Transfer approved actions into the Excel register.**
-
-   One action per row with owner, due date and status.
-
-7. **Draft the follow-up message.**
-
-   State decisions, actions and unresolved questions; retain a human-send gate.
+The output belongs to Lumina SW-2026; the named sources support its facts; the reviewer and source version are recorded; and `Lumina-Teams-Update.md` is available to the next activity. Check each step’s numerical or behavioral expectation. A draft is not a sent email, a posted Teams message or an executed flow.
 
 
-## Acceptance test
-
-The action register reconciles with the reviewed meeting recap and every action has one owner, due date and status.
-
-## Evidence
-
-- Completed workbook with Prompt_Log and Evidence_Register
-- App-specific artifact and a credential-safe screenshot
-- Verification, exception and human-approval note
-
----
-
-*Enhance Work Productivity with Microsoft 365 Copilot · TGS-2024043856 · Version v8.0 · © 2026 Tertiary Infotech Academy Pte Ltd*
+Include links to the reviewed Lumina-Marketing-Report.docx and Lumina-Strategy-Report.docx in this handoff. The scenario folder contains labelled samples if your own reports are unavailable. Keep report versions and action IDs consistent.

@@ -1,71 +1,54 @@
-# Lab 12: Design a Scoped Microsoft 365 Copilot Agent
+# Lab 12 Create a source-grounded HR and policy agent
 
-**Topic 04** · **Foundation Agent** · **Microsoft 365 Copilot agents + Excel** · **K4 · A4**
+**Course:** TGS-2024043856 | **Version:** v8.2 | **Apps:** Microsoft 365 Copilot agents + Excel | **Alignment:** K4 · A4
 
-## Goal
+## Company and role
 
-Define an agent's job, knowledge, boundaries, test cases and ownership before building it.
+You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries. Your role in this lab is HR knowledge support.
 
-## Expected output
+## Input and handoff
 
-Agent design canvas, knowledge register, risk controls and ten acceptance tests.
+Use Lumina-HR-Policy.docx; Lumina-Travel-and-Expenses.docx. Prefer your prior-lab output. The scenario folder provides a supplied fallback so this lab can run independently. Save your work in your own SW-2026 folder and record whether you used your own output or a supplied example.
 
-## Files
+Use `Lumina-Living-Lab-12.xlsx` as the evidence workbook. `completed/` contains comparison examples, not proof that your action ran. The primary app output is `Lumina-HR-Agent-Test-Register.xlsx`.
 
-- `Lumina-Living-Lab-12.xlsx` — learner starter and control workbook
-- `completed/Lumina-Living-Lab-12-completed.xlsx` — completed comparison copy
-- `LAB-12-Instructions.pdf` — printable detailed guide
-- Other Office files in this folder are specific to this lab
+## Four-part prompt
 
-## Primary prompt
+**Goal:** Design a learner-owned HR agent using reviewed policy documents in the TGS SharePoint site. Cite sections, flag absent facts, and refer approval to the responsible person. Test training hours, taxi threshold and unknown leave terms.
 
-> Design a Campaign Intake Agent for Lumina Living. It should answer process questions, validate an intake record and recommend the next route. Define its purpose, intended users, allowed knowledge, required inputs, outputs, refusal rules, escalation conditions and success measures. The agent must not approve budgets, send email or change official status.
+**Context:** You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries.
+
+**Source:** Lumina-HR-Policy.docx; Lumina-Travel-and-Expenses.docx. Use your own reviewed prior-lab files first; scenario/ contains supplied fallback examples.
+
+**Expectations:** Save Lumina-HR-Agent-Test-Register.xlsx. Record source version, verified facts, unresolved questions and reviewer in Lumina-Living-Lab-12.xlsx. Keep project SW-2026 and action IDs A01–A04 unchanged. Label every output Draft until reviewed; record actual app actions separately.
 
 ## Procedure
 
-1. **Review the Agent_Design workbook and sample intake records.**
+1. Use the existing TGS-2024043856 SharePoint site. Upload your reviewed HR policy into a learner-owned practice folder; keep HR facts and draft outputs clearly distinguished.
 
-   Identify which fields are mandatory, sensitive and decision-critical.
+2. Create a learner copy of the policy agent, add your initials, and select only the reviewed HR policy and expense document. Use the agent instructions supplied in the existing SharePoint extension.
 
-2. **Write one measurable agent outcome.**
+3. Ask how many training hours are required, whether a SGD 48 business taxi claim needs approval, and what annual leave carry-forward limit applies. Expect four hours, manager approval aboveSGD 40, and an absent-fact response respectively.
 
-   Avoid a broad goal such as help with campaigns.
+4. Open each citation and compare its source/version. Log the actual output. A newly created HR learner agent is distinct from the existing shared expense-only policy agent.
 
-3. **Draft the agent design.**
+## Acceptance and next handoff
 
-   > Design a Campaign Intake Agent for Lumina Living. It should answer process questions, validate an intake record and recommend the next route. Define its purpose, intended users, allowed knowledge, required inputs, outputs, refusal rules, escalation conditions and success measures. The agent must not approve budgets, send email or change official status.
+The output belongs to Lumina SW-2026; the named sources support its facts; the reviewer and source version are recorded; and `Lumina-HR-Agent-Test-Register.xlsx` is available to the next activity. Check each step’s numerical or behavioral expectation. A draft is not a sent email, a posted Teams message or an executed flow.
 
-4. **Map allowed knowledge and actions.**
-
-   Apply least privilege; exclude personal or unrelated files.
-
-5. **Write ten tests including happy path, missing data, conflicting data, prompt injection and prohibited action.**
-
-   Record expected result before running each test.
-
-6. **Assign owner, approver and monitoring cadence.**
-
-   Separate content owner from technical owner where appropriate.
-
-7. **Review the design against A4 staff-training needs.**
-
-   Identify which users need orientation, practice and support.
+Use SHAREPOINT-AGENT-EXTENSION.pdf for the existing agent setup and source-access procedures. The shared policy agent uses EXP-01; HR policy testing requires your learner-owned agent with the reviewed HR source added.
 
 
-## Acceptance test
+## Marketing and strategy handoff
 
-The agent has a narrow purpose, explicit non-actions, least-privilege knowledge and ten test cases with expected outcomes.
+Complete the corresponding steps in GROUNDED-RESEARCH.md, included in this folder. Use the local scenario source pack and prepared reports; save your own cited marketing/strategy outputs for the final deck and communication handoff.
 
-## Evidence
+## Six agent acceptance tests
 
-- Completed workbook with Prompt_Log and Evidence_Register
-- App-specific artifact and a credential-safe screenshot
-- Verification, exception and human-approval note
+Record six tests using the appropriate source-scoped HR or campaign agent: known policy fact; employee-training readiness; absent leave rule; unsupported certification/market-size claim; out-of-scope send/approval action; and a deliberately conflicting source/version. Record expected behaviour, actual answer/citation, pass/fail and improvement. Use synthetic test copies for contradictions. Re-run one supported and one absent-fact case after refining the instructions.
 
----
+[Live Lumina SharePoint site](https://tertiaryinfotech.sharepoint.com/sites/TGS-2024043856-LuminaCopilot) — use the assigned tenant account; anonymous Anyone links are unavailable.
 
-*Enhance Work Productivity with Microsoft 365 Copilot · TGS-2024043856 · Version v8.0 · © 2026 Tertiary Infotech Academy Pte Ltd*
+## Verified live HR employee agent
 
-## SharePoint agent extension
-
-Continue with [SHAREPOINT-AGENT-EXTENSION.pdf](SHAREPOINT-AGENT-EXTENSION.pdf). The matching Markdown source, agent-configs.json and sharepoint-knowledge folder are included here. Keep using this lab’s original Excel evidence workbook.
+Open the shared **TGS-2024043856 Lumina HR Employee Agent.agent** and its **Lumina-HR-Employee-Knowledge.docx** source (HR-DEMO-01). Use `LIVE-SHAREPOINT-DEMO.md` to repeat the known-readiness and absent-entitlement checks. Record your own evidence; the shared demo has no approval or email action. Build your learner-owned scoped agent with the reviewed local source, then perform the six classroom tests below/above.

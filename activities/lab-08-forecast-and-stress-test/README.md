@@ -1,71 +1,54 @@
-# Lab 08: Forecast and Stress-Test a Campaign with Copilot
+# Lab 08 Test launch scenarios and update the decision pack
 
-**Topic 02** · **Advanced** · **Excel + Analyst agent** · **K3 · A2**
+**Course:** TGS-2024043856 | **Version:** v8.2 | **Apps:** Excel + Analyst agent | **Alignment:** K3 · A2
 
-## Goal
+## Company and role
 
-Use forecasting, scenarios and sensitivity analysis to evaluate a transition plan under uncertainty.
+You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries. Your role in this lab is Business planning.
 
-## Expected output
+## Input and handoff
 
-Forecast model with base, downside and upside scenarios, sensitivity table and decision guardrails.
+Use Lumina-Analysis.xlsx; Lumina-Management-Report.docx. Prefer your prior-lab output. The scenario folder provides a supplied fallback so this lab can run independently. Save your work in your own SW-2026 folder and record whether you used your own output or a supplied example.
 
-## Files
+Use `Lumina-Living-Lab-08.xlsx` as the evidence workbook. `completed/` contains comparison examples, not proof that your action ran. The primary app output is `Lumina-Scenario-Analysis.xlsx`.
 
-- `Lumina-Living-Lab-08.xlsx` — learner starter and control workbook
-- `completed/Lumina-Living-Lab-08-completed.xlsx` — completed comparison copy
-- `LAB-08-Instructions.pdf` — printable detailed guide
-- Other Office files in this folder are specific to this lab
+## Four-part prompt
 
-## Primary prompt
+**Goal:** Use June revenue as a baseline. Model explicitly assumed -10%, 0% and +10% changes with formulas and a comparison chart. Label these illustrative scenarios, not a forecast inferred from six data points. Update the report caveat and deck.
 
-> Using the historical monthly data, build a 6-month forecast for revenue and workload. Explain the method, assumptions and confidence limits. Then test downside, base and upside scenarios for conversion, average order value and service capacity. Identify the earliest month capacity is breached and recommend a guarded action. Do not claim certainty beyond the data.
+**Context:** You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries.
+
+**Source:** Lumina-Analysis.xlsx; Lumina-Management-Report.docx. Use your own reviewed prior-lab files first; scenario/ contains supplied fallback examples.
+
+**Expectations:** Save Lumina-Scenario-Analysis.xlsx. Record source version, verified facts, unresolved questions and reviewer in Lumina-Living-Lab-08.xlsx. Keep project SW-2026 and action IDs A01–A04 unchanged. Label every output Draft until reviewed; record actual app actions separately.
 
 ## Procedure
 
-1. **Review historical coverage and missing periods.**
+1. In your analysis workbook add a Scenarios sheet with June revenue linked from Monthly, plus assumption cells -10%,0%,+10%.
 
-   Record why the data is or is not suitable for forecasting.
+2. Calculate scenario revenue as baseline*(1+assumption). Verify the base case equals SGD 217,705. Create a comparison chart and label assumptions.
 
-2. **Ask Copilot or Analyst for a forecast plan.**
+3. Ask Copilot to explain the scenario implications and what data would be needed for a defensible forecast. Do not present the three scenarios as predictions.
 
-   > Using the historical monthly data, build a 6-month forecast for revenue and workload. Explain the method, assumptions and confidence limits. Then test downside, base and upside scenarios for conversion, average order value and service capacity. Identify the earliest month capacity is breached and recommend a guarded action. Do not claim certainty beyond the data.
+4. Update your Word report and deck caveat. Retain the historical analysis and save Lumina-Scenario-Analysis.xlsx.
 
-3. **Create a Forecast sheet with explicit assumptions.**
+## Acceptance and next handoff
 
-   Keep hardcoded inputs separate from formula outputs.
-
-4. **Build base, downside and upside cases.**
-
-   Use cell references rather than embedding percentages in formulas.
-
-5. **Create a sensitivity table for conversion and capacity.**
-
-   Highlight the breach boundary without 3D effects.
-
-6. **Compare Copilot findings with workbook calculations.**
-
-   Resolve discrepancies before using the narrative.
-
-7. **Document method limitations and monitoring triggers.**
-
-   State what new evidence would change the decision.
-
-8. **Save the model and a one-page decision summary.**
-
-   The summary must include forecast range, breach month, action and guardrail.
+The output belongs to Lumina SW-2026; the named sources support its facts; the reviewer and source version are recorded; and `Lumina-Scenario-Analysis.xlsx` is available to the next activity. Check each step’s numerical or behavioral expectation. A draft is not a sent email, a posted Teams message or an executed flow.
 
 
-## Acceptance test
+## Financial data and Copilot analysis
 
-All scenarios are formula-driven, forecast uncertainty is explicit and the recommended action is linked to a measurable trigger.
+Use scenario/Lumina-Sales-Mock-Data.csv (96 synthetic sales summaries) and Lumina-Financial-Analysis-Sample.xlsx as the comparison sample. Revenue means sales value; Orders means order count. This is not an invoice ledger. Costs omit overhead and tax, so margin is not net profit.
 
-## Evidence
+Ask Copilot to model revenue changes of -10%,0%,+10% from June and hold the historical direct-cost ratio constant as an explicit assumption. Chart revenue and margin by scenario. Explain missing overhead, working-capital and seasonality data; do not label this a validated forecast.
 
-- Completed workbook with Prompt_Log and Evidence_Register
-- App-specific artifact and a credential-safe screenshot
-- Verification, exception and human-approval note
+Save your own financial workbook. Transfer the checked financial charts and caveats into the Word management report and PowerPoint decision deck. Use the supplied completed sample only for comparison, not as proof that Copilot ran.
 
----
+## Marketing and strategy handoff
 
-*Enhance Work Productivity with Microsoft 365 Copilot · TGS-2024043856 · Version v8.0 · © 2026 Tertiary Infotech Academy Pte Ltd*
+Complete the corresponding steps in GROUNDED-RESEARCH.md, included in this folder. Use the local scenario source pack and prepared reports; save your own cited marketing/strategy outputs for the final deck and communication handoff.
+
+## Transition-plan rehearsal
+
+Using A01–A04 from the shared action register, create a transition table with owner, due date, dependency, review status, success measure and rollback trigger. Ask Copilot to identify a bottleneck using the financial analysis and HR-readiness evidence. Verify the dependency and explain why a missed control should hold release. Save this table with your strategy report.

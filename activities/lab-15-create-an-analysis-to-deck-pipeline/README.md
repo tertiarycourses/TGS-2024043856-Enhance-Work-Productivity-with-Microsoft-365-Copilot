@@ -1,75 +1,65 @@
-# Lab 15: Create an Analysis-to-Deck Agent Pipeline
+# Lab 15 Integrate the analysis into a decision presentation
 
-**Topic 04** · **Advanced Pipeline** · **Microsoft 365 Copilot + Analyst + PowerPoint + Excel** · **K4 · A4**
+**Course:** TGS-2024043856 | **Version:** v8.2 | **Apps:** Microsoft 365 Copilot + Analyst + PowerPoint + Excel | **Alignment:** K4 · A4
 
-## Goal
+## Company and role
 
-Orchestrate intake, Excel analysis and a PowerPoint decision pack with human approval between stages.
+You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries. Your role in this lab is Management decision pack.
 
-## Expected output
+## Input and handoff
 
-Three-stage pipeline specification, analysis workbook, chart-led decision deck and approval log.
+Use Lumina-Analysis.xlsx; Lumina-Management-Report.docx; Lumina-HR-Policy.docx; Lumina-Campaign-Brief.docx. Prefer your prior-lab output. The scenario folder provides a supplied fallback so this lab can run independently. Save your work in your own SW-2026 folder and record whether you used your own output or a supplied example.
 
-## Files
+Use `Lumina-Living-Lab-15.xlsx` as the evidence workbook. `completed/` contains comparison examples, not proof that your action ran. The primary app output is `Lumina-Decision-Deck.pptx`.
 
-- `Lumina-Living-Lab-15.xlsx` — learner starter and control workbook
-- `completed/Lumina-Living-Lab-15-completed.xlsx` — completed comparison copy
-- `LAB-15-Instructions.pdf` — printable detailed guide
-- Other Office files in this folder are specific to this lab
+## Four-part prompt
 
-## Primary prompt
+**Goal:** Produce the final six-slide decision deck with three verified editable charts, policy/training implications, planned campaign figures, risks and A01–A04. Check every quantitative claim against the workbook and stop at Ready for Review.
 
-> For each Approved-for-Analysis queue item: validate the workbook, produce a descriptive and diagnostic analysis, identify three evidence-backed findings, create a six-slide decision deck with native charts, and stop at Ready for Review. Record sources, assumptions and exceptions. Do not publish or email the deck until a named reviewer approves it.
+**Context:** You work for Lumina Living Pte Ltd on SW-2026, the Sustainable Workspace Launch. HR, Marketing, Finance and Operations share one evidence trail. Launch is planned for 1 October 2026; budget SGD 18,000; target 120 qualified enquiries.
+
+**Source:** Lumina-Analysis.xlsx; Lumina-Management-Report.docx; Lumina-HR-Policy.docx; Lumina-Campaign-Brief.docx. Use your own reviewed prior-lab files first; scenario/ contains supplied fallback examples.
+
+**Expectations:** Save Lumina-Decision-Deck.pptx. Record source version, verified facts, unresolved questions and reviewer in Lumina-Living-Lab-15.xlsx. Keep project SW-2026 and action IDs A01–A04 unchanged. Label every output Draft until reviewed; record actual app actions separately.
 
 ## Procedure
 
-1. **Review Pipeline_Control and choose one Approved-for-Analysis item.**
+1. Open your verified analysis, management report, HR policy and campaign brief. Use example 3 for the presentation stage.
 
-   Confirm reviewer and required output.
+2. Generate or refine the six-slide decision deck. Replace all illustrative charts with your verified Excel data; retain editable chart objects in PowerPoint.
 
-2. **Define the three stages and their entry/exit criteria.**
+3. Compare every figure and date across Excel, Word and PowerPoint. Verify the planned budget/target and the historical period are distinct.
 
-   Stage 1 Validate; Stage 2 Analyse; Stage 3 Present.
+4. Require a named human review. Save the final Lumina-Decision-Deck.pptx and link it in the evidence register for Lab 16.
 
-3. **Run the analysis prompt with the attached workbook.**
+## Acceptance and next handoff
 
-   > For each Approved-for-Analysis queue item: validate the workbook, produce a descriptive and diagnostic analysis, identify three evidence-backed findings, create a six-slide decision deck with native charts, and stop at Ready for Review. Record sources, assumptions and exceptions. Do not publish or email the deck until a named reviewer approves it.
+The output belongs to Lumina SW-2026; the named sources support its facts; the reviewer and source version are recorded; and `Lumina-Decision-Deck.pptx` is available to the next activity. Check each step’s numerical or behavioral expectation. A draft is not a sent email, a posted Teams message or an executed flow.
 
-4. **Verify formulas, totals, segments and anomalies.**
-
-   No deck generation until the analysis control is PASS.
-
-5. **Create the six-slide PowerPoint with native charts.**
-
-   Use takeaway titles and keep chart data editable.
-
-6. **Record source ranges for every quantitative slide.**
-
-   Complete Deck_Evidence.
-
-7. **Run the reviewer checkpoint.**
-
-   Reviewer can Approve, Return for correction or Reject.
-
-8. **Update pipeline status without sending.**
-
-   Stop at Ready for Review or Approved for Delivery.
+Use SHAREPOINT-AGENT-EXTENSION.pdf for the existing agent setup and source-access procedures. The shared policy agent uses EXP-01; HR policy testing requires your learner-owned agent with the reviewed HR source added.
 
 
-## Acceptance test
+## Marketing and strategy handoff
 
-The pipeline stops at review, the workbook reconciles, the deck has editable charts and every quantitative claim has a source range.
+Complete the corresponding steps in GROUNDED-RESEARCH.md, included in this folder. Use the local scenario source pack and prepared reports; save your own cited marketing/strategy outputs for the final deck and communication handoff.
 
-## Evidence
+## Professional presentation with PowerPoint Copilot
 
-- Completed workbook with Prompt_Log and Evidence_Register
-- App-specific artifact and a credential-safe screenshot
-- Verification, exception and human-approval note
+Choose a financial-performance briefing or marketing-strategy proposal for Lumina leadership. Both use the same verified company evidence.
 
----
+**Goal:** Create a professional six-slide executive presentation that supports a clear decision.
 
-*Enhance Work Productivity with Microsoft 365 Copilot · TGS-2024043856 · Version v8.0 · © 2026 Tertiary Infotech Academy Pte Ltd*
+**Context:** Present to Lumina's HR, Marketing, Finance and Operations leads. Use a clean corporate style, consistent typography, restrained colours, generous white space and one main message per slide. Keep the October plan distinct from January–June actuals.
 
-## SharePoint agent extension
+**Source:** Use your reviewed Lumina-Management-Report.docx, Lumina-Marketing-Report.docx, Lumina-Strategy-Report.docx and verified financial Excel charts. The scenario reports and Lumina-Decision-Deck.pptx are prepared comparison samples.
 
-Continue with [SHAREPOINT-AGENT-EXTENSION.pdf](SHAREPOINT-AGENT-EXTENSION.pdf). The matching Markdown source, agent-configs.json and sharepoint-knowledge folder are included here. Keep using this lab’s original Excel evidence workbook.
+**Expectations:** Use six slides: decision headline; financial performance; channel or market evidence; options and assumptions; risks and readiness; recommendation with owners and dates. Include three editable financial charts, SGD units, source notes, concise bullets and speaker notes. Label inferred recommendations and unsupported questions. Do not fabricate figures, market research, logos or certifications.
+
+1. Save the reviewed Word report in your accessible OneDrive/SharePoint practice folder. In PowerPoint, open Copilot and choose the available create-presentation/from-file experience. Select or reference the reviewed report, then supply the complete prompt above. If multiple files are unsupported, consolidate the reviewed evidence into one Word source first.
+2. Review Copilot's outline before generating slides. Choose a suitable corporate theme and check that each slide has a clear purpose. Record the actual Copilot prompt and result in your lab workbook.
+3. Generate the presentation. Use Copilot to refine overly dense slides and draft presenter notes. Verify every number, claim and citation against your source report; do not assume the generated deck is accurate.
+4. Insert or replace charts with editable native Excel/PowerPoint charts using your checked monthly revenue/cost, actual-versus-target and channel-margin data. Test Edit Data. A screenshot is not an editable chart.
+5. Run Slide Show and inspect alignment, chart labels, contrast, overflow and source-note readability. Check all six slides in the exported PDF. Save Lumina-Professional-Presentation.pptx and PDF; capture actual Copilot-use evidence.
+6. Link the reviewed deck in the Outlook draft and Teams handoff; track review actions in Loop. The prepared sample deck illustrates an acceptable structure but does not count as your Copilot-generated submission.
+
+[Live Lumina SharePoint site](https://tertiaryinfotech.sharepoint.com/sites/TGS-2024043856-LuminaCopilot) — use the assigned tenant account; anonymous Anyone links are unavailable.
