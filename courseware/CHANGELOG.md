@@ -1,5 +1,9 @@
 # Change log
 
+## v8.1 Tea Break correction — 7 September 2026
+
+Removed the Tea Break slide; retained Lunch Break. The deck now has 138 slides. Subsequent slide numbers and Lesson Plan slide references are updated.
+
 ## v8.1 correction — 7 September 2026
 
 Removed the practice-exam page (former slide 14) at the user’s request. The deck now has 139 slides. Renumbered subsequent footers and Lesson Plan slide references; all other slide content, labs and assessments are retained.
