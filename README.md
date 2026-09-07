@@ -31,7 +31,7 @@ Assessment papers, answer keys, reference material, build sources containing ass
 
 ## SharePoint agent enhancement v8.1
 
-The package retains all 127 original slides and adds 13 editable visual slides (140 total). Labs 12–16 include a SharePoint agent extension, synthetic source documents and agent configurations. Existing Excel workbooks and assessment instruments are retained.
+The package retains 126 original slides and 13 editable visual slides (139 total), following removal of the practice-exam page. Labs 12–16 include a SharePoint agent extension, synthetic source documents and agent configurations. Existing Excel workbooks and assessment instruments are retained.
 
 [Open the private course SharePoint site](https://tertiaryinfotech.sharepoint.com/sites/TGS-2024043856-LuminaCopilot) using your assigned work account. Policy, campaign and routing agents each use a selected source document. The earlier consumer account examples do not provide access to this tenant.
 
