@@ -1,3 +1,5 @@
+> **Current v9.0 learner resources:** [Open the Lab Prompts page](https://tertiarycourses.github.io/TGS-2024043856-Enhance-Work-Productivity-with-Microsoft-365-Copilot/prompts/) for 14 connected Northstar labs, 77 Copy prompts, instruction PDFs, complete lab downloads and the current Learner Guide. The main-branch files below retain the earlier v8.2 course package for historical reference.
+
 # Enhance Work Productivity with Microsoft 365 Copilot
 
 **Course code:** TGS-2024043856  
