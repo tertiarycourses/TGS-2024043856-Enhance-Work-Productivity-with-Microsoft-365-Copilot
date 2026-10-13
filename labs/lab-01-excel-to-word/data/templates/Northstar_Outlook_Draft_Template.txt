@@ -1,0 +1,8 @@
+To: operations.manager@example.invalid
+Subject: DRAFT - Northstar maintenance update - review required
+Scope/date:
+Verified findings:
+Proposed assignment/actions (unapproved):
+Decision needed:
+Attachment/source links:
+Do not send this training draft.

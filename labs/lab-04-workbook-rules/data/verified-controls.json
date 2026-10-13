@@ -1,0 +1,25 @@
+{
+  "total": 120,
+  "closed": 48,
+  "cancelled": 12,
+  "backlog": 60,
+  "overdue": 50,
+  "unassigned_backlog": 6,
+  "on_time_closed": 30,
+  "on_time_rate": 0.625,
+  "cost": 35827.5,
+  "site_counts": {
+    "Woodlands Hub": 24,
+    "Jurong Depot": 24,
+    "Tampines Centre": 24,
+    "Paya Lebar Office": 24,
+    "Changi Workshop": 24
+  },
+  "category_counts": {
+    "Leak Repair": 24,
+    "Valve Repair": 24,
+    "Pipe Replacement": 24,
+    "Pump Service": 24,
+    "Meter Service": 24
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "report_date": "2026-09-30",
+  "scope": "All",
+  "population": "Overdue backlog",
+  "grouping": "Job_Category",
+  "total": 50,
+  "ordered_rows": [
+    {
+      "Job_Category": "Pump Service",
+      "Count": 18,
+      "Cumulative_Count": 18,
+      "Share": 0.36,
+      "Cumulative_Percent": 0.36
+    },
+    {
+      "Job_Category": "Meter Service",
+      "Count": 12,
+      "Cumulative_Count": 30,
+      "Share": 0.24,
+      "Cumulative_Percent": 0.6
+    },
+    {
+      "Job_Category": "Leak Repair",
+      "Count": 8,
+      "Cumulative_Count": 38,
+      "Share": 0.16,
+      "Cumulative_Percent": 0.76
+    },
+    {
+      "Job_Category": "Valve Repair",
+      "Count": 8,
+      "Cumulative_Count": 46,
+      "Share": 0.16,
+      "Cumulative_Percent": 0.92
+    },
+    {
+      "Job_Category": "Pipe Replacement",
+      "Count": 4,
+      "Cumulative_Count": 50,
+      "Share": 0.08,
+      "Cumulative_Percent": 1.0
+    }
+  ],
+  "interpretation": "Four categories first reach at least80%; contribution is not root cause."
+}

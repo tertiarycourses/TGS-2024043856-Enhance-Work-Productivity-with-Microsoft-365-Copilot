@@ -1,0 +1,121 @@
+Work_Order_ID,Site,Job_Category,Priority,Status,Assigned_To,Opened_Date,Due_Date,Closed_Date,Estimated_Hours,Actual_Hours,Cost_SGD,Description
+WO-2026-0001,Woodlands Hub,Leak Repair,Low,Closed,Aisha Tan,2026-09-25,2026-10-02,2026-09-30,2,1,90.0,Leak Repair scheduled or reactive task 001
+WO-2026-0002,Woodlands Hub,Leak Repair,Medium,Closed,Ben Lim,2026-09-24,2026-10-02,2026-09-30,3,2,125.5,Leak Repair scheduled or reactive task 002
+WO-2026-0003,Woodlands Hub,Leak Repair,High,In Progress,Chloe Goh,2026-09-23,2026-10-02,,4,0,161.0,Leak Repair scheduled or reactive task 003
+WO-2026-0004,Jurong Depot,Leak Repair,Critical,On Hold,Daniel Lee,2026-09-22,2026-10-02,,5,0,196.5,Leak Repair scheduled or reactive task 004
+WO-2026-0005,Jurong Depot,Valve Repair,Low,New,Elena Ong,2026-09-21,2026-10-02,,6,0,232.0,Valve Repair scheduled or reactive task 005
+WO-2026-0006,Jurong Depot,Valve Repair,Medium,Closed,Farid Rahman,2026-09-20,2026-10-02,2026-09-30,7,6,267.5,Valve Repair scheduled or reactive task 006
+WO-2026-0007,Tampines Centre,Valve Repair,High,Closed,Grace Ng,2026-09-19,2026-10-02,2026-09-30,8,7,303.0,Valve Repair scheduled or reactive task 007
+WO-2026-0008,Tampines Centre,Valve Repair,Critical,On Hold,Hari Kumar,2026-09-18,2026-10-02,,2,0,338.5,Valve Repair scheduled or reactive task 008
+WO-2026-0009,Tampines Centre,Pipe Replacement,Low,New,Aisha Tan,2026-09-17,2026-10-02,,3,0,374.0,Pipe Replacement scheduled or reactive task 009
+WO-2026-0010,Paya Lebar Office,Pipe Replacement,Medium,Cancelled,Ben Lim,2026-09-16,2026-10-02,,4,0,409.5,Pipe Replacement scheduled or reactive task 010
+WO-2026-0011,Paya Lebar Office,Pipe Replacement,High,Closed,Chloe Goh,2026-09-15,2026-09-22,2026-09-22,5,2,445.0,Pipe Replacement scheduled or reactive task 011
+WO-2026-0012,Paya Lebar Office,Pipe Replacement,Critical,Closed,Daniel Lee,2026-09-14,2026-09-22,2026-09-22,6,3,480.5,Pipe Replacement scheduled or reactive task 012
+WO-2026-0013,Changi Workshop,Pump Service,Low,New,,2026-09-13,2026-09-22,,7,0,516.0,Pump Service scheduled or reactive task 013
+WO-2026-0014,Changi Workshop,Pump Service,Medium,Assigned,Farid Rahman,2026-09-12,2026-09-22,,8,0,90.0,Pump Service scheduled or reactive task 014
+WO-2026-0015,Changi Workshop,Pump Service,High,In Progress,Grace Ng,2026-09-11,2026-09-22,,2,0,125.5,Pump Service scheduled or reactive task 015
+WO-2026-0016,Woodlands Hub,Pump Service,Critical,Closed,Hari Kumar,2026-09-10,2026-09-22,2026-09-23,3,7,161.0,Pump Service scheduled or reactive task 016
+WO-2026-0017,Woodlands Hub,Meter Service,Low,Closed,Aisha Tan,2026-09-09,2026-09-22,2026-09-23,4,8,196.5,Meter Service scheduled or reactive task 017
+WO-2026-0018,Woodlands Hub,Meter Service,Medium,Assigned,Ben Lim,2026-09-08,2026-09-22,,5,0,232.0,Meter Service scheduled or reactive task 018
+WO-2026-0019,Jurong Depot,Meter Service,High,In Progress,Chloe Goh,2026-09-07,2026-09-22,,6,0,267.5,Meter Service scheduled or reactive task 019
+WO-2026-0020,Jurong Depot,Meter Service,Critical,Cancelled,Daniel Lee,2026-09-06,2026-09-22,,7,0,303.0,Meter Service scheduled or reactive task 020
+WO-2026-0021,Jurong Depot,Leak Repair,Low,Closed,Elena Ong,2026-09-05,2026-09-12,2026-09-14,8,3,338.5,Leak Repair scheduled or reactive task 021
+WO-2026-0022,Tampines Centre,Leak Repair,Medium,Closed,Farid Rahman,2026-09-04,2026-09-12,2026-09-14,2,4,374.0,Leak Repair scheduled or reactive task 022
+WO-2026-0023,Tampines Centre,Leak Repair,High,In Progress,Grace Ng,2026-09-03,2026-09-12,,3,0,409.5,Leak Repair scheduled or reactive task 023
+WO-2026-0024,Tampines Centre,Leak Repair,Critical,On Hold,Hari Kumar,2026-09-02,2026-09-12,,4,0,445.0,Leak Repair scheduled or reactive task 024
+WO-2026-0025,Paya Lebar Office,Valve Repair,Low,New,,2026-09-01,2026-09-12,,5,0,480.5,Valve Repair scheduled or reactive task 025
+WO-2026-0026,Paya Lebar Office,Valve Repair,Medium,Closed,Ben Lim,2026-08-31,2026-09-12,2026-09-10,6,8,516.0,Valve Repair scheduled or reactive task 026
+WO-2026-0027,Paya Lebar Office,Valve Repair,High,Closed,Chloe Goh,2026-08-30,2026-09-12,2026-09-10,7,9,90.0,Valve Repair scheduled or reactive task 027
+WO-2026-0028,Changi Workshop,Valve Repair,Critical,On Hold,Daniel Lee,2026-08-29,2026-09-12,,8,0,125.5,Valve Repair scheduled or reactive task 028
+WO-2026-0029,Changi Workshop,Pipe Replacement,Low,New,Elena Ong,2026-08-28,2026-09-12,,2,0,161.0,Pipe Replacement scheduled or reactive task 029
+WO-2026-0030,Changi Workshop,Pipe Replacement,Medium,Cancelled,Farid Rahman,2026-08-27,2026-09-12,,3,0,196.5,Pipe Replacement scheduled or reactive task 030
+WO-2026-0031,Woodlands Hub,Pipe Replacement,High,Closed,Grace Ng,2026-08-26,2026-09-02,2026-09-01,4,4,232.0,Pipe Replacement scheduled or reactive task 031
+WO-2026-0032,Woodlands Hub,Pipe Replacement,Critical,Closed,Hari Kumar,2026-08-25,2026-09-02,2026-09-01,5,5,267.5,Pipe Replacement scheduled or reactive task 032
+WO-2026-0033,Woodlands Hub,Pump Service,Low,New,Aisha Tan,2026-08-24,2026-09-02,,6,0,303.0,Pump Service scheduled or reactive task 033
+WO-2026-0034,Jurong Depot,Pump Service,Medium,Assigned,Ben Lim,2026-08-23,2026-09-02,,7,0,338.5,Pump Service scheduled or reactive task 034
+WO-2026-0035,Jurong Depot,Pump Service,High,In Progress,Chloe Goh,2026-08-22,2026-09-02,,8,0,374.0,Pump Service scheduled or reactive task 035
+WO-2026-0036,Jurong Depot,Pump Service,Critical,Closed,Daniel Lee,2026-08-21,2026-09-02,2026-09-02,2,9,409.5,Pump Service scheduled or reactive task 036
+WO-2026-0037,Tampines Centre,Meter Service,Low,Closed,Elena Ong,2026-08-20,2026-09-02,2026-09-02,3,1,445.0,Meter Service scheduled or reactive task 037
+WO-2026-0038,Tampines Centre,Meter Service,Medium,Assigned,Farid Rahman,2026-08-19,2026-09-02,,4,0,480.5,Meter Service scheduled or reactive task 038
+WO-2026-0039,Tampines Centre,Meter Service,High,In Progress,Grace Ng,2026-08-18,2026-09-02,,5,0,516.0,Meter Service scheduled or reactive task 039
+WO-2026-0040,Paya Lebar Office,Meter Service,Critical,Cancelled,Hari Kumar,2026-08-17,2026-09-02,,6,0,90.0,Meter Service scheduled or reactive task 040
+WO-2026-0041,Paya Lebar Office,Leak Repair,Low,Closed,Aisha Tan,2026-08-16,2026-08-23,2026-08-24,7,5,125.5,Leak Repair scheduled or reactive task 041
+WO-2026-0042,Paya Lebar Office,Leak Repair,Medium,Closed,Ben Lim,2026-08-15,2026-08-23,2026-08-24,8,6,161.0,Leak Repair scheduled or reactive task 042
+WO-2026-0043,Changi Workshop,Leak Repair,High,In Progress,Chloe Goh,2026-08-14,2026-08-23,,2,0,196.5,Leak Repair scheduled or reactive task 043
+WO-2026-0044,Changi Workshop,Leak Repair,Critical,On Hold,Daniel Lee,2026-08-13,2026-08-23,,3,0,232.0,Leak Repair scheduled or reactive task 044
+WO-2026-0045,Changi Workshop,Valve Repair,Low,New,Elena Ong,2026-08-12,2026-08-23,,4,0,267.5,Valve Repair scheduled or reactive task 045
+WO-2026-0046,Woodlands Hub,Valve Repair,Medium,Closed,Farid Rahman,2026-08-11,2026-08-23,2026-08-25,5,1,303.0,Valve Repair scheduled or reactive task 046
+WO-2026-0047,Woodlands Hub,Valve Repair,High,Closed,Grace Ng,2026-08-10,2026-08-23,2026-08-25,6,2,338.5,Valve Repair scheduled or reactive task 047
+WO-2026-0048,Woodlands Hub,Valve Repair,Critical,On Hold,Hari Kumar,2026-08-09,2026-08-23,,7,0,374.0,Valve Repair scheduled or reactive task 048
+WO-2026-0049,Jurong Depot,Pipe Replacement,Low,New,,2026-08-08,2026-08-23,,8,0,409.5,Pipe Replacement scheduled or reactive task 049
+WO-2026-0050,Jurong Depot,Pipe Replacement,Medium,Cancelled,Ben Lim,2026-08-07,2026-08-23,,2,0,445.0,Pipe Replacement scheduled or reactive task 050
+WO-2026-0051,Jurong Depot,Pipe Replacement,High,Closed,Chloe Goh,2026-08-06,2026-08-13,2026-08-11,3,6,480.5,Pipe Replacement scheduled or reactive task 051
+WO-2026-0052,Tampines Centre,Pipe Replacement,Critical,Closed,Daniel Lee,2026-08-05,2026-08-13,2026-08-11,4,7,516.0,Pipe Replacement scheduled or reactive task 052
+WO-2026-0053,Tampines Centre,Pump Service,Low,New,Elena Ong,2026-08-04,2026-08-13,,5,0,90.0,Pump Service scheduled or reactive task 053
+WO-2026-0054,Tampines Centre,Pump Service,Medium,Assigned,Farid Rahman,2026-08-03,2026-08-13,,6,0,125.5,Pump Service scheduled or reactive task 054
+WO-2026-0055,Paya Lebar Office,Pump Service,High,In Progress,Grace Ng,2026-08-02,2026-08-13,,7,0,161.0,Pump Service scheduled or reactive task 055
+WO-2026-0056,Paya Lebar Office,Pump Service,Critical,Closed,Hari Kumar,2026-08-01,2026-08-13,2026-08-12,8,2,196.5,Pump Service scheduled or reactive task 056
+WO-2026-0057,Paya Lebar Office,Meter Service,Low,Closed,Aisha Tan,2026-07-31,2026-08-13,2026-08-12,2,3,232.0,Meter Service scheduled or reactive task 057
+WO-2026-0058,Changi Workshop,Meter Service,Medium,Assigned,Ben Lim,2026-07-30,2026-08-13,,3,0,267.5,Meter Service scheduled or reactive task 058
+WO-2026-0059,Changi Workshop,Meter Service,High,In Progress,Chloe Goh,2026-07-29,2026-08-13,,4,0,303.0,Meter Service scheduled or reactive task 059
+WO-2026-0060,Changi Workshop,Meter Service,Critical,Cancelled,Daniel Lee,2026-07-28,2026-08-13,,5,0,338.5,Meter Service scheduled or reactive task 060
+WO-2026-0061,Woodlands Hub,Leak Repair,Low,Closed,Elena Ong,2026-07-27,2026-08-03,2026-08-03,6,7,374.0,Leak Repair scheduled or reactive task 061
+WO-2026-0062,Woodlands Hub,Leak Repair,Medium,Closed,Farid Rahman,2026-07-26,2026-08-03,2026-08-03,7,8,409.5,Leak Repair scheduled or reactive task 062
+WO-2026-0063,Woodlands Hub,Leak Repair,High,In Progress,Grace Ng,2026-07-25,2026-08-03,,8,0,445.0,Leak Repair scheduled or reactive task 063
+WO-2026-0064,Jurong Depot,Leak Repair,Critical,On Hold,Hari Kumar,2026-07-24,2026-08-03,,2,0,480.5,Leak Repair scheduled or reactive task 064
+WO-2026-0065,Jurong Depot,Valve Repair,Low,New,Aisha Tan,2026-07-23,2026-08-03,,3,0,516.0,Valve Repair scheduled or reactive task 065
+WO-2026-0066,Jurong Depot,Valve Repair,Medium,Closed,Ben Lim,2026-07-22,2026-08-03,2026-08-04,4,3,90.0,Valve Repair scheduled or reactive task 066
+WO-2026-0067,Tampines Centre,Valve Repair,High,Closed,Chloe Goh,2026-07-21,2026-08-03,2026-08-04,5,4,125.5,Valve Repair scheduled or reactive task 067
+WO-2026-0068,Tampines Centre,Valve Repair,Critical,On Hold,Daniel Lee,2026-07-20,2026-08-03,,6,0,161.0,Valve Repair scheduled or reactive task 068
+WO-2026-0069,Tampines Centre,Pipe Replacement,Low,New,Elena Ong,2026-07-19,2026-08-03,,7,0,196.5,Pipe Replacement scheduled or reactive task 069
+WO-2026-0070,Paya Lebar Office,Pipe Replacement,Medium,Cancelled,Farid Rahman,2026-07-18,2026-08-03,,8,0,232.0,Pipe Replacement scheduled or reactive task 070
+WO-2026-0071,Paya Lebar Office,Pipe Replacement,High,Closed,Grace Ng,2026-07-17,2026-07-24,2026-07-26,2,8,267.5,Pipe Replacement scheduled or reactive task 071
+WO-2026-0072,Paya Lebar Office,Pipe Replacement,Critical,Closed,Hari Kumar,2026-07-16,2026-07-24,2026-07-26,3,9,303.0,Pipe Replacement scheduled or reactive task 072
+WO-2026-0073,Changi Workshop,Pump Service,Low,New,,2026-07-15,2026-07-24,,4,0,338.5,Pump Service scheduled or reactive task 073
+WO-2026-0074,Changi Workshop,Pump Service,Medium,Assigned,Ben Lim,2026-07-14,2026-07-24,,5,0,374.0,Pump Service scheduled or reactive task 074
+WO-2026-0075,Changi Workshop,Pump Service,High,In Progress,Chloe Goh,2026-07-13,2026-07-24,,6,0,409.5,Pump Service scheduled or reactive task 075
+WO-2026-0076,Woodlands Hub,Pump Service,Critical,Closed,Daniel Lee,2026-07-12,2026-07-24,2026-07-22,7,4,445.0,Pump Service scheduled or reactive task 076
+WO-2026-0077,Woodlands Hub,Meter Service,Low,Closed,Elena Ong,2026-07-11,2026-07-24,2026-07-22,8,5,480.5,Meter Service scheduled or reactive task 077
+WO-2026-0078,Woodlands Hub,Meter Service,Medium,Assigned,Farid Rahman,2026-07-10,2026-07-24,,2,0,516.0,Meter Service scheduled or reactive task 078
+WO-2026-0079,Jurong Depot,Meter Service,High,In Progress,Grace Ng,2026-07-09,2026-07-24,,3,0,90.0,Meter Service scheduled or reactive task 079
+WO-2026-0080,Jurong Depot,Meter Service,Critical,Cancelled,Hari Kumar,2026-07-08,2026-07-24,,4,0,125.5,Meter Service scheduled or reactive task 080
+WO-2026-0081,Jurong Depot,Leak Repair,Low,Closed,Aisha Tan,2026-09-25,2026-10-02,2026-09-30,5,9,161.0,Leak Repair scheduled or reactive task 081
+WO-2026-0082,Tampines Centre,Leak Repair,Medium,Closed,Ben Lim,2026-09-24,2026-10-02,2026-09-30,6,1,196.5,Leak Repair scheduled or reactive task 082
+WO-2026-0083,Tampines Centre,Leak Repair,High,In Progress,Chloe Goh,2026-09-23,2026-10-02,,7,0,232.0,Leak Repair scheduled or reactive task 083
+WO-2026-0084,Tampines Centre,Leak Repair,Critical,On Hold,Daniel Lee,2026-09-22,2026-10-02,,8,0,267.5,Leak Repair scheduled or reactive task 084
+WO-2026-0085,Paya Lebar Office,Valve Repair,Low,New,,2026-09-21,2026-10-02,,2,0,303.0,Valve Repair scheduled or reactive task 085
+WO-2026-0086,Paya Lebar Office,Valve Repair,Medium,Closed,Farid Rahman,2026-09-20,2026-10-02,2026-09-30,3,5,338.5,Valve Repair scheduled or reactive task 086
+WO-2026-0087,Paya Lebar Office,Valve Repair,High,Closed,Grace Ng,2026-09-19,2026-10-02,2026-09-30,4,6,374.0,Valve Repair scheduled or reactive task 087
+WO-2026-0088,Changi Workshop,Valve Repair,Critical,On Hold,Hari Kumar,2026-09-18,2026-10-02,,5,0,409.5,Valve Repair scheduled or reactive task 088
+WO-2026-0089,Changi Workshop,Pipe Replacement,Low,New,Aisha Tan,2026-09-17,2026-10-02,,6,0,445.0,Pipe Replacement scheduled or reactive task 089
+WO-2026-0090,Changi Workshop,Pipe Replacement,Medium,Cancelled,Ben Lim,2026-09-16,2026-10-02,,7,0,480.5,Pipe Replacement scheduled or reactive task 090
+WO-2026-0091,Woodlands Hub,Pipe Replacement,High,Closed,Chloe Goh,2026-09-15,2026-09-22,2026-09-23,8,1,516.0,Pipe Replacement scheduled or reactive task 091
+WO-2026-0092,Woodlands Hub,Pipe Replacement,Critical,Closed,Daniel Lee,2026-09-14,2026-09-22,2026-09-23,2,2,90.0,Pipe Replacement scheduled or reactive task 092
+WO-2026-0093,Woodlands Hub,Pump Service,Low,New,Elena Ong,2026-09-13,2026-09-22,,3,0,125.5,Pump Service scheduled or reactive task 093
+WO-2026-0094,Jurong Depot,Pump Service,Medium,Assigned,Farid Rahman,2026-09-12,2026-09-22,,4,0,161.0,Pump Service scheduled or reactive task 094
+WO-2026-0095,Jurong Depot,Pump Service,High,In Progress,Grace Ng,2026-09-11,2026-09-22,,5,0,196.5,Pump Service scheduled or reactive task 095
+WO-2026-0096,Jurong Depot,Pump Service,Critical,Closed,Hari Kumar,2026-09-10,2026-09-22,2026-09-24,6,6,232.0,Pump Service scheduled or reactive task 096
+WO-2026-0097,Tampines Centre,Meter Service,Low,Closed,Aisha Tan,2026-09-09,2026-09-22,2026-09-24,7,7,267.5,Meter Service scheduled or reactive task 097
+WO-2026-0098,Tampines Centre,Meter Service,Medium,Assigned,Ben Lim,2026-09-08,2026-09-22,,8,0,303.0,Meter Service scheduled or reactive task 098
+WO-2026-0099,Tampines Centre,Meter Service,High,In Progress,Chloe Goh,2026-09-07,2026-09-22,,2,0,338.5,Meter Service scheduled or reactive task 099
+WO-2026-0100,Paya Lebar Office,Meter Service,Critical,Cancelled,Daniel Lee,2026-09-06,2026-09-22,,3,0,374.0,Meter Service scheduled or reactive task 100
+WO-2026-0101,Paya Lebar Office,Leak Repair,Low,Closed,Elena Ong,2026-09-05,2026-09-12,2026-09-10,4,2,409.5,Leak Repair scheduled or reactive task 101
+WO-2026-0102,Paya Lebar Office,Leak Repair,Medium,Closed,Farid Rahman,2026-09-04,2026-09-12,2026-09-10,5,3,445.0,Leak Repair scheduled or reactive task 102
+WO-2026-0103,Changi Workshop,Leak Repair,High,In Progress,Grace Ng,2026-09-03,2026-09-12,,6,0,480.5,Leak Repair scheduled or reactive task 103
+WO-2026-0104,Changi Workshop,Leak Repair,Critical,On Hold,Hari Kumar,2026-09-02,2026-09-12,,7,0,516.0,Leak Repair scheduled or reactive task 104
+WO-2026-0105,Changi Workshop,Valve Repair,Low,New,Aisha Tan,2026-09-01,2026-09-12,,8,0,90.0,Valve Repair scheduled or reactive task 105
+WO-2026-0106,Woodlands Hub,Valve Repair,Medium,Closed,Ben Lim,2026-08-31,2026-09-12,2026-09-11,2,7,125.5,Valve Repair scheduled or reactive task 106
+WO-2026-0107,Woodlands Hub,Valve Repair,High,Closed,Chloe Goh,2026-08-30,2026-09-12,2026-09-11,3,8,161.0,Valve Repair scheduled or reactive task 107
+WO-2026-0108,Woodlands Hub,Valve Repair,Critical,On Hold,Daniel Lee,2026-08-29,2026-09-12,,4,0,196.5,Valve Repair scheduled or reactive task 108
+WO-2026-0109,Jurong Depot,Pipe Replacement,Low,New,,2026-08-28,2026-09-12,,5,0,232.0,Pipe Replacement scheduled or reactive task 109
+WO-2026-0110,Jurong Depot,Pipe Replacement,Medium,Cancelled,Farid Rahman,2026-08-27,2026-09-12,,6,0,267.5,Pipe Replacement scheduled or reactive task 110
+WO-2026-0111,Jurong Depot,Pipe Replacement,High,Closed,Grace Ng,2026-08-26,2026-09-02,2026-09-02,7,3,303.0,Pipe Replacement scheduled or reactive task 111
+WO-2026-0112,Tampines Centre,Pipe Replacement,Critical,Closed,Hari Kumar,2026-08-25,2026-09-02,2026-09-02,8,4,338.5,Pipe Replacement scheduled or reactive task 112
+WO-2026-0113,Tampines Centre,Pump Service,Low,New,Aisha Tan,2026-08-24,2026-09-02,,2,0,374.0,Pump Service scheduled or reactive task 113
+WO-2026-0114,Tampines Centre,Pump Service,Medium,Assigned,Ben Lim,2026-08-23,2026-09-02,,3,0,409.5,Pump Service scheduled or reactive task 114
+WO-2026-0115,Paya Lebar Office,Pump Service,High,In Progress,Chloe Goh,2026-08-22,2026-09-02,,4,0,445.0,Pump Service scheduled or reactive task 115
+WO-2026-0116,Paya Lebar Office,Pump Service,Critical,Closed,Daniel Lee,2026-08-21,2026-09-02,2026-09-03,5,8,480.5,Pump Service scheduled or reactive task 116
+WO-2026-0117,Paya Lebar Office,Meter Service,Low,Closed,Elena Ong,2026-08-20,2026-09-02,2026-09-03,6,9,516.0,Meter Service scheduled or reactive task 117
+WO-2026-0118,Changi Workshop,Meter Service,Medium,Assigned,Farid Rahman,2026-08-19,2026-09-02,,7,0,90.0,Meter Service scheduled or reactive task 118
+WO-2026-0119,Changi Workshop,Meter Service,High,In Progress,Grace Ng,2026-08-18,2026-09-02,,8,0,125.5,Meter Service scheduled or reactive task 119
+WO-2026-0120,Changi Workshop,Meter Service,Critical,Cancelled,Hari Kumar,2026-08-17,2026-09-02,,2,0,161.0,Meter Service scheduled or reactive task 120

@@ -1,0 +1,4 @@
+Use S$ with two decimal places and thousands separators for currency displays.
+Display dates as DD-MMM-YYYY.
+Prefer structured references when writing Excel formulas.
+Start explanations with a short plain-English summary before the detail.

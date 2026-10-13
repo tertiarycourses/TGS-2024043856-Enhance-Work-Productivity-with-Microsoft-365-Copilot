@@ -1,0 +1,17 @@
+Enhance Work Productivity with Microsoft 365 Copilot (TGS-2024043856) — Lab 11: Define the Northstar Operations Agent and Knowledge Boundary
+Sample prompts: use the app labelled in each step. Copy one at a time, adapt it, and verify every result.
+Prompts web page (one-click Copy): https://tertiarycourses.github.io/TGS-2024043856-Enhance-Work-Productivity-with-Microsoft-365-Copilot/prompts/#lab-11
+
+[1] Scope
+Using Northstar_Agent_Design_Brief.md, define a private retrieval agent that cites the fixed snapshot and never sends, writes, approves or uses external services.
+
+[2] Inventory
+Record source owner, 30 September 2026 date, permission and supported type for the policy, snapshot, workbook and enablement plan.
+
+------------------------------------------------------------
+Step prompts used in this lab
+------------------------------------------------------------
+
+[Step 3]
+AGENT BUILDER - DESCRIBE:
+Create a private Northstar Operations Knowledge Agent for maintenance coordinators. It answers from the selected policy, fixed snapshot, work-order workbook and enablement plan. It cites sources, separates current from proposed assignments and returns UNKNOWN when evidence is missing. It does not send, modify, approve or use external services.
