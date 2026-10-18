@@ -1,0 +1,45 @@
+{
+  "report_date": "2026-09-30",
+  "scope": "All",
+  "population": "Overdue backlog",
+  "grouping": "Request_Type",
+  "total": 50,
+  "ordered_rows": [
+    {
+      "Request_Type": "Payroll Query",
+      "Count": 18,
+      "Cumulative_Count": 18,
+      "Share": 0.36,
+      "Cumulative_Percent": 0.36
+    },
+    {
+      "Request_Type": "Benefits Claim",
+      "Count": 12,
+      "Cumulative_Count": 30,
+      "Share": 0.24,
+      "Cumulative_Percent": 0.6
+    },
+    {
+      "Request_Type": "Leave Request",
+      "Count": 8,
+      "Cumulative_Count": 38,
+      "Share": 0.16,
+      "Cumulative_Percent": 0.76
+    },
+    {
+      "Request_Type": "Training Request",
+      "Count": 8,
+      "Cumulative_Count": 46,
+      "Share": 0.16,
+      "Cumulative_Percent": 0.92
+    },
+    {
+      "Request_Type": "Onboarding",
+      "Count": 4,
+      "Cumulative_Count": 50,
+      "Share": 0.08,
+      "Cumulative_Percent": 1.0
+    }
+  ],
+  "interpretation": "Four categories first reach at least80%; contribution is not root cause."
+}

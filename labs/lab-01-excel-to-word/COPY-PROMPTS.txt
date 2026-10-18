@@ -1,0 +1,40 @@
+Enhance Work Productivity with Microsoft 365 Copilot (TGS-2024043856) — Lab 1: Prepare HR Cases and Draft the HR Service Brief
+Sample prompts: use the app labelled in each step. Copy one at a time, adapt it, and verify every result.
+Prompts web page (one-click Copy): https://tertiarycourses.github.io/TGS-2024043856-Enhance-Work-Productivity-with-Microsoft-365-Copilot/prompts/#lab-1
+
+[1] Inspect
+Using Lumina_HR_Cases.xlsx, confirm 120 unique Case_ID values, preserve Current_Assignee, and report data-quality exceptions at 30 September 2026.
+
+[2] Brief
+Draft the Lumina HR Service Brief from the verified 120-row snapshot; cite backlog 60 and overdue 50 and label missing causes UNKNOWN.
+
+------------------------------------------------------------
+Step prompts used in this lab
+------------------------------------------------------------
+
+[Step 1]
+EXCEL - CHAT ONLY:
+Read About_This_Data and Control for Lumina Living. Explain what one employee HR case represents, the reporting date, the five request types and how current owners differ from proposed owners. Do not edit or infer employee impacts.
+
+[Step 2]
+EXCEL - CHAT ONLY:
+Inspect tblHRCases. Report row count, duplicate Case_ID values, category spelling variants and missing Assigned_To. Do not edit. Treat 2026-09-30 as the fixed reporting date.
+
+[Step 3]
+EXCEL - PLAN:
+Plan to retain an untouched Raw_Export copy, remove only exact duplicate records by Case_ID, and standardise category spelling in tblHRCases. Keep dates, statuses and assignments. Ask if two records with one ID differ.
+
+EXCEL - ALLOW EDITING:
+Apply the reviewed plan. Keep one identical record per repeated ID. Do not guess missing owners. Reconcile the cleaned table against Control.
+
+[Step 4]
+EXCEL - ALLOW EDITING:
+In Checks calculate total rows, closed, cancelled, backlog, overdue backlog, unassigned backlog and total Cost_SGD for tblHRCases. Use Control!B2 as reporting date. Define backlog as Status neither Closed nor Cancelled. Add the identity total = closed + cancelled + backlog. Do not change source data.
+
+[Step 5]
+WORD COPILOT:
+Draft a one-page Lumina HR service brief from the verified evidence supplied here. Include reporting scope/date, backlog and overdue findings, current assignment issues, proposed next actions and open questions. Keep observed facts separate from proposals. Preserve numbers and definitions. Use UNKNOWN for causes, approvals or capacity decisions not evidenced.
+
+[Step 6]
+WORD COPILOT:
+Audit this Lumina Living HR service brief against the verified evidence table I supply. Return a discrepancy list for counts, cost, reporting scope, overdue definition and assignment claims. Identify missing source links as UNKNOWN. Do not change facts or approve work.

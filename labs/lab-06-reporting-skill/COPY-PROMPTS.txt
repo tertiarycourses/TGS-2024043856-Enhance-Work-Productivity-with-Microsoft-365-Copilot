@@ -1,0 +1,43 @@
+Enhance Work Productivity with Microsoft 365 Copilot (TGS-2024043856) — Lab 6: Create, Use and Improve the HR Service Reporting Skill
+Sample prompts: use the app labelled in each step. Copy one at a time, adapt it, and verify every result.
+Prompts web page (one-click Copy): https://tertiarycourses.github.io/TGS-2024043856-Enhance-Work-Productivity-with-Microsoft-365-Copilot/prompts/#lab-6
+
+[1] Run Skill
+Apply @hr-case-reporting to the verified Lumina snapshot; include total 120, backlog 60, overdue 50, source, scope and limitations.
+
+[2] Rerun
+Change one filter only, rerun the Skill and reconcile the new result to the unchanged source table.
+
+------------------------------------------------------------
+Step prompts used in this lab
+------------------------------------------------------------
+
+[Step 1]
+MICROSOFT 365 COPILOT WEB:
+Write complete hr-case-reporting SKILL.md with YAML name/description. Require actual tblHRCases or a verified Word snapshot, report date and filter scope. Respect visible .Rules. Define backlog, overdue and Closed-only on-time rate. Preserve IDs/statuses/current owners; keep assignment proposals separate and approvals UNKNOWN. Create a verified Excel summary and improve a supplied four- or eight-slide PowerPoint report from selected evidence. Ask for missing inputs and before replacing only named outputs; rerun without duplicates or source changes. Keep the existing design and source/date notes. Never send email or approve assignments. Return the entire file.
+
+[Step 3]
+EXCEL - PLAN:
+@hr-case-reporting Build HR_Case_Summary for tblHRCases at 2026-09-30 with all filters All. Include total, closed, cancelled, backlog, overdue, on-time closed rate and recorded cost; show formulas and source scope. Plan first. Preserve source records.
+
+EXCEL - ALLOW EDITING:
+Apply that reviewed summary plan. Add Assignment_Proposals for unassigned backlog only. Use tblHROfficers primary category and available hours as planning inputs; show category/capacity checks, current owner and proposed owner separately. Leave manager decision UNKNOWN. Do not change Assigned_To.
+
+[Step 4]
+EXCEL - CHAT ONLY:
+@hr-case-reporting Review Assignment_Proposals against tblHRCases and tblHROfficers. Check each suggested owner has the matching HR-case request type, capacity limitations are visible and original Assigned_To values are unchanged. Leave manager approval UNKNOWN; do not assign or schedule an HR officer.
+
+[Step 5]
+POWERPOINT COPILOT:
+@hr-case-reporting Improve this existing four-slide Lumina update from the selected verified Word snapshot. Preserve slide count, all values and source/date/scope notes; use clear claim headlines and the existing design. Keep assignment suggestions explicitly proposed and do not assume access to Excel chat.
+
+[Step 6]
+EXCEL - CHAT ONLY:
+@hr-case-reporting Prepare my next HR service report. I need a DIFFERENT reporting period from the course example and have not supplied any source, date or scope. This empty workbook contains no HR cases. Tell me what you need; do not invent data.
+
+EXCEL - PLAN:
+@hr-case-reporting Rebuild the existing HR_Case_Summary for the same table, date and scope. Describe what will be replaced, ask before replacement and keep source/unrelated sheets. Do not duplicate outputs.
+
+[Step 7]
+MICROSOFT 365 COPILOT WEB:
+Improve this supplied hr-case-reporting skill to v2 using only my actual smoke-test and rerun findings pasted here. Add explicit missing-input and no-duplicate-output guards. Keep Excel source and current owners protected. Return the complete revised SKILL.md and a short before/after change log; do not fabricate test evidence.

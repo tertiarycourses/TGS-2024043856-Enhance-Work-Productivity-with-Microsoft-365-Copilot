@@ -1,0 +1,47 @@
+Enhance Work Productivity with Microsoft 365 Copilot (TGS-2024043856) — Lab 8: Use the Dashboard Skill for Filters, Refresh and Safe Reruns
+Sample prompts: use the app labelled in each step. Copy one at a time, adapt it, and verify every result.
+Prompts web page (one-click Copy): https://tertiarycourses.github.io/TGS-2024043856-Enhance-Work-Productivity-with-Microsoft-365-Copilot/prompts/#lab-8
+
+[1] Refresh
+Append Refresh_Test_Rows.csv in the sandbox, refresh @hr-case-dashboard and verify total 122, backlog 61, overdue 51 and closed 49.
+
+[2] Empty scope
+Filter Retail Sales, Leave Request and Daniel Lee; show an explicit empty state rather than a zero-data chart.
+
+------------------------------------------------------------
+Step prompts used in this lab
+------------------------------------------------------------
+
+[Step 1]
+EXCEL - CHAT ONLY:
+@hr-case-dashboard Before testing filters, report the baseline Lumina Living dashboard source, date and scope. Confirm 120 unique HR cases and all four selectors All. Identify the baseline file that must remain untouched when making the refresh-test copy.
+
+[Step 2]
+EXCEL - PLAN:
+@hr-case-dashboard Make Dashboard B2:B5 control all six KPIs and three chart summaries with AND logic. All bypasses its dimension. Use COUNTIFS/SUMIFS or SUMPRODUCT with structured table references. Blank owner means unassigned and must not disappear from All. Keep N/A for no closed cases.
+
+EXCEL - ALLOW EDITING:
+@hr-case-dashboard Apply the reviewed filter plan and dropdown lists. Keep existing source rows and chart positions. Show the selected scope beside the reporting date and make all charts recalculate from the same selected rows.
+
+[Step 3]
+EXCEL - CHAT ONLY:
+@hr-case-dashboard For the dashboard selection Department = Retail Sales and all other dimensions All, list the expected six KPI values from tblHRCases and verify each chart sum matches the selected total. Do not infer that filtering the worksheet automatically changes formula measures.
+
+[Step 4]
+EXCEL - CHAT ONLY:
+@hr-case-dashboard Check two dashboard edge cases without changing source data: Status New with other selectors All; then Department Retail Sales, Request_Type Leave Request, Assigned_To Daniel Lee, Status All. Verify zero closed gives N/A and no selected rows gives zero count/cost with N/A rate. Show how all charts follow the same selection. Restore all selectors to All.
+
+[Step 6]
+EXCEL - CHAT ONLY:
+@hr-case-dashboard Verify the sandbox append test for the two new HR cases. Reconcile total 122, closed 49, backlog 61, overdue increased by 1, cost increased by S$400 and on-time numerator increased by 1. Confirm no original source record changed and all three charts total 122 with All selections. Compare original IDs, statuses, owners, dates and costs to the saved baseline; all original 120 rows must match.
+
+[Step 7]
+EXCEL - PLAN:
+@hr-case-dashboard Refresh the existing dashboard for the sandbox 122-row table and same reporting date. Preserve all original source records, both new rows, .Rules, Pareto_* and unrelated sheets. Identify named output replacements and ask before editing; keep one dashboard and three charts.
+
+EXCEL - ALLOW EDITING:
+@hr-case-dashboard Apply only the reviewed sandbox dashboard rerun. Retain the chosen source/date and make every KPI and chart follow the four filters; reconcile 122 total,61 backlog,51 overdue,49 Closed,31/49 on-time and S$36,227.50. Do not alter the untouched baseline workbook.
+
+[Step 8]
+WORD COPILOT:
+Using only the verified baseline dashboard evidence I paste here, prepare the frozen Lumina Living presentation snapshot. Include reporting date, All scope, 120-row baseline, six KPIs, chart values, source workbook link and limitations. Exclude the 122-row sandbox. Keep proposed priorities separate from observed facts.

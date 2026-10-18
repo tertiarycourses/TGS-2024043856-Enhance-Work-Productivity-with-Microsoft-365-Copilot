@@ -11,6 +11,10 @@ courseware/build/
 *.pyc
 
 courseware/archive/
+archive/
+.agents/
+trainer-private/
+qa/rendered/
 
 # iCloud conflict copies of private environment files
 .env *

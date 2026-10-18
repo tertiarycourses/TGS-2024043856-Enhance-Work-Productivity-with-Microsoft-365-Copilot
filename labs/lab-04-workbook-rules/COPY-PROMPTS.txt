@@ -1,0 +1,37 @@
+Enhance Work Productivity with Microsoft 365 Copilot (TGS-2024043856) — Lab 4: Create and Test Workbook .Rules for HR Service Reporting
+Sample prompts: use the app labelled in each step. Copy one at a time, adapt it, and verify every result.
+Prompts web page (one-click Copy): https://tertiarycourses.github.io/TGS-2024043856-Enhance-Work-Productivity-with-Microsoft-365-Copilot/prompts/#lab-4
+
+[1] .Rules
+In the visible .Rules sheet, require 30 September 2026, UNKNOWN for missing evidence, and separate Current_Assignee from Proposed_Assignee.
+
+[2] Boundary
+Test one request that lacks a reporting date and verify that Copilot asks for it instead of guessing.
+
+------------------------------------------------------------
+Step prompts used in this lab
+------------------------------------------------------------
+
+[Step 1]
+EXCEL - CHAT ONLY:
+Inspect this Lumina workbook. Identify the source table, fixed reporting date, status vocabulary and current owners. List workbook-specific conventions that belong in .Rules rather than account Personalisation. Do not edit.
+
+[Step 2]
+EXCEL - PLAN:
+Review the visible .Rules column A for this Lumina workbook. Identify ambiguous instructions or conflicts with the actual source and Control. Propose concise corrections, keeping one idea per cell. Do not edit the source or invent precedence between rules, preferences and Skills.
+
+[Step 3]
+EXCEL - ALLOW EDITING:
+Apply only my reviewed .Rules corrections. Keep the sheet visible, one instruction per column-A cell, and retain the reporting-date formula. Preserve source data, Control and unrelated sheets.
+
+[Step 4]
+EXCEL - ALLOW EDITING:
+Create Rules_Test for Lumina Living from tblHRCases using the visible workbook .Rules. Include total, backlog, overdue, on-time Closed rate and recorded cost with formula/source evidence. Show date and All scope. Keep source owners and values unchanged.
+
+[Step 5]
+EXCEL - CHAT ONLY:
+In this copied Lumina workbook, identify the visible .Rules instructions and reporting-date formula result. Explain which guidance travels with the workbook and which account preferences do not. Verify Rules_Test against Control without changing records.
+
+[Step 6]
+EXCEL - CHAT ONLY:
+Compare Personalisation, .Rules and a reusable Skill for Lumina reporting. Place currency preferences, this workbook’s backlog/date rules and the repeatable Pareto workflow in the right scope. Identify conflicts requiring clarification and the checks a person still must perform.

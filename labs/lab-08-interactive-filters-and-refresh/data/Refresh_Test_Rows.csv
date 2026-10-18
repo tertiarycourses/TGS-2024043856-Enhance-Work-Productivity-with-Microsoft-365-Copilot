@@ -1,0 +1,3 @@
+Case_ID,Department,Request_Type,Priority,Status,Assigned_To,Opened_Date,Due_Date,Closed_Date,Estimated_Hours,Actual_Hours,Cost_SGD,Description
+HR-2026-0121,Retail Sales,Leave Request,High,Assigned,Aisha Tan,2026-09-25,2026-09-29,,3,0,150,Sandbox overdue test
+HR-2026-0122,Retail Sales,Training Request,Medium,Closed,Ben Lim,2026-09-20,2026-09-30,2026-09-29,2,2,250,Sandbox on-time test

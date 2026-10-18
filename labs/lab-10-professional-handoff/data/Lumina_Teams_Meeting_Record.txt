@@ -1,0 +1,6 @@
+Lumina Teams Review Record — Synthetic Training Evidence
+Meeting outcome: Decide which proposed assignment changes proceed to manager review.
+Authoritative inputs: Lumina_HR_Cases.xlsx and verified dashboard snapshot dated 30 September 2026.
+Decision questions: Which overdue work is unassigned? Which proposed owner has capacity evidence? Which items remain UNKNOWN?
+Human boundary: Copilot may prepare the agenda and recap draft. Participants approve decisions; an authorised owner updates the action register.
+Readiness evidence: named participants, source access, licence confirmation and a reviewed pre-read.

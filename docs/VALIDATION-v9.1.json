@@ -1,0 +1,136 @@
+{
+  "course": "TGS-2024043856",
+  "version": "v9.1",
+  "slides": 222,
+  "concept_slides_at_least": 100,
+  "instructional_minutes": 840,
+  "assessment_minutes": 120,
+  "baseline_controls": {
+    "total": 120,
+    "closed": 48,
+    "cancelled": 12,
+    "backlog": 60,
+    "overdue": 50,
+    "unassigned_backlog": 6,
+    "on_time_closed": 30,
+    "on_time_rate": 0.625,
+    "cost": 35827.5,
+    "site_counts": {
+      "Retail Sales": 24,
+      "Operations": 24,
+      "Finance": 24,
+      "Marketing": 24,
+      "Technology": 24
+    },
+    "category_counts": {
+      "Leave Request": 24,
+      "Training Request": 24,
+      "Onboarding": 24,
+      "Payroll Query": 24,
+      "Benefits Claim": 24
+    }
+  },
+  "labs": [
+    {
+      "lab": 1,
+      "instruction_pdf_pages": 4,
+      "step_prompt_blocks": 6,
+      "copy_prompts": 7,
+      "files": 24
+    },
+    {
+      "lab": 2,
+      "instruction_pdf_pages": 3,
+      "step_prompt_blocks": 5,
+      "copy_prompts": 5,
+      "files": 25
+    },
+    {
+      "lab": 3,
+      "instruction_pdf_pages": 3,
+      "step_prompt_blocks": 5,
+      "copy_prompts": 6,
+      "files": 24
+    },
+    {
+      "lab": 4,
+      "instruction_pdf_pages": 4,
+      "step_prompt_blocks": 6,
+      "copy_prompts": 6,
+      "files": 24
+    },
+    {
+      "lab": 5,
+      "instruction_pdf_pages": 4,
+      "step_prompt_blocks": 5,
+      "copy_prompts": 7,
+      "files": 27
+    },
+    {
+      "lab": 6,
+      "instruction_pdf_pages": 4,
+      "step_prompt_blocks": 6,
+      "copy_prompts": 8,
+      "files": 27
+    },
+    {
+      "lab": 7,
+      "instruction_pdf_pages": 4,
+      "step_prompt_blocks": 7,
+      "copy_prompts": 7,
+      "files": 26
+    },
+    {
+      "lab": 8,
+      "instruction_pdf_pages": 4,
+      "step_prompt_blocks": 7,
+      "copy_prompts": 9,
+      "files": 26
+    },
+    {
+      "lab": 9,
+      "instruction_pdf_pages": 4,
+      "step_prompt_blocks": 5,
+      "copy_prompts": 5,
+      "files": 25
+    },
+    {
+      "lab": 10,
+      "instruction_pdf_pages": 4,
+      "step_prompt_blocks": 5,
+      "copy_prompts": 5,
+      "files": 27
+    },
+    {
+      "lab": 11,
+      "instruction_pdf_pages": 3,
+      "step_prompt_blocks": 2,
+      "copy_prompts": 2,
+      "files": 34
+    },
+    {
+      "lab": 12,
+      "instruction_pdf_pages": 3,
+      "step_prompt_blocks": 4,
+      "copy_prompts": 4,
+      "files": 34
+    },
+    {
+      "lab": 13,
+      "instruction_pdf_pages": 3,
+      "step_prompt_blocks": 4,
+      "copy_prompts": 8,
+      "files": 34
+    },
+    {
+      "lab": 14,
+      "instruction_pdf_pages": 3,
+      "step_prompt_blocks": 1,
+      "copy_prompts": 1,
+      "files": 33
+    }
+  ],
+  "dashboard_engine": "LibreOffice recalculation of actual XLSX formulas; all/department/empty/no-closed/append scopes verified",
+  "pareto_checks": "LibreOffice: 50 overdue, descending18/12/8/8/4, cumulative36/60/76/92/100, zero-total N/A; native combo chart XML verified",
+  "native_copilot_execution": "Not claimed; tenant access, licence and feature availability must be confirmed by trainer."
+}

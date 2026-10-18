@@ -1,0 +1,17 @@
+Enhance Work Productivity with Microsoft 365 Copilot (TGS-2024043856) — Lab 14: Share the HR Agent with Named Users and Deliver Staff Enablement
+Sample prompts: use the app labelled in each step. Copy one at a time, adapt it, and verify every result.
+Prompts web page (one-click Copy): https://tertiarycourses.github.io/TGS-2024043856-Enhance-Work-Productivity-with-Microsoft-365-Copilot/prompts/#lab-14
+
+[1] Share
+After T01-T08 pass, share Lumina HR Policy Agent with one named test user (Can chat) who already has access to the knowledge files.
+
+[2] Enable
+Create a Microsoft Loop tracker with User, Role, Practice test, Evidence, Defect, Owner, Retest and Status; do not prefill completion.
+
+------------------------------------------------------------
+Step prompts used in this lab
+------------------------------------------------------------
+
+[Step 5]
+MICROSOFT LOOP COPILOT:
+Create a Lumina HR Policy Agent staff enablement tracker with columns User, Role, Practice test, Evidence, Defect, Owner, Retest and Status. Include cited leave-policy retrieval, UNKNOWN, privacy and approval-refusal tests. Do not fabricate completion or approval.

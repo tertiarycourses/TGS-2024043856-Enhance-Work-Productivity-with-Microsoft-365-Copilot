@@ -1,0 +1,33 @@
+Enhance Work Productivity with Microsoft 365 Copilot (TGS-2024043856) — Lab 9: Turn Dashboard Evidence into a Management Story
+Sample prompts: use the app labelled in each step. Copy one at a time, adapt it, and verify every result.
+Prompts web page (one-click Copy): https://tertiarycourses.github.io/TGS-2024043856-Enhance-Work-Productivity-with-Microsoft-365-Copilot/prompts/#lab-9
+
+[1] Story
+Using the verified dashboard snapshot, outline an eight-slide Lumina management story with claim, value, source, scope, as-at date and limitation for each slide.
+
+[2] Outlook
+Draft an unsent Outlook review request that names the deck version and asks the HR manager to confirm proposed assignments.
+
+------------------------------------------------------------
+Step prompts used in this lab
+------------------------------------------------------------
+
+[Step 1]
+EXCEL - CHAT ONLY:
+For the untouched 120-row Lumina Living baseline dashboard at 2026-09-30, All selectors, return a presentation evidence table: six KPIs, backlog by department, status and request-type counts, unassigned backlog and relevant source references. Do not use the refresh-test copy or infer employee impact, policy breach, causes or savings.
+
+[Step 2]
+WORD COPILOT:
+Using this verified 120-row Lumina HR service snapshot, draft an eight-slide management presentation brief. For each slide give one claim headline, supporting measure/chart, source/date/scope, limitation and speaker note. Structure: overview, portfolio, department backlog, status/category mix, SLA/overdue, assignment/capacity, proposed actions/trade-offs, decision/next review. Do not invent causes, savings, approval or future dates; use UNKNOWN when absent.
+
+[Step 3]
+WORD COPILOT:
+Review this eight-slide Lumina Living brief against the supplied baseline evidence. Check each headline has a supporting value, correct units, source/date/scope and an explicit limitation. Rewrite unsupported claims as questions or proposed actions. Do not change verified figures or invent approvals.
+
+[Step 4]
+POWERPOINT COPILOT:
+@hr-case-reporting Create or update an eight-slide management presentation from the selected Lumina_Presentation_Brief.docx. Follow the existing white/navy/blue template. One evidence-based message per slide, short visible text, charts or tables for numerical evidence, source/as-at/scope in notes, and a final decision request. Keep values exact, and label all next actions as proposed. Do not add extra slides or invented facts.
+
+[Step 6]
+POWERPOINT COPILOT:
+Audit the eight-slide Lumina Living management draft against the selected presentation brief and evidence register. Confirm baseline 120, source notes, chart labels and units, correct backlog exclusions and proposed-action wording. List needed corrections and preserve slide count; do not claim Excel charts update automatically.

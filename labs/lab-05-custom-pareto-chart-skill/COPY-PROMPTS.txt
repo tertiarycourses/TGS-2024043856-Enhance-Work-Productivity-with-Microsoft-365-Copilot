@@ -1,0 +1,39 @@
+Enhance Work Productivity with Microsoft 365 Copilot (TGS-2024043856) — Lab 5: Create a Custom Pareto Chart Skill and Apply It
+Sample prompts: use the app labelled in each step. Copy one at a time, adapt it, and verify every result.
+Prompts web page (one-click Copy): https://tertiarycourses.github.io/TGS-2024043856-Enhance-Work-Productivity-with-Microsoft-365-Copilot/prompts/#lab-5
+
+[1] Run Skill
+Apply @hr-case-pareto to Lumina_HR_Cases.xlsx for overdue work at 30 September 2026; verify category counts 18, 12, 8, 8, 4 and cumulative 100%.
+
+[2] Zero case
+Run the zero-overdue test and return N/A rather than dividing by zero.
+
+------------------------------------------------------------
+Step prompts used in this lab
+------------------------------------------------------------
+
+[Step 1]
+EXCEL - CHAT ONLY:
+For tblHRCases at Control!B2, All departments, count overdue backlog by Request_Type: Status neither Closed nor Cancelled and Due_Date strictly before the reporting date. Show category counts and total before charting. Preserve all records.
+
+[Step 2]
+MICROSOFT 365 COPILOT WEB:
+Write a complete SKILL.md named hr-case-pareto for a recurring HR service report. Require YAML name and description, actual source table, reporting date, scope, count metric and grouping column. Source tblHRCases has Case_ID, Request_Type, Department, Status and Due_Date. Overdue backlog excludes Closed/Cancelled and has Due_Date before the supplied date. Read visible workbook .Rules; preserve source IDs/statuses/owners and unrelated sheets. Count by grouping, sort count descending then label alphabetically for ties, and create formula-backed count, cumulative count, share and cumulative percentage. Build an editable combo chart: count columns and cumulative line on a 0%-100% right axis. Output only Pareto_<grouping column>; ask before replacing the matching output, rerun without duplicates, and leave zero-total percentages N/A. Verify counts, stable ties and final 100%; do not infer causes or force 80/20. Return the entire file.
+
+[Step 4]
+EXCEL - PLAN:
+@hr-case-pareto Plan an overdue-backlog Pareto Chart by Request_Type from tblHRCases at 2026-09-30, All departments. Follow visible .Rules. Explain summary formulas, descending counts, alphabetical ties, cumulative percentages and the named output to create. Do not edit yet.
+
+EXCEL - ALLOW EDITING:
+@hr-case-pareto Apply the reviewed Request_Type Pareto plan. Create Pareto_Request_Type with a formula-backed summary and editable count-column/cumulative-percent-line combo chart. Keep source data and unrelated sheets unchanged.
+
+[Step 5]
+EXCEL - CHAT ONLY:
+Verify Pareto_Request_Type against eligible source rows. Check total 50, descending counts, alphabetical tie order, cumulative percentages 36/60/76/92/100%, final 100% and labelled dual axes. State which category set first reaches 80%, and why this is contribution rather than a causal diagnosis.
+
+[Step 6]
+EXCEL - PLAN:
+@hr-case-pareto Refresh the existing Pareto_Request_Type for the same source, date and All scope. Identify exactly what will be replaced and ask before replacement. Preserve every unrelated sheet and do not duplicate charts.
+
+EXCEL - ALLOW EDITING:
+@hr-case-pareto After the approved category rerun, create a separate overdue-backlog Pareto_Department for the same source/date/scope. Preserve Pareto_Request_Type and reconcile the new summary to 50 overdue cases.
