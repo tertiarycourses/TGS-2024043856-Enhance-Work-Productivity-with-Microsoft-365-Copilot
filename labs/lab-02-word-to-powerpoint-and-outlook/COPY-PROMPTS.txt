@@ -1,12 +1,12 @@
-Enhance Work Productivity with Microsoft 365 Copilot (TGS-2024043856) — Lab 2: Create the Cross-App Maintenance Update
+Enhance Work Productivity with Microsoft 365 Copilot (TGS-2024043856) — Lab 2: Create the Cross-App HR Service Update
 Sample prompts: use the app labelled in each step. Copy one at a time, adapt it, and verify every result.
 Prompts web page (one-click Copy): https://tertiarycourses.github.io/TGS-2024043856-Enhance-Work-Productivity-with-Microsoft-365-Copilot/prompts/#lab-2
 
 [1] Handoff
-Using the verified Northstar Operations Brief, create a five-slide maintenance update and an unsent Outlook draft with the same 30 September 2026 scope.
+Using the verified Lumina HR Service Brief, create a five-slide HR service update and an unsent Outlook draft with the same 30 September 2026 scope.
 
 [2] Verify
-Reconcile every count, date and current assignment in the deck and email against Northstar_Work_Orders.xlsx.
+Reconcile every count, date and current assignment in the deck and email against Lumina_HR_Cases.xlsx.
 
 ------------------------------------------------------------
 Step prompts used in this lab
@@ -14,19 +14,19 @@ Step prompts used in this lab
 
 [Step 1]
 WORD COPILOT:
-From this selected verified Northstar Water Services operations brief, extract a handoff table with reporting date, filter scope, total, closed, cancelled, backlog, overdue, unassigned backlog and recorded cost. Separate facts, proposed next actions and open decisions. Keep every value traceable to the supplied brief.
+From this selected verified Lumina Living HR service brief, extract a handoff table with reporting date, filter scope, total, closed, cancelled, backlog, overdue, unassigned backlog and recorded cost. Separate facts, proposed next actions and open decisions. Keep every value traceable to the supplied brief.
 
 [Step 2]
 POWERPOINT COPILOT:
-Using this verified Northstar Word brief, create a four-slide initial update: scope and portfolio; backlog and overdue work; current assignments and proposed actions; decision required. Use the existing white/navy/blue design. Preserve all verified metrics. Add source/date notes. Do not invent completed work, savings or approved reassignment.
+Using this verified Lumina Word brief, create a four-slide initial update: scope and portfolio; backlog and overdue work; current assignments and proposed actions; decision required. Use the existing white/navy/blue design. Preserve all verified metrics. Add source/date notes. Do not invent completed work, savings or approved reassignment.
 
 [Step 3]
 POWERPOINT COPILOT:
-Audit these four Northstar Water Services slides against the selected verified operations brief. For each numeric claim give the source, date and scope; flag unsupported service-restoration, safety, customer-impact or approval claims. Propose corrections without changing the checked values.
+Audit these four Lumina Living slides against the selected verified HR service brief. For each numeric claim give the source, date and scope; flag unsupported employee-impact, entitlement or approval claims. Propose corrections without changing the checked values.
 
 [Step 4]
 OUTLOOK COPILOT:
-Draft a concise reply to the synthetic thread quoted below, using the verified Northstar brief and these checked metrics. State the 30 September 2026 scope, backlog/overdue findings, proposed next actions and the decision requested. Explain that assignments are unapproved proposals. Do not claim the attachments have been sent. Keep as a draft.
+Draft a concise reply to the synthetic thread quoted below, using the verified Lumina brief and these checked metrics. State the 30 September 2026 scope, backlog/overdue findings, proposed next actions and the decision requested. Explain that assignments are unapproved proposals. Do not claim the attachments have been sent. Keep as a draft.
 
 [Step 6]
 WORD COPILOT:

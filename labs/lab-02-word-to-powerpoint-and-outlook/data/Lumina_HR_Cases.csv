@@ -1,0 +1,121 @@
+Case_ID,Department,Request_Type,Priority,Status,Assigned_To,Opened_Date,Due_Date,Closed_Date,Estimated_Hours,Actual_Hours,Cost_SGD,Description
+HR-2026-0001,Retail Sales,Leave Request,Low,Closed,Aisha Tan,2026-09-25,2026-10-02,2026-09-30,2,1,90.0,Leave Request employee case 001
+HR-2026-0002,Retail Sales,Leave Request,Medium,Closed,Ben Lim,2026-09-24,2026-10-02,2026-09-30,3,2,125.5,Leave Request employee case 002
+HR-2026-0003,Retail Sales,Leave Request,High,In Progress,Chloe Goh,2026-09-23,2026-10-02,,4,0,161.0,Leave Request employee case 003
+HR-2026-0004,Operations,Leave Request,Critical,On Hold,Daniel Lee,2026-09-22,2026-10-02,,5,0,196.5,Leave Request employee case 004
+HR-2026-0005,Operations,Training Request,Low,New,Elena Ong,2026-09-21,2026-10-02,,6,0,232.0,Training Request employee case 005
+HR-2026-0006,Operations,Training Request,Medium,Closed,Farid Rahman,2026-09-20,2026-10-02,2026-09-30,7,6,267.5,Training Request employee case 006
+HR-2026-0007,Finance,Training Request,High,Closed,Grace Ng,2026-09-19,2026-10-02,2026-09-30,8,7,303.0,Training Request employee case 007
+HR-2026-0008,Finance,Training Request,Critical,On Hold,Hari Kumar,2026-09-18,2026-10-02,,2,0,338.5,Training Request employee case 008
+HR-2026-0009,Finance,Onboarding,Low,New,Aisha Tan,2026-09-17,2026-10-02,,3,0,374.0,Onboarding employee case 009
+HR-2026-0010,Marketing,Onboarding,Medium,Cancelled,Ben Lim,2026-09-16,2026-10-02,,4,0,409.5,Onboarding employee case 010
+HR-2026-0011,Marketing,Onboarding,High,Closed,Chloe Goh,2026-09-15,2026-09-22,2026-09-22,5,2,445.0,Onboarding employee case 011
+HR-2026-0012,Marketing,Onboarding,Critical,Closed,Daniel Lee,2026-09-14,2026-09-22,2026-09-22,6,3,480.5,Onboarding employee case 012
+HR-2026-0013,Technology,Payroll Query,Low,New,,2026-09-13,2026-09-22,,7,0,516.0,Payroll Query employee case 013
+HR-2026-0014,Technology,Payroll Query,Medium,Assigned,Farid Rahman,2026-09-12,2026-09-22,,8,0,90.0,Payroll Query employee case 014
+HR-2026-0015,Technology,Payroll Query,High,In Progress,Grace Ng,2026-09-11,2026-09-22,,2,0,125.5,Payroll Query employee case 015
+HR-2026-0016,Retail Sales,Payroll Query,Critical,Closed,Hari Kumar,2026-09-10,2026-09-22,2026-09-23,3,7,161.0,Payroll Query employee case 016
+HR-2026-0017,Retail Sales,Benefits Claim,Low,Closed,Aisha Tan,2026-09-09,2026-09-22,2026-09-23,4,8,196.5,Benefits Claim employee case 017
+HR-2026-0018,Retail Sales,Benefits Claim,Medium,Assigned,Ben Lim,2026-09-08,2026-09-22,,5,0,232.0,Benefits Claim employee case 018
+HR-2026-0019,Operations,Benefits Claim,High,In Progress,Chloe Goh,2026-09-07,2026-09-22,,6,0,267.5,Benefits Claim employee case 019
+HR-2026-0020,Operations,Benefits Claim,Critical,Cancelled,Daniel Lee,2026-09-06,2026-09-22,,7,0,303.0,Benefits Claim employee case 020
+HR-2026-0021,Operations,Leave Request,Low,Closed,Elena Ong,2026-09-05,2026-09-12,2026-09-14,8,3,338.5,Leave Request employee case 021
+HR-2026-0022,Finance,Leave Request,Medium,Closed,Farid Rahman,2026-09-04,2026-09-12,2026-09-14,2,4,374.0,Leave Request employee case 022
+HR-2026-0023,Finance,Leave Request,High,In Progress,Grace Ng,2026-09-03,2026-09-12,,3,0,409.5,Leave Request employee case 023
+HR-2026-0024,Finance,Leave Request,Critical,On Hold,Hari Kumar,2026-09-02,2026-09-12,,4,0,445.0,Leave Request employee case 024
+HR-2026-0025,Marketing,Training Request,Low,New,,2026-09-01,2026-09-12,,5,0,480.5,Training Request employee case 025
+HR-2026-0026,Marketing,Training Request,Medium,Closed,Ben Lim,2026-08-31,2026-09-12,2026-09-10,6,8,516.0,Training Request employee case 026
+HR-2026-0027,Marketing,Training Request,High,Closed,Chloe Goh,2026-08-30,2026-09-12,2026-09-10,7,9,90.0,Training Request employee case 027
+HR-2026-0028,Technology,Training Request,Critical,On Hold,Daniel Lee,2026-08-29,2026-09-12,,8,0,125.5,Training Request employee case 028
+HR-2026-0029,Technology,Onboarding,Low,New,Elena Ong,2026-08-28,2026-09-12,,2,0,161.0,Onboarding employee case 029
+HR-2026-0030,Technology,Onboarding,Medium,Cancelled,Farid Rahman,2026-08-27,2026-09-12,,3,0,196.5,Onboarding employee case 030
+HR-2026-0031,Retail Sales,Onboarding,High,Closed,Grace Ng,2026-08-26,2026-09-02,2026-09-01,4,4,232.0,Onboarding employee case 031
+HR-2026-0032,Retail Sales,Onboarding,Critical,Closed,Hari Kumar,2026-08-25,2026-09-02,2026-09-01,5,5,267.5,Onboarding employee case 032
+HR-2026-0033,Retail Sales,Payroll Query,Low,New,Aisha Tan,2026-08-24,2026-09-02,,6,0,303.0,Payroll Query employee case 033
+HR-2026-0034,Operations,Payroll Query,Medium,Assigned,Ben Lim,2026-08-23,2026-09-02,,7,0,338.5,Payroll Query employee case 034
+HR-2026-0035,Operations,Payroll Query,High,In Progress,Chloe Goh,2026-08-22,2026-09-02,,8,0,374.0,Payroll Query employee case 035
+HR-2026-0036,Operations,Payroll Query,Critical,Closed,Daniel Lee,2026-08-21,2026-09-02,2026-09-02,2,9,409.5,Payroll Query employee case 036
+HR-2026-0037,Finance,Benefits Claim,Low,Closed,Elena Ong,2026-08-20,2026-09-02,2026-09-02,3,1,445.0,Benefits Claim employee case 037
+HR-2026-0038,Finance,Benefits Claim,Medium,Assigned,Farid Rahman,2026-08-19,2026-09-02,,4,0,480.5,Benefits Claim employee case 038
+HR-2026-0039,Finance,Benefits Claim,High,In Progress,Grace Ng,2026-08-18,2026-09-02,,5,0,516.0,Benefits Claim employee case 039
+HR-2026-0040,Marketing,Benefits Claim,Critical,Cancelled,Hari Kumar,2026-08-17,2026-09-02,,6,0,90.0,Benefits Claim employee case 040
+HR-2026-0041,Marketing,Leave Request,Low,Closed,Aisha Tan,2026-08-16,2026-08-23,2026-08-24,7,5,125.5,Leave Request employee case 041
+HR-2026-0042,Marketing,Leave Request,Medium,Closed,Ben Lim,2026-08-15,2026-08-23,2026-08-24,8,6,161.0,Leave Request employee case 042
+HR-2026-0043,Technology,Leave Request,High,In Progress,Chloe Goh,2026-08-14,2026-08-23,,2,0,196.5,Leave Request employee case 043
+HR-2026-0044,Technology,Leave Request,Critical,On Hold,Daniel Lee,2026-08-13,2026-08-23,,3,0,232.0,Leave Request employee case 044
+HR-2026-0045,Technology,Training Request,Low,New,Elena Ong,2026-08-12,2026-08-23,,4,0,267.5,Training Request employee case 045
+HR-2026-0046,Retail Sales,Training Request,Medium,Closed,Farid Rahman,2026-08-11,2026-08-23,2026-08-25,5,1,303.0,Training Request employee case 046
+HR-2026-0047,Retail Sales,Training Request,High,Closed,Grace Ng,2026-08-10,2026-08-23,2026-08-25,6,2,338.5,Training Request employee case 047
+HR-2026-0048,Retail Sales,Training Request,Critical,On Hold,Hari Kumar,2026-08-09,2026-08-23,,7,0,374.0,Training Request employee case 048
+HR-2026-0049,Operations,Onboarding,Low,New,,2026-08-08,2026-08-23,,8,0,409.5,Onboarding employee case 049
+HR-2026-0050,Operations,Onboarding,Medium,Cancelled,Ben Lim,2026-08-07,2026-08-23,,2,0,445.0,Onboarding employee case 050
+HR-2026-0051,Operations,Onboarding,High,Closed,Chloe Goh,2026-08-06,2026-08-13,2026-08-11,3,6,480.5,Onboarding employee case 051
+HR-2026-0052,Finance,Onboarding,Critical,Closed,Daniel Lee,2026-08-05,2026-08-13,2026-08-11,4,7,516.0,Onboarding employee case 052
+HR-2026-0053,Finance,Payroll Query,Low,New,Elena Ong,2026-08-04,2026-08-13,,5,0,90.0,Payroll Query employee case 053
+HR-2026-0054,Finance,Payroll Query,Medium,Assigned,Farid Rahman,2026-08-03,2026-08-13,,6,0,125.5,Payroll Query employee case 054
+HR-2026-0055,Marketing,Payroll Query,High,In Progress,Grace Ng,2026-08-02,2026-08-13,,7,0,161.0,Payroll Query employee case 055
+HR-2026-0056,Marketing,Payroll Query,Critical,Closed,Hari Kumar,2026-08-01,2026-08-13,2026-08-12,8,2,196.5,Payroll Query employee case 056
+HR-2026-0057,Marketing,Benefits Claim,Low,Closed,Aisha Tan,2026-07-31,2026-08-13,2026-08-12,2,3,232.0,Benefits Claim employee case 057
+HR-2026-0058,Technology,Benefits Claim,Medium,Assigned,Ben Lim,2026-07-30,2026-08-13,,3,0,267.5,Benefits Claim employee case 058
+HR-2026-0059,Technology,Benefits Claim,High,In Progress,Chloe Goh,2026-07-29,2026-08-13,,4,0,303.0,Benefits Claim employee case 059
+HR-2026-0060,Technology,Benefits Claim,Critical,Cancelled,Daniel Lee,2026-07-28,2026-08-13,,5,0,338.5,Benefits Claim employee case 060
+HR-2026-0061,Retail Sales,Leave Request,Low,Closed,Elena Ong,2026-07-27,2026-08-03,2026-08-03,6,7,374.0,Leave Request employee case 061
+HR-2026-0062,Retail Sales,Leave Request,Medium,Closed,Farid Rahman,2026-07-26,2026-08-03,2026-08-03,7,8,409.5,Leave Request employee case 062
+HR-2026-0063,Retail Sales,Leave Request,High,In Progress,Grace Ng,2026-07-25,2026-08-03,,8,0,445.0,Leave Request employee case 063
+HR-2026-0064,Operations,Leave Request,Critical,On Hold,Hari Kumar,2026-07-24,2026-08-03,,2,0,480.5,Leave Request employee case 064
+HR-2026-0065,Operations,Training Request,Low,New,Aisha Tan,2026-07-23,2026-08-03,,3,0,516.0,Training Request employee case 065
+HR-2026-0066,Operations,Training Request,Medium,Closed,Ben Lim,2026-07-22,2026-08-03,2026-08-04,4,3,90.0,Training Request employee case 066
+HR-2026-0067,Finance,Training Request,High,Closed,Chloe Goh,2026-07-21,2026-08-03,2026-08-04,5,4,125.5,Training Request employee case 067
+HR-2026-0068,Finance,Training Request,Critical,On Hold,Daniel Lee,2026-07-20,2026-08-03,,6,0,161.0,Training Request employee case 068
+HR-2026-0069,Finance,Onboarding,Low,New,Elena Ong,2026-07-19,2026-08-03,,7,0,196.5,Onboarding employee case 069
+HR-2026-0070,Marketing,Onboarding,Medium,Cancelled,Farid Rahman,2026-07-18,2026-08-03,,8,0,232.0,Onboarding employee case 070
+HR-2026-0071,Marketing,Onboarding,High,Closed,Grace Ng,2026-07-17,2026-07-24,2026-07-26,2,8,267.5,Onboarding employee case 071
+HR-2026-0072,Marketing,Onboarding,Critical,Closed,Hari Kumar,2026-07-16,2026-07-24,2026-07-26,3,9,303.0,Onboarding employee case 072
+HR-2026-0073,Technology,Payroll Query,Low,New,,2026-07-15,2026-07-24,,4,0,338.5,Payroll Query employee case 073
+HR-2026-0074,Technology,Payroll Query,Medium,Assigned,Ben Lim,2026-07-14,2026-07-24,,5,0,374.0,Payroll Query employee case 074
+HR-2026-0075,Technology,Payroll Query,High,In Progress,Chloe Goh,2026-07-13,2026-07-24,,6,0,409.5,Payroll Query employee case 075
+HR-2026-0076,Retail Sales,Payroll Query,Critical,Closed,Daniel Lee,2026-07-12,2026-07-24,2026-07-22,7,4,445.0,Payroll Query employee case 076
+HR-2026-0077,Retail Sales,Benefits Claim,Low,Closed,Elena Ong,2026-07-11,2026-07-24,2026-07-22,8,5,480.5,Benefits Claim employee case 077
+HR-2026-0078,Retail Sales,Benefits Claim,Medium,Assigned,Farid Rahman,2026-07-10,2026-07-24,,2,0,516.0,Benefits Claim employee case 078
+HR-2026-0079,Operations,Benefits Claim,High,In Progress,Grace Ng,2026-07-09,2026-07-24,,3,0,90.0,Benefits Claim employee case 079
+HR-2026-0080,Operations,Benefits Claim,Critical,Cancelled,Hari Kumar,2026-07-08,2026-07-24,,4,0,125.5,Benefits Claim employee case 080
+HR-2026-0081,Operations,Leave Request,Low,Closed,Aisha Tan,2026-09-25,2026-10-02,2026-09-30,5,9,161.0,Leave Request employee case 081
+HR-2026-0082,Finance,Leave Request,Medium,Closed,Ben Lim,2026-09-24,2026-10-02,2026-09-30,6,1,196.5,Leave Request employee case 082
+HR-2026-0083,Finance,Leave Request,High,In Progress,Chloe Goh,2026-09-23,2026-10-02,,7,0,232.0,Leave Request employee case 083
+HR-2026-0084,Finance,Leave Request,Critical,On Hold,Daniel Lee,2026-09-22,2026-10-02,,8,0,267.5,Leave Request employee case 084
+HR-2026-0085,Marketing,Training Request,Low,New,,2026-09-21,2026-10-02,,2,0,303.0,Training Request employee case 085
+HR-2026-0086,Marketing,Training Request,Medium,Closed,Farid Rahman,2026-09-20,2026-10-02,2026-09-30,3,5,338.5,Training Request employee case 086
+HR-2026-0087,Marketing,Training Request,High,Closed,Grace Ng,2026-09-19,2026-10-02,2026-09-30,4,6,374.0,Training Request employee case 087
+HR-2026-0088,Technology,Training Request,Critical,On Hold,Hari Kumar,2026-09-18,2026-10-02,,5,0,409.5,Training Request employee case 088
+HR-2026-0089,Technology,Onboarding,Low,New,Aisha Tan,2026-09-17,2026-10-02,,6,0,445.0,Onboarding employee case 089
+HR-2026-0090,Technology,Onboarding,Medium,Cancelled,Ben Lim,2026-09-16,2026-10-02,,7,0,480.5,Onboarding employee case 090
+HR-2026-0091,Retail Sales,Onboarding,High,Closed,Chloe Goh,2026-09-15,2026-09-22,2026-09-23,8,1,516.0,Onboarding employee case 091
+HR-2026-0092,Retail Sales,Onboarding,Critical,Closed,Daniel Lee,2026-09-14,2026-09-22,2026-09-23,2,2,90.0,Onboarding employee case 092
+HR-2026-0093,Retail Sales,Payroll Query,Low,New,Elena Ong,2026-09-13,2026-09-22,,3,0,125.5,Payroll Query employee case 093
+HR-2026-0094,Operations,Payroll Query,Medium,Assigned,Farid Rahman,2026-09-12,2026-09-22,,4,0,161.0,Payroll Query employee case 094
+HR-2026-0095,Operations,Payroll Query,High,In Progress,Grace Ng,2026-09-11,2026-09-22,,5,0,196.5,Payroll Query employee case 095
+HR-2026-0096,Operations,Payroll Query,Critical,Closed,Hari Kumar,2026-09-10,2026-09-22,2026-09-24,6,6,232.0,Payroll Query employee case 096
+HR-2026-0097,Finance,Benefits Claim,Low,Closed,Aisha Tan,2026-09-09,2026-09-22,2026-09-24,7,7,267.5,Benefits Claim employee case 097
+HR-2026-0098,Finance,Benefits Claim,Medium,Assigned,Ben Lim,2026-09-08,2026-09-22,,8,0,303.0,Benefits Claim employee case 098
+HR-2026-0099,Finance,Benefits Claim,High,In Progress,Chloe Goh,2026-09-07,2026-09-22,,2,0,338.5,Benefits Claim employee case 099
+HR-2026-0100,Marketing,Benefits Claim,Critical,Cancelled,Daniel Lee,2026-09-06,2026-09-22,,3,0,374.0,Benefits Claim employee case 100
+HR-2026-0101,Marketing,Leave Request,Low,Closed,Elena Ong,2026-09-05,2026-09-12,2026-09-10,4,2,409.5,Leave Request employee case 101
+HR-2026-0102,Marketing,Leave Request,Medium,Closed,Farid Rahman,2026-09-04,2026-09-12,2026-09-10,5,3,445.0,Leave Request employee case 102
+HR-2026-0103,Technology,Leave Request,High,In Progress,Grace Ng,2026-09-03,2026-09-12,,6,0,480.5,Leave Request employee case 103
+HR-2026-0104,Technology,Leave Request,Critical,On Hold,Hari Kumar,2026-09-02,2026-09-12,,7,0,516.0,Leave Request employee case 104
+HR-2026-0105,Technology,Training Request,Low,New,Aisha Tan,2026-09-01,2026-09-12,,8,0,90.0,Training Request employee case 105
+HR-2026-0106,Retail Sales,Training Request,Medium,Closed,Ben Lim,2026-08-31,2026-09-12,2026-09-11,2,7,125.5,Training Request employee case 106
+HR-2026-0107,Retail Sales,Training Request,High,Closed,Chloe Goh,2026-08-30,2026-09-12,2026-09-11,3,8,161.0,Training Request employee case 107
+HR-2026-0108,Retail Sales,Training Request,Critical,On Hold,Daniel Lee,2026-08-29,2026-09-12,,4,0,196.5,Training Request employee case 108
+HR-2026-0109,Operations,Onboarding,Low,New,,2026-08-28,2026-09-12,,5,0,232.0,Onboarding employee case 109
+HR-2026-0110,Operations,Onboarding,Medium,Cancelled,Farid Rahman,2026-08-27,2026-09-12,,6,0,267.5,Onboarding employee case 110
+HR-2026-0111,Operations,Onboarding,High,Closed,Grace Ng,2026-08-26,2026-09-02,2026-09-02,7,3,303.0,Onboarding employee case 111
+HR-2026-0112,Finance,Onboarding,Critical,Closed,Hari Kumar,2026-08-25,2026-09-02,2026-09-02,8,4,338.5,Onboarding employee case 112
+HR-2026-0113,Finance,Payroll Query,Low,New,Aisha Tan,2026-08-24,2026-09-02,,2,0,374.0,Payroll Query employee case 113
+HR-2026-0114,Finance,Payroll Query,Medium,Assigned,Ben Lim,2026-08-23,2026-09-02,,3,0,409.5,Payroll Query employee case 114
+HR-2026-0115,Marketing,Payroll Query,High,In Progress,Chloe Goh,2026-08-22,2026-09-02,,4,0,445.0,Payroll Query employee case 115
+HR-2026-0116,Marketing,Payroll Query,Critical,Closed,Daniel Lee,2026-08-21,2026-09-02,2026-09-03,5,8,480.5,Payroll Query employee case 116
+HR-2026-0117,Marketing,Benefits Claim,Low,Closed,Elena Ong,2026-08-20,2026-09-02,2026-09-03,6,9,516.0,Benefits Claim employee case 117
+HR-2026-0118,Technology,Benefits Claim,Medium,Assigned,Farid Rahman,2026-08-19,2026-09-02,,7,0,90.0,Benefits Claim employee case 118
+HR-2026-0119,Technology,Benefits Claim,High,In Progress,Grace Ng,2026-08-18,2026-09-02,,8,0,125.5,Benefits Claim employee case 119
+HR-2026-0120,Technology,Benefits Claim,Critical,Cancelled,Hari Kumar,2026-08-17,2026-09-02,,2,0,161.0,Benefits Claim employee case 120

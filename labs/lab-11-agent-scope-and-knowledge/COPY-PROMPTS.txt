@@ -1,17 +1,21 @@
-Enhance Work Productivity with Microsoft 365 Copilot (TGS-2024043856) — Lab 11: Define the Northstar Operations Agent and Knowledge Boundary
+Enhance Work Productivity with Microsoft 365 Copilot (TGS-2024043856) — Lab 11: Design the HR Policy Agent: Users, Knowledge and Skill
 Sample prompts: use the app labelled in each step. Copy one at a time, adapt it, and verify every result.
 Prompts web page (one-click Copy): https://tertiarycourses.github.io/TGS-2024043856-Enhance-Work-Productivity-with-Microsoft-365-Copilot/prompts/#lab-11
 
 [1] Scope
-Using Northstar_Agent_Design_Brief.md, define a private retrieval agent that cites the fixed snapshot and never sends, writes, approves or uses external services.
+Using Lumina_HR_Agent_Design_Brief.md, define a private HR helpdesk agent that cites the HR Policy Handbook and never approves, sends or reveals another employee’s data.
 
 [2] Inventory
-Record source owner, 30 September 2026 date, permission and supported type for the policy, snapshot, workbook and enablement plan.
+Record owner, as-at date, type and user access for the handbook, snapshot, workbook and enablement plan; exclude the restricted case notes.
 
 ------------------------------------------------------------
 Step prompts used in this lab
 ------------------------------------------------------------
 
-[Step 3]
+[Step 2]
+MICROSOFT 365 COPILOT WEB:
+Using only the attached Lumina_HR_Policy_Handbook.docx, list the employee HR questions it answers, with the section number for each. Then list common HR questions it does not answer, which an HR agent must treat as UNKNOWN. Do not invent policy, amounts or approvers.
+
+[Step 5]
 AGENT BUILDER - DESCRIBE:
-Create a private Northstar Operations Knowledge Agent for maintenance coordinators. It answers from the selected policy, fixed snapshot, work-order workbook and enablement plan. It cites sources, separates current from proposed assignments and returns UNKNOWN when evidence is missing. It does not send, modify, approve or use external services.
+Create a private agent called Lumina HR Policy Agent for employees of Lumina Living, a fictional company. It answers HR questions about annual and medical leave, claims, benefits, training, flexible work, onboarding and payroll using only the HR Policy Handbook, and gives HR case figures from the verified 30 September 2026 snapshot. Cite the handbook section in every answer and say UNKNOWN when the files do not contain the answer. Never approve requests, send messages, change records or reveal another employee’s personal data.

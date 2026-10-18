@@ -9,17 +9,17 @@
   "on_time_rate": 0.625,
   "cost": 35827.5,
   "site_counts": {
-    "Woodlands Hub": 24,
-    "Jurong Depot": 24,
-    "Tampines Centre": 24,
-    "Paya Lebar Office": 24,
-    "Changi Workshop": 24
+    "Retail Sales": 24,
+    "Operations": 24,
+    "Finance": 24,
+    "Marketing": 24,
+    "Technology": 24
   },
   "category_counts": {
-    "Leak Repair": 24,
-    "Valve Repair": 24,
-    "Pipe Replacement": 24,
-    "Pump Service": 24,
-    "Meter Service": 24
+    "Leave Request": 24,
+    "Training Request": 24,
+    "Onboarding": 24,
+    "Payroll Query": 24,
+    "Benefits Claim": 24
   }
 }

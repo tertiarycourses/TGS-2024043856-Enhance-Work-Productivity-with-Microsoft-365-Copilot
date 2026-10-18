@@ -1,2 +1,0 @@
-Agent,Agent_owner,Knowledge_owner,Instruction_version,Knowledge_inventory_date,Sharing_state,Blocking_tests,Last_review,Next_review,Rollback_record
-Northstar Operations Agent,,,v1.0,2026-09-30,Private draft,T01-T08,,,Previous passing configuration

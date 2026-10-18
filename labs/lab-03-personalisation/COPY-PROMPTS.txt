@@ -1,12 +1,12 @@
-Enhance Work Productivity with Microsoft 365 Copilot (TGS-2024043856) — Lab 3: Personalise Copilot in Excel for Consistent Service Reports
+Enhance Work Productivity with Microsoft 365 Copilot (TGS-2024043856) — Lab 3: Personalise Copilot in Excel for Consistent HR Service Reports
 Sample prompts: use the app labelled in each step. Copy one at a time, adapt it, and verify every result.
 Prompts web page (one-click Copy): https://tertiarycourses.github.io/TGS-2024043856-Enhance-Work-Productivity-with-Microsoft-365-Copilot/prompts/#lab-3
 
 [1] Personalise
-For Northstar maintenance reports, prefer concise headings, SGD currency, DD MMM YYYY dates and a Sources and Limitations section.
+For Lumina HR service reports, prefer concise headings, SGD currency, DD MMM YYYY dates and a Sources and Limitations section.
 
 [2] Test
-Summarise Northstar backlog 60 and overdue 50 with and without the saved preference; record the observed difference.
+Summarise Lumina backlog 60 and overdue 50 with and without the saved preference; record the observed difference.
 
 ------------------------------------------------------------
 Step prompts used in this lab
@@ -14,18 +14,18 @@ Step prompts used in this lab
 
 [Step 1]
 EXCEL - CHAT ONLY:
-Inspect tblWorkOrders and Control for Northstar Water Services. State the clean row count, reporting date and recorded cost. Explain why display preferences should not change source values or reporting definitions. Do not edit.
+Inspect tblHRCases and Control for Lumina Living. State the clean row count, reporting date and recorded cost. Explain why display preferences should not change source values or reporting definitions. Do not edit.
 
 [Step 3]
 EXCEL - PLAN:
-Plan a Preference_Check sheet showing Control!B2 reporting date, total work orders and recorded Cost_SGD from tblWorkOrders for Northstar Water Services. Use my saved display and explanation preferences. Preserve Work_Orders, IDs, owners and exact values.
+Plan a Preference_Check sheet showing Control!B2 reporting date, total HR cases and recorded Cost_SGD from tblHRCases for Lumina Living. Use my saved display and explanation preferences. Preserve HR_Cases, IDs, owners and exact values.
 
 EXCEL - ALLOW EDITING:
 Apply the reviewed Preference_Check plan with structured-reference formulas. Show a short explanation first and leave the source unchanged.
 
 [Step 4]
 EXCEL - ALLOW EDITING:
-In this second Northstar workbook, create Preference_Check with formula-backed Control!B2 reporting date, total work orders and recorded Cost_SGD. Follow my saved preferences, preserve source records and explain the result briefly.
+In this second Lumina workbook, create Preference_Check with formula-backed Control!B2 reporting date, total HR cases and recorded Cost_SGD. Follow my saved preferences, preserve source records and explain the result briefly.
 
 [Step 5]
 EXCEL - ALLOW EDITING:
@@ -33,4 +33,4 @@ For this task only, display the recorded cost result in Preference_Check with fo
 
 [Step 6]
 EXCEL - CHAT ONLY:
-Explain which choices in this exercise belong to my account, which belong to this Northstar workbook and which apply only to one prompt. Use the results I actually observed. Do not claim my preferences are shared with another person or added to the workbook.
+Explain which choices in this exercise belong to my account, which belong to this Lumina workbook and which apply only to one prompt. Use the results I actually observed. Do not claim my preferences are shared with another person or added to the workbook.

@@ -1,4 +1,0 @@
-TRAINING THREAD - synthetic; do not send.
-2026-09-29 09:00 Operations manager: Please prepare the 30 September portfolio snapshot; show open work by site, category and current assignment.
-2026-09-29 10:15 Supervisor: Check overdue jobs before proposing reassignment. Available hours are planning inputs, not approval.
-2026-09-30 08:30 Analyst: The source export is in the workbook. No new assignment has been approved. Please produce a Word brief and a short PowerPoint update, then prepare a draft reply.

@@ -1,64 +1,70 @@
-# Lab 11: Define the Northstar Operations Agent and Knowledge Boundary
+# Lab 11: Design the HR Policy Agent: Users, Knowledge and Skill
 
-**Topic 4 · 30 minutes · v9.0 · 14 October 2026**
+**Topic 4 · 30 minutes · v9.1 · 18 October 2026**
 
-Translate the Northstar workflow into a bounded agent design. Inventory approved knowledge, permissions, fixed date and prohibited external actions before opening Agent Builder.
+Design Lumina HR Policy Agent, an HR helpdesk agent that answers employees’ HR questions from approved knowledge. Decide who it serves and which questions it must answer, inventory and check the HR Policy Handbook and case snapshot it will use, review the hr-policy-qa Skill that shapes every answer, and draft the agent in Agent Builder. The agent explains policy; it never approves, sends or changes records.
 
-**Learning outcome:** LO4: design a staff training plan for Microsoft Loop and Copilot Studio while configuring, testing and sharing a bounded Microsoft 365 business agent.
+**Learning outcome:** LO4: design a staff training plan for Microsoft Loop and Copilot Studio while configuring, testing and sharing a grounded Microsoft 365 HR agent.
 
-**Expected outcome:** Completed agent design brief, knowledge inventory and owner register for a private agent.
+**Expected outcome:** A reviewed design brief, a completed knowledge inventory with owners and access, the four knowledge files in OneDrive, hr-policy-qa.zip and a private agent draft (or a labelled configuration-only record).
 
 ## Files
 
 - [Instruction PDF](Lab-11-Instructions.pdf)
 - [Copy-ready prompts](https://tertiarycourses.github.io/TGS-2024043856-Enhance-Work-Productivity-with-Microsoft-365-Copilot/prompts/#lab-11)
-- `data/Northstar_Work_Orders.xlsx` — synthetic Northstar source
+- `data/Lumina_HR_Cases.xlsx` — synthetic Lumina source
 - `data/templates/` — learner starting templates
 - `data/checkpoints/` — clearly labelled rejoin evidence
-- `data/templates/Northstar_Agent_Design_Brief.md` — Agent scope template
-- `data/templates/Northstar_Agent_Test_Matrix.csv` — Eight-case test matrix
+- `data/templates/Lumina_HR_Agent_Design_Brief.md` — Agent design brief
+- `data/templates/hr-policy-qa/SKILL.md` — hr-policy-qa Skill for the agent (compress the folder to .zip before upload)
+- `data/templates/Lumina_HR_Agent_Test_Matrix.csv` — Eight-case test matrix
 - `data/knowledge/` — four approved knowledge items plus the knowledge inventory and owner/configuration register
 
 ## Prerequisites
 
 - Microsoft 365 account with Copilot available in Word, Excel, PowerPoint and Outlook. Availability depends on the assigned licence and tenant settings; confirm access with the trainer before class.
 - Desktop Excel on Windows or Mac is recommended; save working copies to your assigned OneDrive course folder with AutoSave on. Do not overwrite the supplied input.
-- Download this whole lab folder. All files are synthetic; Northstar-v9 is your own learner output folder.
-- Microsoft 365 Copilot Agent Builder access in the assigned tenant. Availability depends on licence and admin policy; use the supplied configuration-and-test route when unavailable.
+- Download this whole lab folder. All files are synthetic; Lumina-HR-v9 is your own learner output folder.
+- Microsoft 365 Copilot licence with Agent Builder enabled by your administrator. Skills in agents are a preview for Frontier-enrolled tenants; otherwise use the labelled manual route. Use the supplied configuration-and-test route when Agent Builder is unavailable.
 
 ## Steps
 
-### 1. Open the supplied design brief and knowledge inventory. Confirm that every source is synthetic, dated and owned by a named training role. Keep the agent private.
+### 1. Open data/templates/Lumina_HR_Agent_Design_Brief.md and the four files in data/knowledge/. Confirm every file is synthetic, dated and owned by a named role. List the employee questions the agent must answer (leave, medical leave, claims, training, flexible work, onboarding, payroll) and the requests it must refuse (approvals, sending, another employee’s data). Keep the agent private.
 
-### 2. In Microsoft 365 Copilot select New agent. If unavailable, complete the configuration record and label Feature unavailable; do not claim creation.
+### 2. Create the OneDrive folder Lumina-HR-v9/agent-knowledge and upload the four knowledge files. Open Microsoft 365 Copilot at https://copilot.cloud.microsoft, attach Lumina_HR_Policy_Handbook.docx and ask Copilot to map what it can and cannot answer. Record the gaps: the agent must answer those questions UNKNOWN.
 
-### 3. Describe a retrieval-and-drafting agent with no sends, work-order writes, assignment approval or external-service actions.
+```text
+MICROSOFT 365 COPILOT WEB:
+Using only the attached Lumina_HR_Policy_Handbook.docx, list the employee HR questions it answers, with the section number for each. Then list common HR questions it does not answer, which an HR agent must treat as UNKNOWN. Do not invent policy, amounts or approvers.
+```
+
+### 3. Complete data/knowledge/Lumina_Knowledge_Inventory.csv: for each file record owner, as-at date, type, purpose and whether a representative employee already has access. Never widen permissions to make a source available. HR_Confidential_Case_Notes.docx is restricted and must not be added as knowledge.
+
+### 4. Read data/templates/hr-policy-qa/SKILL.md. Check its answer format, citation rule, UNKNOWN behaviour, privacy and approval boundaries against the handbook. Compress the hr-policy-qa folder into hr-policy-qa.zip (Mac: right-click > Compress; Windows: right-click > Send to > Compressed (zipped) folder). Upload the .zip, not SKILL.md on its own.
+
+### 5. In Microsoft 365 Copilot select Agents (or Agents & Skills) > New agent. Agent Builder opens with Describe on the left and Configure on the right. Send the prompt below and review every field it fills in. If Agent Builder is unavailable, complete the configuration record and label it Feature unavailable; do not claim creation.
 
 ```text
 AGENT BUILDER - DESCRIBE:
-Create a private Northstar Operations Knowledge Agent for maintenance coordinators. It answers from the selected policy, fixed snapshot, work-order workbook and enablement plan. It cites sources, separates current from proposed assignments and returns UNKNOWN when evidence is missing. It does not send, modify, approve or use external services.
+Create a private agent called Lumina HR Policy Agent for employees of Lumina Living, a fictional company. It answers HR questions about annual and medical leave, claims, benefits, training, flexible work, onboarding and payroll using only the HR Policy Handbook, and gives HR case figures from the verified 30 September 2026 snapshot. Cite the handbook section in every answer and say UNKNOWN when the files do not contain the answer. Never approve requests, send messages, change records or reveal another employee’s personal data.
 ```
 
-### 4. Review name, description and draft instructions against the approved brief. Record the reviewed configuration.
-
-### 5. Classify each source as SharePoint, OneDrive or embedded. Record owner, user access and whether the selected licence supports it.
-
-### 6. Save a private draft or completed paper configuration. Record the actual state and carry it to Lab 12.
+### 6. Compare the drafted name, description and instructions with the design brief. Record the reviewed configuration in data/knowledge/Lumina_HR_Agent_Owner_Config_Register.csv. Save the private draft (or paper configuration), record its actual state and carry it to Lab 12.
 
 ## Verification
 
-- **Scope:** One retrieval-and-drafting outcome; no external actions.
-- **Knowledge:** Every source has owner, permission, date and supported type.
-- **Truth boundary:** Missing causes, approvals and live state remain UNKNOWN.
+- **Scope:** One HR helpdesk outcome: cited policy answers and case figures; no approvals, sends or record changes.
+- **Knowledge:** Four files with owner, date, type and verified user access; restricted notes excluded.
+- **Skill:** hr-policy-qa reviewed against the handbook and compressed to hr-policy-qa.zip.
 - **State:** Private draft or accurately labelled configuration-only route.
 
 ## Expected Outcome
 
-Completed agent design brief, knowledge inventory and owner register for a private agent.
+A reviewed design brief, a completed knowledge inventory with owners and access, the four knowledge files in OneDrive, hr-policy-qa.zip and a private agent draft (or a labelled configuration-only record).
 
 ## Checkpoint
 
-If you fell behind, use data/checkpoints/Northstar_Verified_Checkpoint.xlsx and data/checkpoints/Northstar_Verified_Snapshot.docx. Record checkpoint used in Prompt_Log; then perform this lab, rather than claiming the checkpoint as your output.
+If you fell behind, use data/checkpoints/Lumina_Verified_Checkpoint.xlsx and data/checkpoints/Lumina_Verified_Snapshot.docx. Record checkpoint used in Prompt_Log; then perform this lab, rather than claiming the checkpoint as your output.
 
 ## Troubleshooting
 
@@ -70,10 +76,10 @@ If you fell behind, use data/checkpoints/Northstar_Verified_Checkpoint.xlsx and 
 
 ## Challenge
 
-Run one additional adversarial prompt and explain which instruction or knowledge boundary controlled the response.
+Write one new employee HR question the handbook does not answer, run it and explain which instruction, Skill rule or knowledge boundary controlled the response.
 
 ## Reflection
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
-> Northstar Water Services is fictional. Use the verified 120-row baseline and fixed reporting date 30 September 2026. Current assignments are evidence; proposals are not approved. Agent labs use retrieval, configuration, testing and supported sharing only; they never claim external-service actions.
+> Lumina Living Pte Ltd and all of its employees, HR cases and HR policies are fictional. Use the verified 120-case baseline and fixed reporting date 30 September 2026. Current case owners are evidence; proposals are not approved. The HR agent answers from approved knowledge only and never approves requests, sends messages or reveals another employee’s data.

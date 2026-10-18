@@ -1,18 +1,18 @@
-# Lab 3: Personalise Copilot in Excel for Consistent Service Reports
+# Lab 3: Personalise Copilot in Excel for Consistent HR Service Reports
 
-**Topic 2 · 30 minutes · v9.0 · 14 October 2026**
+**Topic 2 · 30 minutes · v9.1 · 18 October 2026**
 
-Configure temporary account-level display and explanation preferences, test them in two copies of the same verified Northstar workbook, and distinguish preferences from workbook-specific definitions. A task-specific prompt can supersede Personalisation. Restore your previous settings after the exercise.
+Configure temporary account-level display and explanation preferences, test them in two copies of the same verified Lumina workbook, and distinguish preferences from workbook-specific definitions. A task-specific prompt can supersede Personalisation. Restore your previous settings after the exercise.
 
 **Learning outcome:** LO2: plan a controlled transition using Personalisation, .Rules and reusable Skills.
 
-**Expected outcome:** Northstar_Personalisation_Test.xlsx, a two-workbook preference comparison and a private note confirming settings restored.
+**Expected outcome:** Lumina_Personalisation_Test.xlsx, a two-workbook preference comparison and a private note confirming settings restored.
 
 ## Files
 
 - [Instruction PDF](Lab-03-Instructions.pdf)
 - [Copy-ready prompts](https://tertiarycourses.github.io/TGS-2024043856-Enhance-Work-Productivity-with-Microsoft-365-Copilot/prompts/#lab-3)
-- `data/Northstar_Work_Orders.xlsx` — synthetic Northstar source
+- `data/Lumina_HR_Cases.xlsx` — synthetic Lumina source
 - `data/templates/` — learner starting templates
 - `data/checkpoints/` — clearly labelled rejoin evidence
 
@@ -20,15 +20,15 @@ Configure temporary account-level display and explanation preferences, test them
 
 - Microsoft 365 account with Copilot available in Word, Excel, PowerPoint and Outlook. Availability depends on the assigned licence and tenant settings; confirm access with the trainer before class.
 - Desktop Excel on Windows or Mac is recommended; save working copies to your assigned OneDrive course folder with AutoSave on. Do not overwrite the supplied input.
-- Download this whole lab folder. All files are synthetic; Northstar-v9 is your own learner output folder.
+- Download this whole lab folder. All files are synthetic; Lumina-HR-v9 is your own learner output folder.
 
 ## Steps
 
-### 1. Open this lab’s clean data/Northstar_Work_Orders.xlsx and save working copies as Northstar_Personalisation_Test.xlsx and Northstar_Preferences_Copy.xlsx in your Northstar-v9 output folder. Confirm 120 unique IDs, reporting date 2026-09-30 and cost S$35,827.50. Neither copy needs a .Rules sheet or an installed Skill for this test.
+### 1. Open this lab’s clean data/Lumina_HR_Cases.xlsx and save working copies as Lumina_Personalisation_Test.xlsx and Lumina_Preferences_Copy.xlsx in your Lumina-HR-v9 output folder. Confirm 120 unique IDs, reporting date 2026-09-30 and cost S$35,827.50. Neither copy needs a .Rules sheet or an installed Skill for this test.
 
 ```text
 EXCEL - CHAT ONLY:
-Inspect tblWorkOrders and Control for Northstar Water Services. State the clean row count, reporting date and recorded cost. Explain why display preferences should not change source values or reporting definitions. Do not edit.
+Inspect tblHRCases and Control for Lumina Living. State the clean row count, reporting date and recorded cost. Explain why display preferences should not change source values or reporting definitions. Do not edit.
 ```
 
 ### 2. In Copilot select Settings (...) > Personalization. Keep your existing settings in a private local note, then temporarily use the four lines in data/Personalisation_Preferences.txt: S$ two decimals, DD-MMM-YYYY, structured references and short explanations. Select Save. Preferences apply to your account on subsequent prompts; they are not stored in or shared with the workbook.
@@ -37,7 +37,7 @@ Inspect tblWorkOrders and Control for Northstar Water Services. State the clean 
 
 ```text
 EXCEL - PLAN:
-Plan a Preference_Check sheet showing Control!B2 reporting date, total work orders and recorded Cost_SGD from tblWorkOrders for Northstar Water Services. Use my saved display and explanation preferences. Preserve Work_Orders, IDs, owners and exact values.
+Plan a Preference_Check sheet showing Control!B2 reporting date, total HR cases and recorded Cost_SGD from tblHRCases for Lumina Living. Use my saved display and explanation preferences. Preserve HR_Cases, IDs, owners and exact values.
 
 EXCEL - ALLOW EDITING:
 Apply the reviewed Preference_Check plan with structured-reference formulas. Show a short explanation first and leave the source unchanged.
@@ -47,7 +47,7 @@ Apply the reviewed Preference_Check plan with structured-reference formulas. Sho
 
 ```text
 EXCEL - ALLOW EDITING:
-In this second Northstar workbook, create Preference_Check with formula-backed Control!B2 reporting date, total work orders and recorded Cost_SGD. Follow my saved preferences, preserve source records and explain the result briefly.
+In this second Lumina workbook, create Preference_Check with formula-backed Control!B2 reporting date, total HR cases and recorded Cost_SGD. Follow my saved preferences, preserve source records and explain the result briefly.
 ```
 
 ### 5. Return to the first workbook. Test a specific task instruction that changes only the result display to four decimal places. Verify S$35,827.5000 displays while the numeric value remains 35827.5. Record the comparison; do not alter the saved account settings or source.
@@ -61,7 +61,7 @@ For this task only, display the recorded cost result in Preference_Check with fo
 
 ```text
 EXCEL - CHAT ONLY:
-Explain which choices in this exercise belong to my account, which belong to this Northstar workbook and which apply only to one prompt. Use the results I actually observed. Do not claim my preferences are shared with another person or added to the workbook.
+Explain which choices in this exercise belong to my account, which belong to this Lumina workbook and which apply only to one prompt. Use the results I actually observed. Do not claim my preferences are shared with another person or added to the workbook.
 ```
 
 ## Verification
@@ -73,11 +73,11 @@ Explain which choices in this exercise belong to my account, which belong to thi
 
 ## Expected Outcome
 
-Northstar_Personalisation_Test.xlsx, a two-workbook preference comparison and a private note confirming settings restored.
+Lumina_Personalisation_Test.xlsx, a two-workbook preference comparison and a private note confirming settings restored.
 
 ## Checkpoint
 
-If you fell behind, use data/checkpoints/Northstar_Verified_Checkpoint.xlsx and data/checkpoints/Northstar_Verified_Snapshot.docx. Record checkpoint used in Prompt_Log; then perform this lab, rather than claiming the checkpoint as your output.
+If you fell behind, use data/checkpoints/Lumina_Verified_Checkpoint.xlsx and data/checkpoints/Lumina_Verified_Snapshot.docx. Record checkpoint used in Prompt_Log; then perform this lab, rather than claiming the checkpoint as your output.
 
 ## Troubleshooting
 
@@ -89,10 +89,10 @@ If you fell behind, use data/checkpoints/Northstar_Verified_Checkpoint.xlsx and 
 
 ## Challenge
 
-Repeat the task for one different site and explain how the filter scope changes the result. Keep the original verified output.
+Repeat the task for one different department and explain how the filter scope changes the result. Keep the original verified output.
 
 ## Reflection
 
 Which evidence proves the output is correct, and which decision still needs a person?
 
-> Northstar Water Services is fictional. Use the verified 120-row baseline and fixed reporting date 30 September 2026. Current assignments are evidence; proposals are not approved. Agent labs use retrieval, configuration, testing and supported sharing only; they never claim external-service actions.
+> Lumina Living Pte Ltd and all of its employees, HR cases and HR policies are fictional. Use the verified 120-case baseline and fixed reporting date 30 September 2026. Current case owners are evidence; proposals are not approved. The HR agent answers from approved knowledge only and never approves requests, sends messages or reveals another employee’s data.

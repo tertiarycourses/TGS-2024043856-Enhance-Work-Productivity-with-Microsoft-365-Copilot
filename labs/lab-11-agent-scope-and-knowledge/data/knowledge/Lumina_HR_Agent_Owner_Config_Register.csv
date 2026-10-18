@@ -1,0 +1,2 @@
+Agent,Agent_owner,Knowledge_owner,Instruction_version,Skill_version,Knowledge_inventory_date,Sharing_state,Blocking_tests,Last_review,Next_review,Rollback_record
+Lumina HR Policy Agent,,,v1.0,hr-policy-qa v1 (or manual route),2026-09-30,Private draft,T01-T08,,,Previous passing configuration
