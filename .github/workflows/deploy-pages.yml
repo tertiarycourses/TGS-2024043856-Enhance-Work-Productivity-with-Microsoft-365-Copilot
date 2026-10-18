@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: 1c0d2cc3a73c221c7b1d862b483a1b950aa3cab7
+          ref: 8463020d267b7db5f35fffb5bc2ea13078b26c10
       - uses: actions/configure-pages@v5
       - name: Prepare verified learner site
         run: |
