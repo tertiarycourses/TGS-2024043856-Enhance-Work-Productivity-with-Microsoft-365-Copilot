@@ -1,6 +1,6 @@
 # Lab 2: Create the Cross-App HR Service Update
 
-**Topic 1 · 30 minutes · v9.2 · 20 October 2026**
+**Topic 1 · 30 minutes · v9.3 · 20 October 2026**
 
 Continue the verified HR service brief from Lab 1. You will turn it into an initial PowerPoint update, then prepare an Outlook reply to a synthetic HR service thread. You will test how grounding differs between an attached file, a chat transcript and a reviewed summary, and reconcile the same facts across all four apps.
 

@@ -1,10 +1,10 @@
 # Lab 13: Test Grounded HR Answers, Citations and Guardrails
 
-**Topic 4 · 30 minutes · v9.2 · 20 October 2026**
+**Topic 4 · 30 minutes · v9.3 · 20 October 2026**
 
 Run the eight-case evaluation against instruction version v1.0. Policy and case-figure questions must return the known answer with a cited section; unknown, live-data, privacy, conflict and approval requests must be handled safely. Record the exact prompt, answer, citation and result, repair one weakness and retest.
 
-**Learning outcome:** LO4: design a staff training plan for Microsoft Loop and Copilot Studio while configuring, testing and sharing a grounded Microsoft 365 HR agent.
+**Learning outcome:** LO4: design a staff training plan while configuring, testing and sharing a grounded Microsoft 365 HR agent.
 
 **Expected outcome:** A completed eight-case test matrix with actual answers, citations and pass/fail, one corrected defect with a clean retest, and a sharing decision.
 

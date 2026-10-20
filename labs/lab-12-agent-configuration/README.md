@@ -1,10 +1,10 @@
 # Lab 12: Build the HR Agent: Instructions, Knowledge, Skill and Starter Prompts
 
-**Topic 4 · 30 minutes · v9.2 · 20 October 2026**
+**Topic 4 · 30 minutes · v9.3 · 20 October 2026**
 
 Configure Lumina HR Policy Agent with reviewed instructions, the four OneDrive knowledge files and the hr-policy-qa Skill, add starter prompts, then preview a grounded answer and a missing-evidence answer before you create it. Grounding comes from the knowledge; the Skill sets how every answer is structured, cited and bounded.
 
-**Learning outcome:** LO4: design a staff training plan for Microsoft Loop and Copilot Studio while configuring, testing and sharing a grounded Microsoft 365 HR agent.
+**Learning outcome:** LO4: design a staff training plan while configuring, testing and sharing a grounded Microsoft 365 HR agent.
 
 **Expected outcome:** A private configured HR agent (or an evidence-complete configuration record) whose preview answers are cited and whose missing-evidence answer is UNKNOWN.
 

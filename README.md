@@ -9,7 +9,7 @@ A two-day WSQ course in which you use Microsoft 365 Copilot across Excel, Word, 
 | Duration | 2 days · 16 hours (14 training hours + 2 assessment hours) |
 | Registration | [View course details and register](https://www.tertiarycourses.com.sg/wsq-enhance-work-productivity-with-microsoft-365-copilot.html) |
 | Funding | Up to 70% WSQ course fee funding for eligible Singapore Citizens and PRs (up to 50% baseline). Eligibility and terms apply — see the course page. |
-| Current release | v9.2 · 20 October 2026 |
+| Current release | v9.3 · 20 October 2026 |
 
 **[Open the copy-ready lab prompts →](https://tertiarycourses.github.io/TGS-2024043856-Enhance-Work-Productivity-with-Microsoft-365-Copilot/prompts/)** Each lab shows every step first, with its prompt and a **Copy** button directly underneath.
 
@@ -17,7 +17,7 @@ A two-day WSQ course in which you use Microsoft 365 Copilot across Excel, Word, 
 
 You follow the HR Shared Services team of **Lumina Living Pte Ltd**, a fictional Singapore home-living retailer. The same 120 synthetic HR cases (leave, training, onboarding, payroll and benefits requests across five departments, reporting date 30 September 2026) travel through every lab: Excel cleaning and checks, a Word HR service brief, PowerPoint and Outlook handoffs, Personalisation, workbook .Rules and reusable Skills, an interactive HR service dashboard and a professional management presentation.
 
-Topic 4 builds the **Lumina HR Policy Agent** in Microsoft 365 Agent Builder: HR Policy Handbook knowledge plus the `hr-policy-qa` Skill, tested with eight known-answer and guardrail cases (cited answers, UNKNOWN, privacy, approval refusal, live data and conflicting sources) before named-user sharing and Microsoft Loop staff enablement.
+Topic 4 builds the **Lumina HR Policy Agent** in Microsoft 365 Agent Builder: HR Policy Handbook knowledge plus the `hr-policy-qa` Skill, tested with eight known-answer and guardrail cases (cited answers, UNKNOWN, privacy, approval refusal, live data and conflicting sources) before named-user sharing and a tracked staff enablement plan.
 
 The course closes with the **5 Principles of AI Security**: data control, permission control, human in the loop, traceability, and don't use the most powerful model.
 
@@ -26,7 +26,7 @@ The course closes with the **5 Principles of AI Security**: data control, permis
 - LO1: Predict and mitigate challenges in integrating Microsoft Copilot to workflow.
 - LO2: Develop a plan for implementing Microsoft Copilot to ensure seamless transition from legacy workflow.
 - LO3: Evaluate opportunities in using Microsoft Copilot for Teams and Outlook.
-- LO4: Design a training plan for staff to use Microsoft Loop and Copilot Studio.
+- LO4: Design a training plan for staff to use Microsoft Copilot Studio.
 
 ## Topics covered
 
@@ -37,7 +37,7 @@ The course closes with the **5 Principles of AI Security**: data control, permis
 
 ## Labs
 
-Each lab folder holds an instruction PDF, a printable README, copy-ready prompts and a `data/` folder with synthetic inputs, templates and labelled rejoin checkpoints. Labs 1, 2, 3, 5, 6 and 11 also include a **Screen Guide**: real Microsoft 365 Copilot screenshots (chat pane, + menu, model and mode pickers, Outlook Work/Web, Personalization, the OneDrive skills folder, Custom skills, the @ Skill picker and All Agents) with numbered explanations. The same screens are in the slides and Learner Guide.
+Each lab folder holds an instruction PDF, a printable README, copy-ready prompts and a `data/` folder with synthetic inputs, templates and labelled rejoin checkpoints. Labs 1, 2, 3, 5, 6 and 11 also include a **Screen Guide**: real Microsoft 365 Copilot screenshots (chat pane, + menu, model and mode pickers, Outlook Work/Web, Personalization, the OneDrive skills folder, Custom skills, the @ Skill picker and All Agents) with numbered explanations. Topics 2 and 3 also show a worked Lumina HR Pareto chart and an interactive HR service dashboard, unfiltered and filtered to one department. The same screens are in the slides and Learner Guide.
 
 | Lab | Topic | Folder | Instructions | Prompts |
 |---|---|---|---|---|
@@ -58,7 +58,7 @@ Each lab folder holds an instruction PDF, a printable README, copy-ready prompts
 
 ## Public package
 
-- Trainer slides: [v9.2 PPTX](courseware/Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot-v9.2.pptx) · [PDF](courseware/Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot-v9.2.pdf)
+- Trainer slides: [v9.3 PPTX](courseware/Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot-v9.3.pptx) · [PDF](courseware/Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot-v9.3.pdf)
 - Lesson Plan: [Word](courseware/LP-Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot.docx) · [PDF](courseware/LP-Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot.pdf)
 - Learner Guide: [Word](courseware/LG-Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot.docx) · [PDF](courseware/LG-Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot.pdf) · [Markdown](LG-Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot.md)
 - [Labs index](labs/README.md) · [Prompt library source](docs/prompts/README.md)

@@ -1,6 +1,6 @@
 # Lab 7: Create and Apply a Custom Interactive Dashboard Skill
 
-**Topic 3 · 30 minutes · v9.2 · 20 October 2026**
+**Topic 3 · 30 minutes · v9.3 · 20 October 2026**
 
 Create hr-case-dashboard/SKILL.md for the Lumina HR service workflow, install it in Excel, then invoke it to plan and build an interactive dashboard. Six KPIs and three charts share four filter selections. Workbook .Rules supplies scope, display and review constraints; the Skill supplies the repeatable method.
 
@@ -23,6 +23,21 @@ Create hr-case-dashboard/SKILL.md for the Lumina HR service workflow, install it
 - Desktop Excel on Windows or Mac is recommended; save working copies to your assigned OneDrive course folder with AutoSave on. Do not overwrite the supplied input.
 - Download this whole lab folder. All files are synthetic; Lumina-HR-v9 is your own learner output folder.
 - Verified clean table from earlier labs or supplied clean checkpoint.
+
+## Screen Guide
+
+The Copilot screens you will use in this lab. The same screenshots and explanations are in the slides and Learner Guide.
+
+**What Is an Interactive Dashboard?**
+
+![What Is an Interactive Dashboard?](../../courseware/assets/screenshots/hr-dashboard-all.png)
+
+- **Filters (B2:B5):** Department, Request_Type, Status and Assigned_To. All includes everything; choices combine with AND.
+- **Scope line:** States the as-at date and the active filters, so every reader knows what is shown.
+- **KPI tiles:** Six measures from the same selected rows; Checks: PASS confirms chart totals match.
+- **Finding titles:** Each chart title is a formula that states the result, e.g. which department has most overdue cases.
+- **Linked charts:** Status, request type and department charts all read the same filtered rows.
+
 
 ## Steps
 

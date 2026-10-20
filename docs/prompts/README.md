@@ -827,7 +827,7 @@ Share the link with the named test user only. If sharing is unavailable, finish 
 
 ### Step 5
 
-Create a Microsoft Loop staff enablement tracker using only observed results.
+Create an Excel staff enablement tracker from data/templates/Staff_Enablement_Tracker.csv using only observed results.
 
 ```text
 MICROSOFT LOOP COPILOT:
@@ -836,7 +836,7 @@ Create a Lumina HR Policy Agent staff enablement tracker with columns User, Role
 
 ### Step 6
 
-Review data/templates/Lumina_Staff_Enablement_Plan.md: purpose, access, practice cases, escalation, owners, monthly review and rollback. Keep the LO4 focus on Microsoft Loop and Copilot Studio staff training.
+Review data/templates/Lumina_Staff_Enablement_Plan.md: purpose, access, practice cases, escalation, owners, monthly review and rollback. Keep the LO4 focus on the staff training plan for the agent.
 
 ### Step 7
 

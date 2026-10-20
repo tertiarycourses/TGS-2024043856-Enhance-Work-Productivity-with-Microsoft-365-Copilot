@@ -1,6 +1,6 @@
 # Lab 8: Use the Dashboard Skill for Filters, Refresh and Safe Reruns
 
-**Topic 3 · 30 minutes · v9.2 · 20 October 2026**
+**Topic 3 · 30 minutes · v9.3 · 20 October 2026**
 
 Continue Lab 7 by making four dropdown selectors control every KPI and chart. Test a single department, a zero-denominator selection and a combined category/owner filter. Then append two synthetic HR cases in a sandbox copy and prove the dashboard expands. Optional PivotTable slicers use one source and shared connections; the portable dropdown route is the required working dashboard.
 
@@ -24,6 +24,23 @@ Continue Lab 7 by making four dropdown selectors control every KPI and chart. Te
 - Download this whole lab folder. All files are synthetic; Lumina-HR-v9 is your own learner output folder.
 - Lab 7 dashboard or supplied formula checkpoint.
 - Lab 7 reviewed hr-case-dashboard Skill installed or explicitly labelled manual route.
+
+## Screen Guide
+
+The Copilot screens you will use in this lab. The same screenshots and explanations are in the slides and Learner Guide.
+
+**Department = All**
+
+![Department = All](../../courseware/assets/screenshots/hr-dashboard-all.png)
+
+- **Department = All:** 120 HR cases · backlog 60 · overdue 50 · 48 closed · S$35,827.50 recorded cost.
+
+**Department = Retail Sales**
+
+![Department = Retail Sales](../../courseware/assets/screenshots/hr-dashboard-retail-sales.png)
+
+- **Department = Retail Sales:** Every tile, title and chart recalculates: 24 cases · backlog 8 · overdue 7 · S$6,668.50.
+
 
 ## Steps
 

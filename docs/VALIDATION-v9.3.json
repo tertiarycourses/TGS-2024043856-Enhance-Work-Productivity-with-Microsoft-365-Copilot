@@ -1,7 +1,7 @@
 {
   "course": "TGS-2024043856",
-  "version": "v9.2",
-  "slides": 232,
+  "version": "v9.3",
+  "slides": 235,
   "concept_slides_at_least": 100,
   "instructional_minutes": 840,
   "assessment_minutes": 120,
@@ -36,98 +36,98 @@
       "instruction_pdf_pages": 4,
       "step_prompt_blocks": 6,
       "copy_prompts": 7,
-      "files": 24
+      "files": 25
     },
     {
       "lab": 2,
       "instruction_pdf_pages": 3,
       "step_prompt_blocks": 5,
       "copy_prompts": 5,
-      "files": 25
+      "files": 26
     },
     {
       "lab": 3,
       "instruction_pdf_pages": 3,
       "step_prompt_blocks": 5,
       "copy_prompts": 6,
-      "files": 24
+      "files": 25
     },
     {
       "lab": 4,
       "instruction_pdf_pages": 4,
       "step_prompt_blocks": 6,
       "copy_prompts": 6,
-      "files": 24
+      "files": 25
     },
     {
       "lab": 5,
       "instruction_pdf_pages": 4,
       "step_prompt_blocks": 5,
       "copy_prompts": 7,
-      "files": 27
+      "files": 28
     },
     {
       "lab": 6,
       "instruction_pdf_pages": 4,
       "step_prompt_blocks": 6,
       "copy_prompts": 8,
-      "files": 27
+      "files": 28
     },
     {
       "lab": 7,
       "instruction_pdf_pages": 4,
       "step_prompt_blocks": 7,
       "copy_prompts": 7,
-      "files": 26
+      "files": 27
     },
     {
       "lab": 8,
       "instruction_pdf_pages": 4,
       "step_prompt_blocks": 7,
       "copy_prompts": 9,
-      "files": 26
+      "files": 27
     },
     {
       "lab": 9,
       "instruction_pdf_pages": 4,
       "step_prompt_blocks": 5,
       "copy_prompts": 5,
-      "files": 25
+      "files": 26
     },
     {
       "lab": 10,
       "instruction_pdf_pages": 4,
       "step_prompt_blocks": 5,
       "copy_prompts": 5,
-      "files": 27
+      "files": 28
     },
     {
       "lab": 11,
       "instruction_pdf_pages": 3,
       "step_prompt_blocks": 2,
       "copy_prompts": 2,
-      "files": 34
+      "files": 35
     },
     {
       "lab": 12,
       "instruction_pdf_pages": 3,
       "step_prompt_blocks": 4,
       "copy_prompts": 4,
-      "files": 34
+      "files": 35
     },
     {
       "lab": 13,
       "instruction_pdf_pages": 3,
       "step_prompt_blocks": 4,
       "copy_prompts": 8,
-      "files": 34
+      "files": 35
     },
     {
       "lab": 14,
       "instruction_pdf_pages": 3,
       "step_prompt_blocks": 1,
       "copy_prompts": 1,
-      "files": 33
+      "files": 34
     }
   ],
   "dashboard_engine": "LibreOffice recalculation of actual XLSX formulas; all/department/empty/no-closed/append scopes verified",

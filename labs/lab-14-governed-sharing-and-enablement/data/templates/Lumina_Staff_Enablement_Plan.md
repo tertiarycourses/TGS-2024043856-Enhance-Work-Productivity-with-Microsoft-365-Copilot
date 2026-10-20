@@ -10,7 +10,7 @@
 1. Explain what the agent answers, its sources and its privacy and approval boundaries.
 2. Demonstrate a cited leave answer and an UNKNOWN response.
 3. Practise the eight test cases.
-4. Use Microsoft Loop to record user, test, evidence, defect, owner and retest.
+4. Use the Excel staff enablement tracker to record user, test, evidence, defect, owner and retest.
 5. Share only with named users who already have access to the knowledge files.
 
 ## Transition and support

@@ -1,10 +1,10 @@
 # Lab 11: Design the HR Policy Agent: Users, Knowledge and Skill
 
-**Topic 4 · 30 minutes · v9.2 · 20 October 2026**
+**Topic 4 · 30 minutes · v9.3 · 20 October 2026**
 
 Design Lumina HR Policy Agent, an HR helpdesk agent that answers employees’ HR questions from approved knowledge. Decide who it serves and which questions it must answer, inventory and check the HR Policy Handbook and case snapshot it will use, review the hr-policy-qa Skill that shapes every answer, and draft the agent in Agent Builder. The agent explains policy; it never approves, sends or changes records.
 
-**Learning outcome:** LO4: design a staff training plan for Microsoft Loop and Copilot Studio while configuring, testing and sharing a grounded Microsoft 365 HR agent.
+**Learning outcome:** LO4: design a staff training plan while configuring, testing and sharing a grounded Microsoft 365 HR agent.
 
 **Expected outcome:** A reviewed design brief, a completed knowledge inventory with owners and access, the four knowledge files in OneDrive, hr-policy-qa.zip and a private agent draft (or a labelled configuration-only record).
 

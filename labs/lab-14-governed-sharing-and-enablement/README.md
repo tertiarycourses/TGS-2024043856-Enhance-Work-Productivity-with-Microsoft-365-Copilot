@@ -1,12 +1,12 @@
 # Lab 14: Share the HR Agent with Named Users and Deliver Staff Enablement
 
-**Topic 4 · 30 minutes · v9.2 · 20 October 2026**
+**Topic 4 · 30 minutes · v9.3 · 20 October 2026**
 
-Share Lumina HR Policy Agent only after the blocking tests pass. Verify that named users already have access to every knowledge file, retest as a user, then use Microsoft Loop to track staff practice, defects and retests as part of the LO4 staff training plan.
+Share Lumina HR Policy Agent only after the blocking tests pass. Verify that named users already have access to every knowledge file, retest as a user, then use an Excel staff enablement tracker to track staff practice, defects and retests as part of the LO4 staff training plan.
 
-**Learning outcome:** LO4: design a staff training plan for Microsoft Loop and Copilot Studio while configuring, testing and sharing a grounded Microsoft 365 HR agent.
+**Learning outcome:** LO4: design a staff training plan while configuring, testing and sharing a grounded Microsoft 365 HR agent.
 
-**Expected outcome:** A named-user sharing record, a test-user result, a Microsoft Loop enablement tracker and a rollback-ready owner plan.
+**Expected outcome:** A named-user sharing record, a test-user result, an Excel staff enablement tracker and a rollback-ready owner plan.
 
 ## Files
 
@@ -36,14 +36,14 @@ Share Lumina HR Policy Agent only after the blocking tests pass. Verify that nam
 
 ### 4. Share the link with the named test user only. If sharing is unavailable, finish the plan without claiming distribution. The user runs T01, T05 and T06 and you record the results.
 
-### 5. Create a Microsoft Loop staff enablement tracker using only observed results.
+### 5. Create an Excel staff enablement tracker from data/templates/Staff_Enablement_Tracker.csv using only observed results.
 
 ```text
 MICROSOFT LOOP COPILOT:
 Create a Lumina HR Policy Agent staff enablement tracker with columns User, Role, Practice test, Evidence, Defect, Owner, Retest and Status. Include cited leave-policy retrieval, UNKNOWN, privacy and approval-refusal tests. Do not fabricate completion or approval.
 ```
 
-### 6. Review data/templates/Lumina_Staff_Enablement_Plan.md: purpose, access, practice cases, escalation, owners, monthly review and rollback. Keep the LO4 focus on Microsoft Loop and Copilot Studio staff training.
+### 6. Review data/templates/Lumina_Staff_Enablement_Plan.md: purpose, access, practice cases, escalation, owners, monthly review and rollback. Keep the LO4 focus on the staff training plan for the agent.
 
 ### 7. Record the final private or named-user state, the actual link if available, test results and the next review date. Do not submit to the organisation catalogue or deploy to other channels.
 
@@ -51,12 +51,12 @@ Create a Lumina HR Policy Agent staff enablement tracker with columns User, Role
 
 - **Gate:** All blocking retrieval, privacy and approval tests pass before sharing.
 - **Sharing:** Named users only, with Can chat; knowledge access verified.
-- **Loop plan:** Actual practice evidence, defect owner and retest visible.
+- **Tracker:** Actual practice evidence, defect owner and retest visible.
 - **Lifecycle:** Owners, review trigger and rollback assigned.
 
 ## Expected Outcome
 
-A named-user sharing record, a test-user result, a Microsoft Loop enablement tracker and a rollback-ready owner plan.
+A named-user sharing record, a test-user result, an Excel staff enablement tracker and a rollback-ready owner plan.
 
 ## Checkpoint
 

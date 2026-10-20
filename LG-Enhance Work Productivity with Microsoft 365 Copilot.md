@@ -1,6 +1,6 @@
 # Enhance Work Productivity with Microsoft 365 Copilot — Learner Guide
 
-**Course Code:** TGS-2024043856  |  **Conducted by:** Tertiary Infotech Academy Pte Ltd (UEN 201200696W)  |  **Version v9.2 · 20 October 2026**
+**Course Code:** TGS-2024043856  |  **Conducted by:** Tertiary Infotech Academy Pte Ltd (UEN 201200696W)  |  **Version v9.3 · 20 October 2026**
 
 ## Contents
 
@@ -59,7 +59,7 @@
   - [Lab 13 · Agent Test and Evaluation — Test Grounded HR Answers, Citations and Guardrails](#lab-13--agent-test-and-evaluation--test-grounded-hr-answers-citations-and-guardrails)
   - [Sharing Roles and Knowledge Access](#sharing-roles-and-knowledge-access)
   - [Agent Lifecycle Ownership and Rollback](#agent-lifecycle-ownership-and-rollback)
-  - [Microsoft Loop Staff Enablement Evidence](#microsoft-loop-staff-enablement-evidence)
+  - [Staff Enablement Tracker Evidence](#staff-enablement-tracker-evidence)
   - [Lab 14 · Governed Sharing and Enablement — Share the HR Agent with Named Users and Deliver Staff Enablement](#lab-14--governed-sharing-and-enablement--share-the-hr-agent-with-named-users-and-deliver-staff-enablement)
   - [Topic 4 Recap - Mapped to Learning Outcomes](#topic-4-recap---mapped-to-learning-outcomes)
 - [Closing: 5 Principles of AI Security](#closing-5-principles-of-ai-security)
@@ -71,7 +71,7 @@
 
 This two-day WSQ course follows the HR Shared Services team of Lumina Living Pte Ltd, a fictional Singapore home-living retailer, from a dirty HR-case export to a verified HR service dashboard, a professional presentation and a grounded HR Policy Agent that answers employees’ HR questions. The same 120-case baseline, current case owners and 30 September 2026 reporting date stay fixed.
 
-Topics 1 and 2 retain the C27 connected sequence. Topic 3 combines dashboard and presentation. Topic 4 adds four Agent Builder labs: design an HR agent with approved knowledge and the hr-policy-qa Skill, configure it, test grounded answers and guardrails, then share it with named users and enable staff in Microsoft Loop. Detailed procedures stay in this guide and the 14 self-contained lab folders. The course closes with the 5 Principles of AI Security.
+Topics 1 and 2 retain the C27 connected sequence. Topic 3 combines dashboard and presentation. Topic 4 adds four Agent Builder labs: design an HR agent with approved knowledge and the hr-policy-qa Skill, configure it, test grounded answers and guardrails, then share it with named users and enable staff with a tracked practice plan. Detailed procedures stay in this guide and the 14 self-contained lab folders. The course closes with the 5 Principles of AI Security.
 
 
 ## Course Information and Assessment
@@ -92,7 +92,7 @@ Topics 1 and 2 retain the C27 connected sequence. Topic 3 combines dashboard and
 - LO1: Predict and mitigate challenges in integrating Microsoft Copilot to workflow.
 - LO2: Develop a plan for implementing Microsoft Copilot to ensure seamless transition from legacy workflow.
 - LO3: Evaluate opportunities in using Microsoft Copilot for Teams and Outlook.
-- LO4: Design a training plan for staff to use Microsoft Loop and Copilot Studio.
+- LO4: Design a training plan for staff to use Microsoft Copilot Studio.
 
 
 ## Before You Start — Preparation
@@ -867,6 +867,17 @@ The Skill turns a recurring grouping-and-charting method into reusable instructi
 |---|---|
 | The count population and grouping are defined and auditable. | Categories are being called causes or zero-total shares treated as measured 0%. |
 
+**On screen: What Is a Pareto Chart?**
+
+![What Is a Pareto Chart?](courseware/assets/screenshots/hr-pareto-chart.png)
+*What Is a Pareto Chart? (Microsoft 365 Copilot interface).*
+
+- 1. Bars, largest first — Overdue HR cases per request type, sorted high to low: Payroll Query leads with 18 of 50.
+- 2. Cumulative % line — Running share of the total on the right axis: 36%, 60%, 76%, 92%, 100%.
+- 3. 80% reference — Where the line passes the dashed 80% line marks the vital few types to tackle first.
+- 4. Finding title — The title states the result from formulas, so it updates when the data or date changes.
+- 5. Contribution, not cause — A Pareto shows where cases concentrate; it does not explain why.
+
 **On screen: Where Custom Skills Live — The OneDrive skills Folder**
 
 ![Where Custom Skills Live — The OneDrive skills Folder](courseware/assets/screenshots/onedrive-skills-folder.png)
@@ -1387,6 +1398,17 @@ Consistent chart scales, short labels, whitespace and limited accents help a man
 |---|---|
 | The visual has a clear audience and question. | Decorative charts hide an ambiguous metric. |
 
+**On screen: What Is an Interactive Dashboard?**
+
+![What Is an Interactive Dashboard?](courseware/assets/screenshots/hr-dashboard-all.png)
+*What Is an Interactive Dashboard? (Microsoft 365 Copilot interface).*
+
+- 1. Filters (B2:B5) — Department, Request_Type, Status and Assigned_To. All includes everything; choices combine with AND.
+- 2. Scope line — States the as-at date and the active filters, so every reader knows what is shown.
+- 3. KPI tiles — Six measures from the same selected rows; Checks: PASS confirms chart totals match.
+- 4. Finding titles — Each chart title is a formula that states the result, e.g. which department has most overdue cases.
+- 5. Linked charts — Status, request type and department charts all read the same filtered rows.
+
 **Authoritative references**
 
 - https://support.microsoft.com/en-us/excel/create-and-share-a-dashboard-with-excel-and-microsoft-groups
@@ -1536,6 +1558,18 @@ A dashboard can appear interactive while only one chart changes. Test a single-d
 | Use when | Avoid when |
 |---|---|
 | All output calculations follow the same scope. | A selector only changes a decorative title or one chart. |
+
+**On screen: Interactive: One Filter Changes Everything**
+
+![Department = All](courseware/assets/screenshots/hr-dashboard-all.png)
+*Department = All (Microsoft 365 Copilot interface).*
+
+- Department = All — 120 HR cases · backlog 60 · overdue 50 · 48 closed · S$35,827.50 recorded cost.
+
+![Department = Retail Sales](courseware/assets/screenshots/hr-dashboard-retail-sales.png)
+*Department = Retail Sales (Microsoft 365 Copilot interface).*
+
+- Department = Retail Sales — Every tile, title and chart recalculates: 24 cases · backlog 8 · overdue 7 · S$6,668.50.
 
 **Authoritative references**
 
@@ -2177,7 +2211,7 @@ Without a consistent method, two correct sources can still produce uncited, over
 
 ### Lab 11 · Agent Scope and Knowledge — Design the HR Policy Agent: Users, Knowledge and Skill
 
-Learning outcome: LO4: design a staff training plan for Microsoft Loop and Copilot Studio while configuring, testing and sharing a grounded Microsoft 365 HR agent.
+Learning outcome: LO4: design a staff training plan while configuring, testing and sharing a grounded Microsoft 365 HR agent.
 
 Goal: A reviewed design brief, a completed knowledge inventory with owners and access, the four knowledge files in OneDrive, hr-policy-qa.zip and a private agent draft (or a labelled configuration-only record).
 
@@ -2185,7 +2219,7 @@ Design Lumina HR Policy Agent, an HR helpdesk agent that answers employees’ HR
 
 **What you'll build**
 
-A reviewed design brief, a completed knowledge inventory with owners and access, the four knowledge files in OneDrive, hr-policy-qa.zip and a private agent draft (or a labelled configuration-only record).   (Tools: Microsoft 365 Copilot (copilot.cloud.microsoft) · Agent Builder · OneDrive · Microsoft Loop.)
+A reviewed design brief, a completed knowledge inventory with owners and access, the four knowledge files in OneDrive, hr-policy-qa.zip and a private agent draft (or a labelled configuration-only record).   (Tools: Microsoft 365 Copilot (copilot.cloud.microsoft) · Agent Builder · OneDrive · Excel.)
 
 ![Lab 11 input, workflow and checkpoint preview](courseware/assets/lg/lab-11-workflow.png)
 *Lab 11 workflow and evidence preview (synthetic Lumina training data).*
@@ -2359,7 +2393,7 @@ Prompts mapped to handbook sections and tests teach correct use and support onbo
 
 ### Lab 12 · Agent Configuration — Build the HR Agent: Instructions, Knowledge, Skill and Starter Prompts
 
-Learning outcome: LO4: design a staff training plan for Microsoft Loop and Copilot Studio while configuring, testing and sharing a grounded Microsoft 365 HR agent.
+Learning outcome: LO4: design a staff training plan while configuring, testing and sharing a grounded Microsoft 365 HR agent.
 
 Goal: A private configured HR agent (or an evidence-complete configuration record) whose preview answers are cited and whose missing-evidence answer is UNKNOWN.
 
@@ -2367,7 +2401,7 @@ Configure Lumina HR Policy Agent with reviewed instructions, the four OneDrive k
 
 **What you'll build**
 
-A private configured HR agent (or an evidence-complete configuration record) whose preview answers are cited and whose missing-evidence answer is UNKNOWN.   (Tools: Microsoft 365 Copilot (copilot.cloud.microsoft) · Agent Builder · OneDrive · Microsoft Loop.)
+A private configured HR agent (or an evidence-complete configuration record) whose preview answers are cited and whose missing-evidence answer is UNKNOWN.   (Tools: Microsoft 365 Copilot (copilot.cloud.microsoft) · Agent Builder · OneDrive · Excel.)
 
 ![Lab 12 input, workflow and checkpoint preview](courseware/assets/lg/lab-12-workflow.png)
 *Lab 12 workflow and evidence preview (synthetic Lumina training data).*
@@ -2554,7 +2588,7 @@ Owner access conceals permission defects; a policy handbook cannot answer live b
 
 ### Lab 13 · Agent Test and Evaluation — Test Grounded HR Answers, Citations and Guardrails
 
-Learning outcome: LO4: design a staff training plan for Microsoft Loop and Copilot Studio while configuring, testing and sharing a grounded Microsoft 365 HR agent.
+Learning outcome: LO4: design a staff training plan while configuring, testing and sharing a grounded Microsoft 365 HR agent.
 
 Goal: A completed eight-case test matrix with actual answers, citations and pass/fail, one corrected defect with a clean retest, and a sharing decision.
 
@@ -2562,7 +2596,7 @@ Run the eight-case evaluation against instruction version v1.0. Policy and case-
 
 **What you'll build**
 
-A completed eight-case test matrix with actual answers, citations and pass/fail, one corrected defect with a clean retest, and a sharing decision.   (Tools: Microsoft 365 Copilot (copilot.cloud.microsoft) · Agent Builder · OneDrive · Microsoft Loop.)
+A completed eight-case test matrix with actual answers, citations and pass/fail, one corrected defect with a clean retest, and a sharing decision.   (Tools: Microsoft 365 Copilot (copilot.cloud.microsoft) · Agent Builder · OneDrive · Excel.)
 
 ![Lab 13 input, workflow and checkpoint preview](courseware/assets/lg/lab-13-workflow.png)
 *Lab 13 workflow and evidence preview (synthetic Lumina training data).*
@@ -2660,7 +2694,7 @@ Which evidence proves the output is correct, and which decision still needs a pe
 
 ---
 
-Concepts for Lab 14: Sharing Roles and Knowledge Access, Agent Lifecycle Ownership and Rollback, Microsoft Loop Staff Enablement Evidence.
+Concepts for Lab 14: Sharing Roles and Knowledge Access, Agent Lifecycle Ownership and Rollback, Staff Enablement Tracker Evidence.
 
 
 ### Sharing Roles and Knowledge Access
@@ -2727,9 +2761,9 @@ The handbook, permissions, product behaviour and tenant policy change; retesting
 ---
 
 
-### Microsoft Loop Staff Enablement Evidence
+### Staff Enablement Tracker Evidence
 
-A Loop component can record roster, practice, evidence, defect, owner, retest and status; it does not prove agent action or approval.
+An Excel tracker can record roster, practice, evidence, defect, owner, retest and status; it does not prove agent action or approval.
 
 LO4 requires a staff training plan with observed evidence and support ownership.
 
@@ -2742,7 +2776,7 @@ LO4 requires a staff training plan with observed evidence and support ownership.
 
 **Worked example**
 
-- Loop columns: User, Role, Practice test, Evidence
+- Tracker columns: User, Role, Practice test, Evidence
 - Defect, Owner, Retest and Status stay observable
 - Practice includes cited leave answer, UNKNOWN and refusal
 
@@ -2761,15 +2795,15 @@ LO4 requires a staff training plan with observed evidence and support ownership.
 
 ### Lab 14 · Governed Sharing and Enablement — Share the HR Agent with Named Users and Deliver Staff Enablement
 
-Learning outcome: LO4: design a staff training plan for Microsoft Loop and Copilot Studio while configuring, testing and sharing a grounded Microsoft 365 HR agent.
+Learning outcome: LO4: design a staff training plan while configuring, testing and sharing a grounded Microsoft 365 HR agent.
 
-Goal: A named-user sharing record, a test-user result, a Microsoft Loop enablement tracker and a rollback-ready owner plan.
+Goal: A named-user sharing record, a test-user result, an Excel staff enablement tracker and a rollback-ready owner plan.
 
-Share Lumina HR Policy Agent only after the blocking tests pass. Verify that named users already have access to every knowledge file, retest as a user, then use Microsoft Loop to track staff practice, defects and retests as part of the LO4 staff training plan.
+Share Lumina HR Policy Agent only after the blocking tests pass. Verify that named users already have access to every knowledge file, retest as a user, then use an Excel staff enablement tracker to track staff practice, defects and retests as part of the LO4 staff training plan.
 
 **What you'll build**
 
-A named-user sharing record, a test-user result, a Microsoft Loop enablement tracker and a rollback-ready owner plan.   (Tools: Microsoft 365 Copilot (copilot.cloud.microsoft) · Agent Builder · OneDrive · Microsoft Loop.)
+A named-user sharing record, a test-user result, an Excel staff enablement tracker and a rollback-ready owner plan.   (Tools: Microsoft 365 Copilot (copilot.cloud.microsoft) · Agent Builder · OneDrive · Excel.)
 
 ![Lab 14 input, workflow and checkpoint preview](courseware/assets/lg/lab-14-workflow.png)
 *Lab 14 workflow and evidence preview (synthetic Lumina training data).*
@@ -2787,14 +2821,14 @@ A named-user sharing record, a test-user result, a Microsoft Loop enablement tra
 2. Open Share and review the user (Can chat) and owner (Can edit) roles. Start with one named test user or approved group; give users Can chat, not Can edit.
 3. Verify the user already has permission to each OneDrive or SharePoint knowledge file. Do not broaden permissions for the exercise.
 4. Share the link with the named test user only. If sharing is unavailable, finish the plan without claiming distribution. The user runs T01, T05 and T06 and you record the results.
-5. Create a Microsoft Loop staff enablement tracker using only observed results.
+5. Create an Excel staff enablement tracker from data/templates/Staff_Enablement_Tracker.csv using only observed results.
 
    ```text
    MICROSOFT LOOP COPILOT:
    Create a Lumina HR Policy Agent staff enablement tracker with columns User, Role, Practice test, Evidence, Defect, Owner, Retest and Status. Include cited leave-policy retrieval, UNKNOWN, privacy and approval-refusal tests. Do not fabricate completion or approval.
    ```
 
-6. Review data/templates/Lumina_Staff_Enablement_Plan.md: purpose, access, practice cases, escalation, owners, monthly review and rollback. Keep the LO4 focus on Microsoft Loop and Copilot Studio staff training.
+6. Review data/templates/Lumina_Staff_Enablement_Plan.md: purpose, access, practice cases, escalation, owners, monthly review and rollback. Keep the LO4 focus on the staff training plan for the agent.
 7. Record the final private or named-user state, the actual link if available, test results and the next review date. Do not submit to the organisation catalogue or deploy to other channels.
 
 **Sample prompts**
@@ -2802,7 +2836,7 @@ A named-user sharing record, a test-user result, a Microsoft Loop enablement tra
 | Purpose | Prompt |
 |---|---|
 | Share | After T01-T08 pass, share Lumina HR Policy Agent with one named test user (Can chat) who already has access to the knowledge files. |
-| Enable | Create a Microsoft Loop tracker with User, Role, Practice test, Evidence, Defect, Owner, Retest and Status; do not prefill completion. |
+| Enable | Create an Excel tracker with User, Role, Practice test, Evidence, Defect, Owner, Retest and Status; do not prefill completion. |
 
 **Test it**
 
@@ -2810,7 +2844,7 @@ A named-user sharing record, a test-user result, a Microsoft Loop enablement tra
 |---|---|
 | Gate | All blocking retrieval, privacy and approval tests pass before sharing. |
 | Sharing | Named users only, with Can chat; knowledge access verified. |
-| Loop plan | Actual practice evidence, defect owner and retest visible. |
+| Tracker | Actual practice evidence, defect owner and retest visible. |
 | Lifecycle | Owners, review trigger and rollback assigned. |
 
 **Checkpoint and rejoin point**
@@ -2844,7 +2878,7 @@ Use this checkpoint to explain what you can now do and identify any lab evidence
 
 | Learning outcome | Evidence from this topic |
 |---|---|
-| LO4 | Staff training covers Agent Builder, Loop practice, owners and support. |
+| LO4 | Staff training covers Agent Builder, tracked practice, owners and support. |
 | Verify | Eight tests and named-user access pass before sharing. |
 
 ---

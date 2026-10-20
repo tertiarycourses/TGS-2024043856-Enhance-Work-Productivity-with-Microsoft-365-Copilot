@@ -1,6 +1,6 @@
 # Enhance Work Productivity with Microsoft 365 Copilot - Fourteen Connected Lumina HR Labs
 
-v9.2 · 20 October 2026 · 14 training hours plus 2 assessment hours
+v9.3 · 20 October 2026 · 14 training hours plus 2 assessment hours
 
 Each lab folder contains a README, instruction PDF, copy-ready prompts, templates and rejoin checkpoints. Copy one prompt at a time and verify the result.
 

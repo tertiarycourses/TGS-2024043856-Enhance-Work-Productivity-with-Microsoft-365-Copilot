@@ -1,6 +1,6 @@
 # Lab 3: Personalise Copilot in Excel for Consistent HR Service Reports
 
-**Topic 2 · 30 minutes · v9.2 · 20 October 2026**
+**Topic 2 · 30 minutes · v9.3 · 20 October 2026**
 
 Configure temporary account-level display and explanation preferences, test them in two copies of the same verified Lumina workbook, and distinguish preferences from workbook-specific definitions. A task-specific prompt can supersede Personalisation. Restore your previous settings after the exercise.
 

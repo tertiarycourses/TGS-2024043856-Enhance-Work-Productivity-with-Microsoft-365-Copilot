@@ -1,6 +1,6 @@
 # Lab 5: Create a Custom Pareto Chart Skill and Apply It
 
-**Topic 2 · 30 minutes · v9.2 · 20 October 2026**
+**Topic 2 · 30 minutes · v9.3 · 20 October 2026**
 
 Author hr-case-pareto/SKILL.md with Copilot, install it in Excel and apply it to the same overdue HR-case queue. Build a descending count chart plus cumulative-percentage line, then check a controlled rerun and a second grouping. Contribution analysis does not establish root cause or force an 80/20 split.
 
@@ -27,6 +27,16 @@ Author hr-case-pareto/SKILL.md with Copilot, install it in Excel and apply it to
 ## Screen Guide
 
 The Copilot screens you will use in this lab. The same screenshots and explanations are in the slides and Learner Guide.
+
+**What Is a Pareto Chart?**
+
+![What Is a Pareto Chart?](../../courseware/assets/screenshots/hr-pareto-chart.png)
+
+- **Bars, largest first:** Overdue HR cases per request type, sorted high to low: Payroll Query leads with 18 of 50.
+- **Cumulative % line:** Running share of the total on the right axis: 36%, 60%, 76%, 92%, 100%.
+- **80% reference:** Where the line passes the dashed 80% line marks the vital few types to tackle first.
+- **Finding title:** The title states the result from formulas, so it updates when the data or date changes.
+- **Contribution, not cause:** A Pareto shows where cases concentrate; it does not explain why.
 
 **Where Custom Skills Live — The OneDrive skills Folder**
 
