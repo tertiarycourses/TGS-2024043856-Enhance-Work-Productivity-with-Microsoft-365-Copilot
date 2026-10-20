@@ -27,6 +27,38 @@ Configure Lumina HR Policy Agent with reviewed instructions, the four OneDrive k
 - Download this whole lab folder. All files are synthetic; Lumina-HR-v9 is your own learner output folder.
 - Microsoft 365 Copilot licence with Agent Builder enabled by your administrator. Skills in agents are a preview for Frontier-enrolled tenants; otherwise use the labelled manual route. Use the supplied configuration-and-test route when Agent Builder is unavailable.
 
+## Screen Guide
+
+The Copilot screens you will use in this lab. The same screenshots and explanations are in the slides and Learner Guide.
+
+**Agent Builder — Configure**
+
+![Agent Builder — Configure](../../courseware/assets/screenshots/agent-builder-configure.png)
+
+- **Name and description:** Select the pencil to name the agent (Lumina HR Policy Agent) and describe who it serves.
+- **Instructions:** Paste the reviewed instruction contract: scope, cite sections, UNKNOWN, never approve or reveal data.
+- **Suggest improvements:** Copilot can propose edits; accept only what keeps the contract intact.
+- **Skills · Add:** Add the hr-policy-qa Skill so every answer follows the same format and citation rule.
+- **Create:** Stays disabled until the required fields are complete; create only after review.
+
+**Knowledge — Only Use Specified Sources**
+
+![Knowledge — Only Use Specified Sources](../../courseware/assets/screenshots/agent-builder-knowledge.png)
+
+- **Add knowledge:** Add the approved Lumina HR Policy Handbook and the other inventory items.
+- **Work content: Search all:** Cloud files, Outlook and Teams start ON; switch them off so the agent cannot roam your files and mail.
+- **Web search:** Also ON by default; switch it off so HR answers never come from the internet.
+- **Connectors and attachments:** Leave at None unless a governed source is approved.
+
+**Suggested Prompts Are Visible Test Cases**
+
+![Suggested Prompts Are Visible Test Cases](../../courseware/assets/screenshots/agent-builder-suggested-prompts.png)
+
+- **Title:** A short button label staff see, e.g. "Annual leave".
+- **Message:** The full question sent, taken from the test matrix, e.g. leave days and notice period.
+- **Keep them honest:** Use only questions whose answers you have verified against the handbook.
+
+
 ## Steps
 
 ### 1. Open your Lab 11 draft and select Configure. Set Name to Lumina HR Policy Agent (30 characters maximum) and Description to: Answers Lumina employees’ HR policy questions from the approved handbook, with cited sections. Replace Instructions with the reviewed text below; it is well under the 8,000-character limit. Accept a suggested improvement only if it keeps the sources, citations and boundaries.

@@ -27,6 +27,20 @@ Run the eight-case evaluation against instruction version v1.0. Policy and case-
 - Download this whole lab folder. All files are synthetic; Lumina-HR-v9 is your own learner output folder.
 - Microsoft 365 Copilot licence with Agent Builder enabled by your administrator. Skills in agents are a preview for Frontier-enrolled tenants; otherwise use the labelled manual route. Use the supplied configuration-and-test route when Agent Builder is unavailable.
 
+## Screen Guide
+
+The Copilot screens you will use in this lab. The same screenshots and explanations are in the slides and Learner Guide.
+
+**Test Result — A Grounded UNKNOWN Answer**
+
+![Test Result — A Grounded UNKNOWN Answer](../../courseware/assets/screenshots/agent-unknown-answer.png)
+
+- **The test:** Ask a policy question and require a citation. Here an earlier course agent was asked about annual leave.
+- **No invention:** Its knowledge file holds no leave policy, so it says "not specified" instead of guessing a number.
+- **Cited evidence:** Each claim carries a citation icon that opens the exact source passage.
+- **Record it:** Log pass or fail in the HR test matrix; a made-up number would be a blocking failure.
+
+
 ## Steps
 
 ### 1. Open the private agent and data/templates/Lumina_HR_Agent_Test_Matrix.csv. Freeze the instruction version, knowledge list and Skill state before testing. Use a new chat for each test.

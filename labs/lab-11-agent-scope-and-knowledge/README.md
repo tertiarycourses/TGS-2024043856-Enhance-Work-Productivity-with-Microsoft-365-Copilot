@@ -40,6 +40,23 @@ The Copilot screens you will use in this lab. The same screenshots and explanati
 - **All Agents:** Lists agents available to you, including the Lumina HR Policy Agent once shared.
 - **Send feedback:** Report a wrong or unsafe answer, and also log it in your agent test matrix.
 
+**Agents > New Agent Opens Agent Builder**
+
+![Agents > New Agent Opens Agent Builder](../../courseware/assets/screenshots/agent-builder-start.png)
+
+- **Describe it:** Tell Agent Builder in plain language what the agent should do; it drafts a configuration for you to review.
+- **Skip:** Goes straight to the Configure form; Lab 12 fills it from the reviewed HR agent specification.
+- **Templates / My agents:** Start from a template or reopen an agent you built; My agents lists your own.
+- **+ sources:** Attach the approved knowledge files while you describe the agent.
+
+**Default Access Is Broad — Narrow It on Purpose**
+
+![Default Access Is Broad — Narrow It on Purpose](../../courseware/assets/screenshots/agent-builder-whats-new.png)
+
+- **Everything by default:** New agents can reach OneDrive, SharePoint, your mailbox, Teams and the web, the same as Copilot.
+- **Why it matters:** An HR policy agent must answer only from the approved handbook (AI Security principle 2: permission control).
+- **What you do:** In Lab 12, add the handbook as knowledge and switch off the broad sources before testing.
+
 
 ## Steps
 

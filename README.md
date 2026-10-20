@@ -37,7 +37,7 @@ The course closes with the **5 Principles of AI Security**: data control, permis
 
 ## Labs
 
-Each lab folder holds an instruction PDF, a printable README, copy-ready prompts and a `data/` folder with synthetic inputs, templates and labelled rejoin checkpoints. Labs 1, 2, 3, 5, 6 and 11 also include a **Screen Guide**: real Microsoft 365 Copilot screenshots (chat pane, + menu, model and mode pickers, Outlook Work/Web, Personalization, the OneDrive skills folder, Custom skills, the @ Skill picker and All Agents) with numbered explanations. Topics 2 and 3 also show a worked Lumina HR Pareto chart and an interactive HR service dashboard, unfiltered and filtered to one department. The same screens are in the slides and Learner Guide.
+Each lab folder holds an instruction PDF, a printable README, copy-ready prompts and a `data/` folder with synthetic inputs, templates and labelled rejoin checkpoints. Labs 1, 2, 3, 5, 6 and 11 also include a **Screen Guide**: real Microsoft 365 Copilot screenshots (chat pane, + menu, model and mode pickers, Outlook Work/Web, Personalization, the OneDrive skills folder, Custom skills, the @ Skill picker and All Agents) with numbered explanations. Topics 2 and 3 also show a worked Lumina HR Pareto chart and an interactive HR service dashboard, unfiltered and filtered to one department. Topic 4 (Labs 11–13) adds live Agent Builder screens: New agent, Configure, Knowledge sources, suggested prompts and a cited UNKNOWN test answer. The same screens are in the slides and Learner Guide.
 
 | Lab | Topic | Folder | Instructions | Prompts |
 |---|---|---|---|---|

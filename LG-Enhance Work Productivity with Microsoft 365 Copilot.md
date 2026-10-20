@@ -2138,6 +2138,16 @@ A precise boundary keeps a helpful HR assistant from being mistaken for an appro
 - 3. All Agents — Lists agents available to you, including the Lumina HR Policy Agent once shared.
 - 4. Send feedback — Report a wrong or unsafe answer, and also log it in your agent test matrix.
 
+**On screen: Agents > New Agent Opens Agent Builder**
+
+![Agents > New Agent Opens Agent Builder](courseware/assets/screenshots/agent-builder-start.png)
+*Agents > New Agent Opens Agent Builder (Microsoft 365 Copilot interface).*
+
+- 1. Describe it — Tell Agent Builder in plain language what the agent should do; it drafts a configuration for you to review.
+- 2. Skip — Goes straight to the Configure form; Lab 12 fills it from the reviewed HR agent specification.
+- 3. Templates / My agents — Start from a template or reopen an agent you built; My agents lists your own.
+- 4. + sources — Attach the approved knowledge files while you describe the agent.
+
 **Authoritative references**
 
 - https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/agent-builder
@@ -2169,6 +2179,15 @@ Owner success can hide user-access failure. Record source, owner, date, permissi
 | Use when | Avoid when |
 |---|---|
 | The source is approved and permissioned. | Ownership or intended-user access is unknown. |
+
+**On screen: Default Access Is Broad — Narrow It on Purpose**
+
+![Default Access Is Broad — Narrow It on Purpose](courseware/assets/screenshots/agent-builder-whats-new.png)
+*Default Access Is Broad — Narrow It on Purpose (Microsoft 365 Copilot interface).*
+
+- 1. Everything by default — New agents can reach OneDrive, SharePoint, your mailbox, Teams and the web, the same as Copilot.
+- 2. Why it matters — An HR policy agent must answer only from the approved handbook (AI Security principle 2: permission control).
+- 3. What you do — In Lab 12, add the handbook as knowledge and switch off the broad sources before testing.
 
 **Authoritative references**
 
@@ -2320,6 +2339,17 @@ Specific instructions create observable pass rules for citations, UNKNOWN, confl
 |---|---|
 | Behaviour is observable in tests. | Instructions are treated as a security control. |
 
+**On screen: Agent Builder — Configure**
+
+![Agent Builder — Configure](courseware/assets/screenshots/agent-builder-configure.png)
+*Agent Builder — Configure (Microsoft 365 Copilot interface).*
+
+- 1. Name and description — Select the pencil to name the agent (Lumina HR Policy Agent) and describe who it serves.
+- 2. Instructions — Paste the reviewed instruction contract: scope, cite sections, UNKNOWN, never approve or reveal data.
+- 3. Suggest improvements — Copilot can propose edits; accept only what keeps the contract intact.
+- 4. Skills · Add — Add the hr-policy-qa Skill so every answer follows the same format and citation rule.
+- 5. Create — Stays disabled until the required fields are complete; create only after review.
+
 **Authoritative references**
 
 - https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/agent-builder-build-agents
@@ -2352,6 +2382,16 @@ Citations and known-answer tests give stronger evidence than a web-search toggle
 |---|---|
 | Policy facts cite selected sources. | An uncited answer passes because web search is off. |
 
+**On screen: Knowledge — Only Use Specified Sources**
+
+![Knowledge — Only Use Specified Sources](courseware/assets/screenshots/agent-builder-knowledge.png)
+*Knowledge — Only Use Specified Sources (Microsoft 365 Copilot interface).*
+
+- 1. Add knowledge — Add the approved Lumina HR Policy Handbook and the other inventory items.
+- 2. Work content: Search all — Cloud files, Outlook and Teams start ON; switch them off so the agent cannot roam your files and mail.
+- 3. Web search — Also ON by default; switch it off so HR answers never come from the internet.
+- 4. Connectors and attachments — Leave at None unless a governed source is approved.
+
 **Authoritative references**
 
 - https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-lite-knowledge
@@ -2383,6 +2423,15 @@ Prompts mapped to handbook sections and tests teach correct use and support onbo
 | Use when | Avoid when |
 |---|---|
 | The answer is grounded and useful. | A prompt implies approval or live data. |
+
+**On screen: Suggested Prompts Are Visible Test Cases**
+
+![Suggested Prompts Are Visible Test Cases](courseware/assets/screenshots/agent-builder-suggested-prompts.png)
+*Suggested Prompts Are Visible Test Cases (Microsoft 365 Copilot interface).*
+
+- 1. Title — A short button label staff see, e.g. "Annual leave".
+- 2. Message — The full question sent, taken from the test matrix, e.g. leave days and notice period.
+- 3. Keep them honest — Use only questions whose answers you have verified against the handbook.
 
 **Authoritative references**
 
@@ -2546,6 +2595,16 @@ Citations reveal source drift and outdated pages before they reach employees.
 | Use when | Avoid when |
 |---|---|
 | A reviewer can reproduce the answer. | The agent averages or merges conflicting values. |
+
+**On screen: Test Result — A Grounded UNKNOWN Answer**
+
+![Test Result — A Grounded UNKNOWN Answer](courseware/assets/screenshots/agent-unknown-answer.png)
+*Test Result — A Grounded UNKNOWN Answer (Microsoft 365 Copilot interface).*
+
+- 1. The test — Ask a policy question and require a citation. Here an earlier course agent was asked about annual leave.
+- 2. No invention — Its knowledge file holds no leave policy, so it says "not specified" instead of guessing a number.
+- 3. Cited evidence — Each claim carries a citation icon that opens the exact source passage.
+- 4. Record it — Log pass or fail in the HR test matrix; a made-up number would be a blocking failure.
 
 **Authoritative references**
 
