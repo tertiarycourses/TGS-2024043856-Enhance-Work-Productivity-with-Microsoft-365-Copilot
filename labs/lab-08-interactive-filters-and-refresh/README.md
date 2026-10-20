@@ -1,10 +1,10 @@
 # Lab 8: Use the Dashboard Skill for Filters, Refresh and Safe Reruns
 
-**Topic 3 · 30 minutes · v9.3 · 20 October 2026**
+**Topic 3 · 30 minutes · v9.4 · 20 October 2026**
 
 Continue Lab 7 by making four dropdown selectors control every KPI and chart. Test a single department, a zero-denominator selection and a combined category/owner filter. Then append two synthetic HR cases in a sandbox copy and prove the dashboard expands. Optional PivotTable slicers use one source and shared connections; the portable dropdown route is the required working dashboard.
 
-**Learning outcome:** LO3: evaluate Teams, Outlook and Microsoft 365 opportunities through a verified dashboard-to-presentation workflow.
+**Learning outcome:** LO3: evaluate opportunities in using Microsoft Copilot through a verified dashboard-to-presentation workflow.
 
 **Expected outcome:** Lumina_Dashboard.xlsx with four working filters plus Lumina_Dashboard_Refresh_Test.xlsx, filter evidence and a verified baseline snapshot for PowerPoint.
 

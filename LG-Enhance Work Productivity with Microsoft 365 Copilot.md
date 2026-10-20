@@ -1,6 +1,6 @@
 # Enhance Work Productivity with Microsoft 365 Copilot — Learner Guide
 
-**Course Code:** TGS-2024043856  |  **Conducted by:** Tertiary Infotech Academy Pte Ltd (UEN 201200696W)  |  **Version v9.3 · 20 October 2026**
+**Course Code:** TGS-2024043856  |  **Conducted by:** Tertiary Infotech Academy Pte Ltd (UEN 201200696W)  |  **Version v9.4 · 20 October 2026**
 
 ## Contents
 
@@ -8,7 +8,7 @@
 - [Course Information and Assessment](#course-information-and-assessment)
 - [Course Learning Outcomes](#course-learning-outcomes)
 - [Before You Start — Preparation](#before-you-start--preparation)
-- [Topic 1 — Microsoft 365 Copilot Fundamentals  (K1 · A1)](#topic-1--microsoft-365-copilot-fundamentals--k1--a1)
+- [Topic 1 — Overview of Microsoft Copilot  (K1 · A1)](#topic-1--overview-of-microsoft-copilot--k1--a1)
   - [Grounding Across Microsoft 365](#grounding-across-microsoft-365)
   - [HR-Case Grain and Reporting Measures](#hr-case-grain-and-reporting-measures)
   - [Lab 1 · Excel to Word — Prepare HR Cases and Draft the HR Service Brief](#lab-1--excel-to-word--prepare-hr-cases-and-draft-the-hr-service-brief)
@@ -16,7 +16,7 @@
   - [Outlook Drafting and Operational Decisions](#outlook-drafting-and-operational-decisions)
   - [Lab 2 · Word to PowerPoint and Outlook — Create the Cross-App HR Service Update](#lab-2--word-to-powerpoint-and-outlook--create-the-cross-app-hr-service-update)
   - [Topic 1 Recap - Mapped to Learning Outcomes](#topic-1-recap---mapped-to-learning-outcomes)
-- [Topic 2 — Skills, Rules and Personalisation  (K3 · A2)](#topic-2--skills-rules-and-personalisation--k3--a2)
+- [Topic 2 — Microsoft Copilot for Excel  (K3 · A2)](#topic-2--microsoft-copilot-for-excel--k3--a2)
   - [Account Personalisation and Specific Requests](#account-personalisation-and-specific-requests)
   - [Lab 3 · Personalisation — Personalise Copilot in Excel for Consistent HR Service Reports](#lab-3--personalisation--personalise-copilot-in-excel-for-consistent-hr-service-reports)
   - [Visible Workbook .Rules and Formula Results](#visible-workbook-rules-and-formula-results)
@@ -29,7 +29,7 @@
   - [Assignment Proposals and Capacity Evidence](#assignment-proposals-and-capacity-evidence)
   - [Lab 6 · Reporting Skill — Create, Use and Improve the HR Service Reporting Skill](#lab-6--reporting-skill--create-use-and-improve-the-hr-service-reporting-skill)
   - [Topic 2 Recap - Mapped to Learning Outcomes](#topic-2-recap---mapped-to-learning-outcomes)
-- [Topic 3 — Create Interactive Dashboard and Professional Presentation  (K2 · A3)](#topic-3--create-interactive-dashboard-and-professional-presentation--k2--a3)
+- [Topic 3 — Create Interactive Dashboard with Microsoft Copilot  (K2 · A3)](#topic-3--create-interactive-dashboard-with-microsoft-copilot--k2--a3)
   - [Custom Dashboard Skill as a Reusable Contract](#custom-dashboard-skill-as-a-reusable-contract)
   - [Dashboard Measures and Denominators](#dashboard-measures-and-denominators)
   - [Visual Dashboard Design for HR Service](#visual-dashboard-design-for-hr-service)
@@ -44,7 +44,7 @@
   - [Reviewed Handoff and Artifact Lifecycle](#reviewed-handoff-and-artifact-lifecycle)
   - [Lab 10 · Professional handoff — Refine and Present the HR Service Decision Deck](#lab-10--professional-handoff--refine-and-present-the-hr-service-decision-deck)
   - [Topic 3 Recap - Mapped to Learning Outcomes](#topic-3-recap---mapped-to-learning-outcomes)
-- [Topic 4 — Create Microsoft 365 Agents for Businesses  (K4 · A4)](#topic-4--create-microsoft-365-agents-for-businesses--k4--a4)
+- [Topic 4 — Create Microsoft Agent  (K4 · A4)](#topic-4--create-microsoft-agent--k4--a4)
   - [An HR Agent Answers from Approved Knowledge](#an-hr-agent-answers-from-approved-knowledge)
   - [Knowledge Inventory and Permission Model](#knowledge-inventory-and-permission-model)
   - [Skills Shape Every Agent Answer](#skills-shape-every-agent-answer)
@@ -91,8 +91,8 @@ Topics 1 and 2 retain the C27 connected sequence. Topic 3 combines dashboard and
 
 - LO1: Predict and mitigate challenges in integrating Microsoft Copilot to workflow.
 - LO2: Develop a plan for implementing Microsoft Copilot to ensure seamless transition from legacy workflow.
-- LO3: Evaluate opportunities in using Microsoft Copilot for Teams and Outlook.
-- LO4: Design a training plan for staff to use Microsoft Copilot Studio.
+- LO3: Evaluate opportunities in using Microsoft Copilot.
+- LO4: Design a training plan for staff to use Microsoft Copilot.
 
 
 ## Before You Start — Preparation
@@ -118,7 +118,7 @@ Open the baseline workbook plus one Word and PowerPoint template; locate each av
 - Current assignments are source facts. Proposed assignments remain clearly labelled proposals until a human approves them.
 
 
-## Topic 1 — Microsoft 365 Copilot Fundamentals  (K1 · A1)
+## Topic 1 — Overview of Microsoft Copilot  (K1 · A1)
 
 Grounding, HR-case grain, prompts and verified handoffs
 
@@ -534,7 +534,7 @@ Use this checkpoint to explain what you can now do and identify any lab evidence
 ---
 
 
-## Topic 2 — Skills, Rules and Personalisation  (K3 · A2)
+## Topic 2 — Microsoft Copilot for Excel  (K3 · A2)
 
 Account preferences, workbook conventions and reusable methods
 
@@ -1294,7 +1294,7 @@ Use this checkpoint to explain what you can now do and identify any lab evidence
 ---
 
 
-## Topic 3 — Create Interactive Dashboard and Professional Presentation  (K2 · A3)
+## Topic 3 — Create Interactive Dashboard with Microsoft Copilot  (K2 · A3)
 
 Shared-scope measures, refresh tests, evidence story and reviewed handoff
 
@@ -1418,7 +1418,7 @@ Consistent chart scales, short labels, whitespace and limited accents help a man
 
 ### Lab 7 · Custom Dashboard Skill — Create and Apply a Custom Interactive Dashboard Skill
 
-Learning outcome: LO3: evaluate Teams, Outlook and Microsoft 365 opportunities through a verified dashboard-to-presentation workflow.
+Learning outcome: LO3: evaluate opportunities in using Microsoft Copilot through a verified dashboard-to-presentation workflow.
 
 Goal: Create hr-case-dashboard/SKILL.md for the Lumina HR service workflow, install it in Excel, then invoke it to plan and build an interactive dashboard. Six KPIs and three charts share four filter selections. Workbook .Rules supplies scope, display and review constraints; the Skill supplies the repeatable method.
 
@@ -1613,7 +1613,7 @@ A correct dashboard today may fail after the next export if formulas reference a
 
 ### Lab 8 · Interactive Filters and Refresh — Use the Dashboard Skill for Filters, Refresh and Safe Reruns
 
-Learning outcome: LO3: evaluate Teams, Outlook and Microsoft 365 opportunities through a verified dashboard-to-presentation workflow.
+Learning outcome: LO3: evaluate opportunities in using Microsoft Copilot through a verified dashboard-to-presentation workflow.
 
 Goal: Continue Lab 7 by making four dropdown selectors control every KPI and chart. Test a single department, a zero-denominator selection and a combined category/owner filter. Then append two synthetic HR cases in a sandbox copy and prove the dashboard expands. Optional PivotTable slicers use one source and shared connections; the portable dropdown route is the required working dashboard.
 
@@ -1806,7 +1806,7 @@ Approximate AI-generated charts can contradict source values while looking plaus
 
 ### Lab 9 · Dashboard to presentation — Turn Dashboard Evidence into a Management Story
 
-Learning outcome: LO3: evaluate Teams, Outlook and Microsoft 365 opportunities through a verified dashboard-to-presentation workflow.
+Learning outcome: LO3: evaluate opportunities in using Microsoft Copilot through a verified dashboard-to-presentation workflow.
 
 Goal: Continue the baseline dashboard from Topic 3. Build a slide evidence register and a Word presentation brief before asking PowerPoint Copilot for an eight-slide management deck. The story connects HR-case status, department backlog, service delivery and assignment proposals to a specific decision; it does not introduce unsupported savings or causes.
 
@@ -1974,7 +1974,7 @@ Updating one artifact without the others creates inconsistent communication. Rec
 
 ### Lab 10 · Professional handoff — Refine and Present the HR Service Decision Deck
 
-Learning outcome: LO3: evaluate Teams, Outlook and Microsoft 365 opportunities through a verified dashboard-to-presentation workflow.
+Learning outcome: LO3: evaluate opportunities in using Microsoft Copilot through a verified dashboard-to-presentation workflow.
 
 Goal: Refine the management deck using the same custom skill and reviewed dashboard evidence. Improve hierarchy, consistency and speaker notes, test the story in a short rehearsal, and prepare a reviewed Outlook handoff draft. The final pack preserves the distinction between a static presentation snapshot, a refreshable dashboard and a manager’s unmade decision.
 
@@ -2083,13 +2083,13 @@ Use this checkpoint to explain what you can now do and identify any lab evidence
 
 | Learning outcome | Evidence from this topic |
 |---|---|
-| LO3 | Dashboard and presentation support Teams/Outlook opportunity evaluation. |
+| LO3 | Dashboard and presentation support evaluation of Copilot opportunities. |
 | Verify | Claims use untouched fixed-date baseline. |
 
 ---
 
 
-## Topic 4 — Create Microsoft 365 Agents for Businesses  (K4 · A4)
+## Topic 4 — Create Microsoft Agent  (K4 · A4)
 
 Build a grounded HR agent: scope, knowledge, Skill, tests, sharing and staff enablement
 

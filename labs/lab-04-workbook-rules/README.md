@@ -1,6 +1,6 @@
 # Lab 4: Create and Test Workbook .Rules for HR Service Reporting
 
-**Topic 2 · 30 minutes · v9.3 · 20 October 2026**
+**Topic 2 · 30 minutes · v9.4 · 20 October 2026**
 
 Turn Lumina’s workbook conventions into a visible .Rules worksheet. Keep one rule per cell in column A, include a formula-driven reporting-date rule, test the output, and verify that the sheet travels with a copied workbook. A .Rules sheet is guidance for Copilot, not Excel formula enforcement or a security boundary.
 

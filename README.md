@@ -9,7 +9,7 @@ A two-day WSQ course in which you use Microsoft 365 Copilot across Excel, Word, 
 | Duration | 2 days · 16 hours (14 training hours + 2 assessment hours) |
 | Registration | [View course details and register](https://www.tertiarycourses.com.sg/wsq-enhance-work-productivity-with-microsoft-365-copilot.html) |
 | Funding | Up to 70% WSQ course fee funding for eligible Singapore Citizens and PRs (up to 50% baseline). Eligibility and terms apply — see the course page. |
-| Current release | v9.3 · 20 October 2026 |
+| Current release | v9.4 · 20 October 2026 |
 
 **[Open the copy-ready lab prompts →](https://tertiarycourses.github.io/TGS-2024043856-Enhance-Work-Productivity-with-Microsoft-365-Copilot/prompts/)** Each lab shows every step first, with its prompt and a **Copy** button directly underneath.
 
@@ -25,15 +25,15 @@ The course closes with the **5 Principles of AI Security**: data control, permis
 
 - LO1: Predict and mitigate challenges in integrating Microsoft Copilot to workflow.
 - LO2: Develop a plan for implementing Microsoft Copilot to ensure seamless transition from legacy workflow.
-- LO3: Evaluate opportunities in using Microsoft Copilot for Teams and Outlook.
-- LO4: Design a training plan for staff to use Microsoft Copilot Studio.
+- LO3: Evaluate opportunities in using Microsoft Copilot.
+- LO4: Design a training plan for staff to use Microsoft Copilot.
 
 ## Topics covered
 
-1. **Microsoft 365 Copilot Fundamentals** — Grounding, HR-case grain, prompts and verified handoffs (Labs 1–2)
-2. **Skills, Rules and Personalisation** — Account preferences, workbook conventions and reusable methods (Labs 3–6)
-3. **Create Interactive Dashboard and Professional Presentation** — Shared-scope measures, refresh tests, evidence story and reviewed handoff (Labs 7–10)
-4. **Create Microsoft 365 Agents for Businesses** — Build a grounded HR agent: scope, knowledge, Skill, tests, sharing and staff enablement (Labs 11–14)
+1. **Overview of Microsoft Copilot** — Grounding, HR-case grain, prompts and verified handoffs (Labs 1–2)
+2. **Microsoft Copilot for Excel** — Account preferences, workbook conventions and reusable methods (Labs 3–6)
+3. **Create Interactive Dashboard with Microsoft Copilot** — Shared-scope measures, refresh tests, evidence story and reviewed handoff (Labs 7–10)
+4. **Create Microsoft Agent** — Build a grounded HR agent: scope, knowledge, Skill, tests, sharing and staff enablement (Labs 11–14)
 
 ## Labs
 
@@ -58,7 +58,7 @@ Each lab folder holds an instruction PDF, a printable README, copy-ready prompts
 
 ## Public package
 
-- Trainer slides: [v9.3 PPTX](courseware/Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot-v9.3.pptx) · [PDF](courseware/Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot-v9.3.pdf)
+- Trainer slides: [v9.4 PPTX](courseware/Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot-v9.4.pptx) · [PDF](courseware/Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot-v9.4.pdf)
 - Lesson Plan: [Word](courseware/LP-Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot.docx) · [PDF](courseware/LP-Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot.pdf)
 - Learner Guide: [Word](courseware/LG-Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot.docx) · [PDF](courseware/LG-Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot.pdf) · [Markdown](LG-Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot.md)
 - [Labs index](labs/README.md) · [Prompt library source](docs/prompts/README.md)

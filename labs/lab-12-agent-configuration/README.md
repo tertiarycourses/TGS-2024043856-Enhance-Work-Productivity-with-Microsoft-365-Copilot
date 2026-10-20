@@ -1,6 +1,6 @@
 # Lab 12: Build the HR Agent: Instructions, Knowledge, Skill and Starter Prompts
 
-**Topic 4 · 30 minutes · v9.3 · 20 October 2026**
+**Topic 4 · 30 minutes · v9.4 · 20 October 2026**
 
 Configure Lumina HR Policy Agent with reviewed instructions, the four OneDrive knowledge files and the hr-policy-qa Skill, add starter prompts, then preview a grounded answer and a missing-evidence answer before you create it. Grounding comes from the knowledge; the Skill sets how every answer is structured, cited and bounded.
 

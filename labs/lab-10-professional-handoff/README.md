@@ -1,10 +1,10 @@
 # Lab 10: Refine and Present the HR Service Decision Deck
 
-**Topic 3 · 30 minutes · v9.3 · 20 October 2026**
+**Topic 3 · 30 minutes · v9.4 · 20 October 2026**
 
 Refine the management deck using the same custom skill and reviewed dashboard evidence. Improve hierarchy, consistency and speaker notes, test the story in a short rehearsal, and prepare a reviewed Outlook handoff draft. The final pack preserves the distinction between a static presentation snapshot, a refreshable dashboard and a manager’s unmade decision.
 
-**Learning outcome:** LO3: evaluate Teams, Outlook and Microsoft 365 opportunities through a verified dashboard-to-presentation workflow.
+**Learning outcome:** LO3: evaluate opportunities in using Microsoft Copilot through a verified dashboard-to-presentation workflow.
 
 **Expected outcome:** Lumina_HR_Management_Final.pptx/PDF, a rehearsal record, final evidence register and unsent Outlook handoff draft with accurate artifact links.
 

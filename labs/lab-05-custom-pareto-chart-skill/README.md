@@ -1,6 +1,6 @@
 # Lab 5: Create a Custom Pareto Chart Skill and Apply It
 
-**Topic 2 · 30 minutes · v9.3 · 20 October 2026**
+**Topic 2 · 30 minutes · v9.4 · 20 October 2026**
 
 Author hr-case-pareto/SKILL.md with Copilot, install it in Excel and apply it to the same overdue HR-case queue. Build a descending count chart plus cumulative-percentage line, then check a controlled rerun and a second grouping. Contribution analysis does not establish root cause or force an 80/20 split.
 

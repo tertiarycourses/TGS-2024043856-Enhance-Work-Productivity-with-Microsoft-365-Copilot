@@ -1,10 +1,10 @@
 # Lab 9: Turn Dashboard Evidence into a Management Story
 
-**Topic 3 · 30 minutes · v9.3 · 20 October 2026**
+**Topic 3 · 30 minutes · v9.4 · 20 October 2026**
 
 Continue the baseline dashboard from Topic 3. Build a slide evidence register and a Word presentation brief before asking PowerPoint Copilot for an eight-slide management deck. The story connects HR-case status, department backlog, service delivery and assignment proposals to a specific decision; it does not introduce unsupported savings or causes.
 
-**Learning outcome:** LO3: evaluate Teams, Outlook and Microsoft 365 opportunities through a verified dashboard-to-presentation workflow.
+**Learning outcome:** LO3: evaluate opportunities in using Microsoft Copilot through a verified dashboard-to-presentation workflow.
 
 **Expected outcome:** Lumina_Presentation_Brief.docx, Lumina_HR_Management_Draft.pptx and a slide-by-slide evidence register tied to the 120-row dashboard snapshot.
 

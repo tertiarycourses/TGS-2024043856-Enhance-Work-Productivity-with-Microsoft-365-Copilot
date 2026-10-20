@@ -1,6 +1,6 @@
 # Lab 6: Create, Use and Improve the HR Service Reporting Skill
 
-**Topic 2 · 30 minutes · v9.3 · 20 October 2026**
+**Topic 2 · 30 minutes · v9.4 · 20 October 2026**
 
 Reuse the Skill-authoring and installation method from Lab 5 to create hr-case-reporting. Apply it in Excel and PowerPoint, test missing inputs and a controlled rerun, then refine v2 using actual evidence. The supplied reviewed template supports rejoining; it is not proof of native execution.
 
