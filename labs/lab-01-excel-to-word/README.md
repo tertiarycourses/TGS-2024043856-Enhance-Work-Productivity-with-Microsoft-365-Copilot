@@ -1,6 +1,6 @@
 # Lab 1: Prepare HR Cases and Draft the HR Service Brief
 
-**Topic 1 · 30 minutes · v9.1 · 18 October 2026**
+**Topic 1 · 30 minutes · v9.2 · 20 October 2026**
 
 You are Lumina Living’s HR operations executive. A Q3 export contains repeated IDs and inconsistent category labels. You will clean a copy in Excel, reconcile its controls, and use the verified result to draft a Word HR service brief. The same department, status and assignment definitions underpin every later report.
 
@@ -21,6 +21,31 @@ You are Lumina Living’s HR operations executive. A Q3 export contains repeated
 - Microsoft 365 account with Copilot available in Word, Excel, PowerPoint and Outlook. Availability depends on the assigned licence and tenant settings; confirm access with the trainer before class.
 - Desktop Excel on Windows or Mac is recommended; save working copies to your assigned OneDrive course folder with AutoSave on. Do not overwrite the supplied input.
 - Download this whole lab folder. All files are synthetic; Lumina-HR-v9 is your own learner output folder.
+
+## Screen Guide
+
+The Copilot screens you will use in this lab. The same screenshots and explanations are in the slides and Learner Guide.
+
+**Copilot in Excel — The Chat Pane**
+
+![Copilot in Excel — The Chat Pane](../../courseware/assets/screenshots/excel-copilot-pane.png)
+
+- **Open the pane:** Select Copilot on the Home ribbon or the Copilot button at the bottom-right of the grid.
+- **Model picker:** Shows the model in use. Auto picks one per task; keep the approved default.
+- **Starter prompts:** Replace generic starters with a grounded request: goal, source, 30 Sep 2026 and scope.
+- **Mode and review:** Allow editing changes the workbook; Review as you go lets you keep or undo each change.
+- **Prompt box and +:** Paste the lab prompt; use + to attach the exact Lumina source before sending.
+
+**Ground the Request with the + Menu**
+
+![Ground the Request with the + Menu](../../courseware/assets/screenshots/copilot-plus-menu.png)
+
+- **Attach cloud files:** Point Copilot at the approved OneDrive copy of Lumina_HR_Cases.xlsx.
+- **Upload images and files:** Add a local file, such as a supplied HR template, when the lab asks for it.
+- **Create workbook rules:** Starts a visible .Rules sheet of workbook conventions (Lab 4).
+- **Choose plugins and skills:** Invoke a built-in or custom Skill such as hr-case-pareto (Labs 5–7).
+- **Change data sources:** Confirm which data Copilot reads before you trust any figure.
+
 
 ## Steps
 

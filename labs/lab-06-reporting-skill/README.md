@@ -1,6 +1,6 @@
 # Lab 6: Create, Use and Improve the HR Service Reporting Skill
 
-**Topic 2 · 30 minutes · v9.1 · 18 October 2026**
+**Topic 2 · 30 minutes · v9.2 · 20 October 2026**
 
 Reuse the Skill-authoring and installation method from Lab 5 to create hr-case-reporting. Apply it in Excel and PowerPoint, test missing inputs and a controlled rerun, then refine v2 using actual evidence. The supplied reviewed template supports rejoining; it is not proof of native execution.
 
@@ -21,6 +21,32 @@ Reuse the Skill-authoring and installation method from Lab 5 to create hr-case-r
 ## Prerequisites
 
 - Labs 1–2 verified brief and four-slide update; Lab 5 Skill-authoring method.
+
+## Screen Guide
+
+The Copilot screens you will use in this lab. The same screenshots and explanations are in the slides and Learner Guide.
+
+**Manage plugins & skills**
+
+![Manage plugins & skills](../../courseware/assets/screenshots/manage-plugins-skills.png)
+
+- **Manage plugins & skills:** Custom skills holds your uploaded Skills; Finance and Visualization are built-in plugins.
+
+**Inside a plugin**
+
+![Inside a plugin](../../courseware/assets/screenshots/visualization-chart-design.png)
+
+- **Inside a plugin:** Each plugin lists its Skills: Visualization contains chart-design for chart standards.
+
+**Invoke a Skill with @**
+
+![Invoke a Skill with @](../../courseware/assets/screenshots/skill-picker-at.png)
+
+- **Type @:** In the prompt box type @ to list the Skills Copilot can use in this app.
+- **Plugin tags:** Tags show where each Skill comes from: Finance, Visualization or your custom set.
+- **Pick the exact name:** Select @hr-case-reporting, then add the source, reporting date and scope.
+- **Manage plugins & skills:** Open it when the Skill you need is missing or switched off.
+
 
 ## Steps
 

@@ -1,6 +1,6 @@
 # Lab 11: Design the HR Policy Agent: Users, Knowledge and Skill
 
-**Topic 4 · 30 minutes · v9.1 · 18 October 2026**
+**Topic 4 · 30 minutes · v9.2 · 20 October 2026**
 
 Design Lumina HR Policy Agent, an HR helpdesk agent that answers employees’ HR questions from approved knowledge. Decide who it serves and which questions it must answer, inventory and check the HR Policy Handbook and case snapshot it will use, review the hr-policy-qa Skill that shapes every answer, and draft the agent in Agent Builder. The agent explains policy; it never approves, sends or changes records.
 
@@ -26,6 +26,20 @@ Design Lumina HR Policy Agent, an HR helpdesk agent that answers employees’ HR
 - Desktop Excel on Windows or Mac is recommended; save working copies to your assigned OneDrive course folder with AutoSave on. Do not overwrite the supplied input.
 - Download this whole lab folder. All files are synthetic; Lumina-HR-v9 is your own learner output folder.
 - Microsoft 365 Copilot licence with Agent Builder enabled by your administrator. Skills in agents are a preview for Frontier-enrolled tenants; otherwise use the labelled manual route. Use the supplied configuration-and-test route when Agent Builder is unavailable.
+
+## Screen Guide
+
+The Copilot screens you will use in this lab. The same screenshots and explanations are in the slides and Learner Guide.
+
+**Find Your Agents — ••• > All Agents**
+
+![Find Your Agents — ••• > All Agents](../../courseware/assets/screenshots/all-agents-menu.png)
+
+- **Personalization:** Account-level preferences from Lab 3; they apply to you, not to the agent.
+- **Manage plugins & skills:** Skills from Labs 5–7; an agent carries its own Skills, such as hr-policy-qa.
+- **All Agents:** Lists agents available to you, including the Lumina HR Policy Agent once shared.
+- **Send feedback:** Report a wrong or unsafe answer, and also log it in your agent test matrix.
+
 
 ## Steps
 

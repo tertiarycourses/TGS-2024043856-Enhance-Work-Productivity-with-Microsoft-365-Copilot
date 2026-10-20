@@ -1,6 +1,6 @@
 # Lab 5: Create a Custom Pareto Chart Skill and Apply It
 
-**Topic 2 · 30 minutes · v9.1 · 18 October 2026**
+**Topic 2 · 30 minutes · v9.2 · 20 October 2026**
 
 Author hr-case-pareto/SKILL.md with Copilot, install it in Excel and apply it to the same overdue HR-case queue. Build a descending count chart plus cumulative-percentage line, then check a controlled rerun and a second grouping. Contribution analysis does not establish root cause or force an 80/20 split.
 
@@ -23,6 +23,28 @@ Author hr-case-pareto/SKILL.md with Copilot, install it in Excel and apply it to
 - Desktop Excel on Windows or Mac is recommended; save working copies to your assigned OneDrive course folder with AutoSave on. Do not overwrite the supplied input.
 - Download this whole lab folder. All files are synthetic; Lumina-HR-v9 is your own learner output folder.
 - Lab 4 visible .Rules and clean source; assigned Excel Skill feature checked.
+
+## Screen Guide
+
+The Copilot screens you will use in this lab. The same screenshots and explanations are in the slides and Learner Guide.
+
+**Where Custom Skills Live — The OneDrive skills Folder**
+
+![Where Custom Skills Live — The OneDrive skills Folder](../../courseware/assets/screenshots/onedrive-skills-folder.png)
+
+- **Create the folder:** ••• > Manage plugins & skills > Custom skills > Create OneDrive folder if needed > Open skills folder.
+- **Copy the Skill folder:** Copy the reviewed hr-case-pareto folder, with its SKILL.md, into this app-created skills location.
+- **Keep names exact:** The folder name and the name inside SKILL.md must both read hr-case-pareto.
+
+**Custom Skills — Refresh, Enable, Verify**
+
+![Custom Skills — Refresh, Enable, Verify](../../courseware/assets/screenshots/custom-skills-list.png)
+
+- **Skills OneDrive folder:** This link opens the same folder; Skills copied there appear in the list.
+- **Add and Refresh:** Add uploads a Skill; Refresh re-reads the folder after you copy or edit SKILL.md.
+- **Toggle on:** Only enabled Skills can run. Enable hr-case-pareto; leave unrelated Skills off.
+- **Error banner:** "Couldn't be loaded" means a SKILL.md problem: check name and front matter, fix, Refresh.
+
 
 ## Steps
 

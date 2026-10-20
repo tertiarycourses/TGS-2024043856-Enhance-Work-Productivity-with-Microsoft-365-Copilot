@@ -1,6 +1,6 @@
 # Lab 8: Use the Dashboard Skill for Filters, Refresh and Safe Reruns
 
-**Topic 3 · 30 minutes · v9.1 · 18 October 2026**
+**Topic 3 · 30 minutes · v9.2 · 20 October 2026**
 
 Continue Lab 7 by making four dropdown selectors control every KPI and chart. Test a single department, a zero-denominator selection and a combined category/owner filter. Then append two synthetic HR cases in a sandbox copy and prove the dashboard expands. Optional PivotTable slicers use one source and shared connections; the portable dropdown route is the required working dashboard.
 

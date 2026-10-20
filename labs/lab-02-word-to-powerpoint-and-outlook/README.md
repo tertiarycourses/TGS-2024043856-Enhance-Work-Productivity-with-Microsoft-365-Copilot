@@ -1,6 +1,6 @@
 # Lab 2: Create the Cross-App HR Service Update
 
-**Topic 1 · 30 minutes · v9.1 · 18 October 2026**
+**Topic 1 · 30 minutes · v9.2 · 20 October 2026**
 
 Continue the verified HR service brief from Lab 1. You will turn it into an initial PowerPoint update, then prepare an Outlook reply to a synthetic HR service thread. You will test how grounding differs between an attached file, a chat transcript and a reviewed summary, and reconcile the same facts across all four apps.
 
@@ -23,6 +23,32 @@ Continue the verified HR service brief from Lab 1. You will turn it into an init
 - Desktop Excel on Windows or Mac is recommended; save working copies to your assigned OneDrive course folder with AutoSave on. Do not overwrite the supplied input.
 - Download this whole lab folder. All files are synthetic; Lumina-HR-v9 is your own learner output folder.
 - Verified Lab 1 workbook and Word brief, or supplied checkpoint and snapshot.
+
+## Screen Guide
+
+The Copilot screens you will use in this lab. The same screenshots and explanations are in the slides and Learner Guide.
+
+**Model picker**
+
+![Model picker](../../courseware/assets/screenshots/copilot-model-picker.png)
+
+- **Model picker:** Auto chooses per task. Use the approved default and retest after any change (AI Security principle 5).
+
+**Allow editing · Plan · Chat only**
+
+![Allow editing · Plan · Chat only](../../courseware/assets/screenshots/copilot-modes.png)
+
+- **Allow editing · Plan · Chat only:** Edit changes the file, Plan proposes steps first, Chat only never edits. Switch with Ctrl+Shift+M.
+
+**Copilot in Outlook — Work or Web**
+
+![Copilot in Outlook — Work or Web](../../courseware/assets/screenshots/outlook-copilot-pane.png)
+
+- **Work / Web:** Work grounds answers in your mail and files; Web uses public content. Keep HR drafting on Work.
+- **Message Copilot:** Ask for the update email and name the reviewed brief; + attaches it.
+- **Suggested prompts:** Inbox-triage starters help orientation but are never evidence for HR figures.
+- **Human control:** Check every figure against the brief and leave the email unsent until approved.
+
 
 ## Steps
 

@@ -1,6 +1,6 @@
 # Lab 10: Refine and Present the HR Service Decision Deck
 
-**Topic 3 · 30 minutes · v9.1 · 18 October 2026**
+**Topic 3 · 30 minutes · v9.2 · 20 October 2026**
 
 Refine the management deck using the same custom skill and reviewed dashboard evidence. Improve hierarchy, consistency and speaker notes, test the story in a short rehearsal, and prepare a reviewed Outlook handoff draft. The final pack preserves the distinction between a static presentation snapshot, a refreshable dashboard and a manager’s unmade decision.
 

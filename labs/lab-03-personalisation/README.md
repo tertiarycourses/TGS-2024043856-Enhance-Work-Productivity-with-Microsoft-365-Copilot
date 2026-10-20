@@ -1,6 +1,6 @@
 # Lab 3: Personalise Copilot in Excel for Consistent HR Service Reports
 
-**Topic 2 · 30 minutes · v9.1 · 18 October 2026**
+**Topic 2 · 30 minutes · v9.2 · 20 October 2026**
 
 Configure temporary account-level display and explanation preferences, test them in two copies of the same verified Lumina workbook, and distinguish preferences from workbook-specific definitions. A task-specific prompt can supersede Personalisation. Restore your previous settings after the exercise.
 
@@ -21,6 +21,23 @@ Configure temporary account-level display and explanation preferences, test them
 - Microsoft 365 account with Copilot available in Word, Excel, PowerPoint and Outlook. Availability depends on the assigned licence and tenant settings; confirm access with the trainer before class.
 - Desktop Excel on Windows or Mac is recommended; save working copies to your assigned OneDrive course folder with AutoSave on. Do not overwrite the supplied input.
 - Download this whole lab folder. All files are synthetic; Lumina-HR-v9 is your own learner output folder.
+
+## Screen Guide
+
+The Copilot screens you will use in this lab. The same screenshots and explanations are in the slides and Learner Guide.
+
+**Open ••• > Personalization**
+
+![Open ••• > Personalization](../../courseware/assets/screenshots/copilot-more-menu.png)
+
+- **Open ••• > Personalization:** Personalization is the first item. The same menu opens Manage plugins & skills (Labs 5–7) and All Agents (Topic 4).
+
+**Customize Copilot**
+
+![Customize Copilot](../../courseware/assets/screenshots/customize-copilot.png)
+
+- **Customize Copilot:** Enter the four Lab 3 lines (S$ two decimals, DD-MMM-YYYY, structured references, one-line summary), then Save.
+
 
 ## Steps
 

@@ -1,6 +1,6 @@
 # Lab 7: Create and Apply a Custom Interactive Dashboard Skill
 
-**Topic 3 · 30 minutes · v9.1 · 18 October 2026**
+**Topic 3 · 30 minutes · v9.2 · 20 October 2026**
 
 Create hr-case-dashboard/SKILL.md for the Lumina HR service workflow, install it in Excel, then invoke it to plan and build an interactive dashboard. Six KPIs and three charts share four filter selections. Workbook .Rules supplies scope, display and review constraints; the Skill supplies the repeatable method.
 

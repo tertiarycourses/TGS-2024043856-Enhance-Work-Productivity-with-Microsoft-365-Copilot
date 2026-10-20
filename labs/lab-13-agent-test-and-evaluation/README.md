@@ -1,6 +1,6 @@
 # Lab 13: Test Grounded HR Answers, Citations and Guardrails
 
-**Topic 4 · 30 minutes · v9.1 · 18 October 2026**
+**Topic 4 · 30 minutes · v9.2 · 20 October 2026**
 
 Run the eight-case evaluation against instruction version v1.0. Policy and case-figure questions must return the known answer with a cited section; unknown, live-data, privacy, conflict and approval requests must be handled safely. Record the exact prompt, answer, citation and result, repair one weakness and retest.
 

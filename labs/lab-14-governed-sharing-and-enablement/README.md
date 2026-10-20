@@ -1,6 +1,6 @@
 # Lab 14: Share the HR Agent with Named Users and Deliver Staff Enablement
 
-**Topic 4 · 30 minutes · v9.1 · 18 October 2026**
+**Topic 4 · 30 minutes · v9.2 · 20 October 2026**
 
 Share Lumina HR Policy Agent only after the blocking tests pass. Verify that named users already have access to every knowledge file, retest as a user, then use Microsoft Loop to track staff practice, defects and retests as part of the LO4 staff training plan.
 

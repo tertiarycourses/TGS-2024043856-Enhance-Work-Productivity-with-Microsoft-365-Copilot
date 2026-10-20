@@ -1,6 +1,6 @@
 # Enhance Work Productivity with Microsoft 365 Copilot — Learner Guide
 
-**Course Code:** TGS-2024043856  |  **Conducted by:** Tertiary Infotech Academy Pte Ltd (UEN 201200696W)  |  **Version v9.1 · 18 October 2026**
+**Course Code:** TGS-2024043856  |  **Conducted by:** Tertiary Infotech Academy Pte Ltd (UEN 201200696W)  |  **Version v9.2 · 20 October 2026**
 
 ## Contents
 
@@ -156,6 +156,28 @@ An HR service figure can be correct in Excel yet become wrong in an email when t
 | Use when | Avoid when |
 |---|---|
 | The source is accessible and the output has an explicit audience. | The prompt assumes access to another app chat or local path. |
+
+**On screen: Copilot in Excel — The Chat Pane**
+
+![Copilot in Excel — The Chat Pane](courseware/assets/screenshots/excel-copilot-pane.png)
+*Copilot in Excel — The Chat Pane (Microsoft 365 Copilot interface).*
+
+- 1. Open the pane — Select Copilot on the Home ribbon or the Copilot button at the bottom-right of the grid.
+- 2. Model picker — Shows the model in use. Auto picks one per task; keep the approved default.
+- 3. Starter prompts — Replace generic starters with a grounded request: goal, source, 30 Sep 2026 and scope.
+- 4. Mode and review — Allow editing changes the workbook; Review as you go lets you keep or undo each change.
+- 5. Prompt box and + — Paste the lab prompt; use + to attach the exact Lumina source before sending.
+
+**On screen: Ground the Request with the + Menu**
+
+![Ground the Request with the + Menu](courseware/assets/screenshots/copilot-plus-menu.png)
+*Ground the Request with the + Menu (Microsoft 365 Copilot interface).*
+
+- 1. Attach cloud files — Point Copilot at the approved OneDrive copy of Lumina_HR_Cases.xlsx.
+- 2. Upload images and files — Add a local file, such as a supplied HR template, when the lab asks for it.
+- 3. Create workbook rules — Starts a visible .Rules sheet of workbook conventions (Lab 4).
+- 4. Choose plugins and skills — Invoke a built-in or custom Skill such as hr-case-pareto (Labs 5–7).
+- 5. Change data sources — Confirm which data Copilot reads before you trust any figure.
 
 **Authoritative references**
 
@@ -334,6 +356,18 @@ The same number may have different meaning when a chart counts all HR cases whil
 |---|---|
 | A reviewed brief can be selected or its checked text pasted. | Only an unverified summary is available. |
 
+**On screen: Choose the Model, Then the Mode**
+
+![Model picker](courseware/assets/screenshots/copilot-model-picker.png)
+*Model picker (Microsoft 365 Copilot interface).*
+
+- Model picker — Auto chooses per task. Use the approved default and retest after any change (AI Security principle 5).
+
+![Allow editing · Plan · Chat only](courseware/assets/screenshots/copilot-modes.png)
+*Allow editing · Plan · Chat only (Microsoft 365 Copilot interface).*
+
+- Allow editing · Plan · Chat only — Edit changes the file, Plan proposes steps first, Chat only never edits. Switch with Ctrl+Shift+M.
+
 **Authoritative references**
 
 - https://support.microsoft.com/en-gb/word/copilot/draft-and-add-content-with-copilot-in-word
@@ -367,6 +401,16 @@ An apparently routine update can accidentally promise HR officer reassignment or
 | Use when | Avoid when |
 |---|---|
 | You can check the evidence and review the draft before use. | The task would imply a real approval or send without review. |
+
+**On screen: Copilot in Outlook — Work or Web**
+
+![Copilot in Outlook — Work or Web](courseware/assets/screenshots/outlook-copilot-pane.png)
+*Copilot in Outlook — Work or Web (Microsoft 365 Copilot interface).*
+
+- 1. Work / Web — Work grounds answers in your mail and files; Web uses public content. Keep HR drafting on Work.
+- 2. Message Copilot — Ask for the update email and name the reviewed brief; + attaches it.
+- 3. Suggested prompts — Inbox-triage starters help orientation but are never evidence for HR figures.
+- 4. Human control — Check every figure against the brief and leave the email unsent until approved.
 
 **Authoritative references**
 
@@ -528,6 +572,18 @@ Consistent S$ display and short explanations reduce repetitive requests without 
 | Use when | Avoid when |
 |---|---|
 | The preference applies to many reports on your account. | The instruction is a workbook-specific business rule or source change. |
+
+**On screen: Personalisation — Where It Lives**
+
+![Open ••• > Personalization](courseware/assets/screenshots/copilot-more-menu.png)
+*Open ••• > Personalization (Microsoft 365 Copilot interface).*
+
+- Open ••• > Personalization — Personalization is the first item. The same menu opens Manage plugins & skills (Labs 5–7) and All Agents (Topic 4).
+
+![Customize Copilot](courseware/assets/screenshots/customize-copilot.png)
+*Customize Copilot (Microsoft 365 Copilot interface).*
+
+- Customize Copilot — Enter the four Lab 3 lines (S$ two decimals, DD-MMM-YYYY, structured references, one-line summary), then Save.
 
 **Authoritative references**
 
@@ -811,6 +867,25 @@ The Skill turns a recurring grouping-and-charting method into reusable instructi
 |---|---|
 | The count population and grouping are defined and auditable. | Categories are being called causes or zero-total shares treated as measured 0%. |
 
+**On screen: Where Custom Skills Live — The OneDrive skills Folder**
+
+![Where Custom Skills Live — The OneDrive skills Folder](courseware/assets/screenshots/onedrive-skills-folder.png)
+*Where Custom Skills Live — The OneDrive skills Folder (Microsoft 365 Copilot interface).*
+
+- 1. Create the folder — ••• > Manage plugins & skills > Custom skills > Create OneDrive folder if needed > Open skills folder.
+- 2. Copy the Skill folder — Copy the reviewed hr-case-pareto folder, with its SKILL.md, into this app-created skills location.
+- 3. Keep names exact — The folder name and the name inside SKILL.md must both read hr-case-pareto.
+
+**On screen: Custom Skills — Refresh, Enable, Verify**
+
+![Custom Skills — Refresh, Enable, Verify](courseware/assets/screenshots/custom-skills-list.png)
+*Custom Skills — Refresh, Enable, Verify (Microsoft 365 Copilot interface).*
+
+- 1. Skills OneDrive folder — This link opens the same folder; Skills copied there appear in the list.
+- 2. Add and Refresh — Add uploads a Skill; Refresh re-reads the folder after you copy or edit SKILL.md.
+- 3. Toggle on — Only enabled Skills can run. Enable hr-case-pareto; leave unrelated Skills off.
+- 4. Error banner — "Couldn't be loaded" means a SKILL.md problem: check name and front matter, fix, Refresh.
+
 **Authoritative references**
 
 - https://support.microsoft.com/en-us/excel/copilot/copilot-in-excel-skills
@@ -986,6 +1061,28 @@ Folder-name/frontmatter mismatches, an extra .txt extension, unavailable licence
 | Use when | Avoid when |
 |---|---|
 | The app exposes its supported skill installation controls. | A missing menu is being treated as successful installation. |
+
+**On screen: Built-in Plugins and Custom Skills**
+
+![Manage plugins & skills](courseware/assets/screenshots/manage-plugins-skills.png)
+*Manage plugins & skills (Microsoft 365 Copilot interface).*
+
+- Manage plugins & skills — Custom skills holds your uploaded Skills; Finance and Visualization are built-in plugins.
+
+![Inside a plugin](courseware/assets/screenshots/visualization-chart-design.png)
+*Inside a plugin (Microsoft 365 Copilot interface).*
+
+- Inside a plugin — Each plugin lists its Skills: Visualization contains chart-design for chart standards.
+
+**On screen: Invoke a Skill with @**
+
+![Invoke a Skill with @](courseware/assets/screenshots/skill-picker-at.png)
+*Invoke a Skill with @ (Microsoft 365 Copilot interface).*
+
+- 1. Type @ — In the prompt box type @ to list the Skills Copilot can use in this app.
+- 2. Plugin tags — Tags show where each Skill comes from: Finance, Visualization or your custom set.
+- 3. Pick the exact name — Select @hr-case-reporting, then add the source, reporting date and scope.
+- 4. Manage plugins & skills — Open it when the Skill you need is missing or switched off.
 
 **Authoritative references**
 
@@ -1996,6 +2093,16 @@ A precise boundary keeps a helpful HR assistant from being mistaken for an appro
 | Use when | Avoid when |
 |---|---|
 | Employees need consistent, cited answers to common HR questions. | The task needs approvals, live HR records or another employee’s data. |
+
+**On screen: Find Your Agents — ••• > All Agents**
+
+![Find Your Agents — ••• > All Agents](courseware/assets/screenshots/all-agents-menu.png)
+*Find Your Agents — ••• > All Agents (Microsoft 365 Copilot interface).*
+
+- 1. Personalization — Account-level preferences from Lab 3; they apply to you, not to the agent.
+- 2. Manage plugins & skills — Skills from Labs 5–7; an agent carries its own Skills, such as hr-policy-qa.
+- 3. All Agents — Lists agents available to you, including the Lumina HR Policy Agent once shared.
+- 4. Send feedback — Report a wrong or unsafe answer, and also log it in your agent test matrix.
 
 **Authoritative references**
 
