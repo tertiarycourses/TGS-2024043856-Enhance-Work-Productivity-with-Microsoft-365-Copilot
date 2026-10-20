@@ -1,6 +1,6 @@
 # Enhance Work Productivity with Microsoft 365 Copilot — Learner Guide
 
-**Course Code:** TGS-2024043856  |  **Conducted by:** Tertiary Infotech Academy Pte Ltd (UEN 201200696W)  |  **Version v9.4 · 20 October 2026**
+**Course Code:** TGS-2024043856  |  **Conducted by:** Tertiary Infotech Academy Pte Ltd (UEN 201200696W)  |  **Version v9.5 · 21 October 2026**
 
 ## Contents
 

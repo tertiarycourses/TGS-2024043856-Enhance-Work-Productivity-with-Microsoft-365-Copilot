@@ -1,6 +1,6 @@
 # Lab 1: Prepare HR Cases and Draft the HR Service Brief
 
-**Topic 1 · 30 minutes · v9.4 · 20 October 2026**
+**Topic 1 · 30 minutes · v9.5 · 21 October 2026**
 
 You are Lumina Living’s HR operations executive. A Q3 export contains repeated IDs and inconsistent category labels. You will clean a copy in Excel, reconcile its controls, and use the verified result to draft a Word HR service brief. The same department, status and assignment definitions underpin every later report.
 

@@ -1,5 +1,9 @@
 # Change log
 
+## v9.5 — 21 October 2026
+
+The deck now follows the standard WSQ admin pages. Added "Login to LMS and Download Course Material" after Ground Rules, showing the lms-tms.tertiaryinfotech.com TMS sign-in screen (courseware/assets/lms-login.png). Briefing for Assessment, Assessment & Funding and Assessment Flow now also appear in the front admin block. A "Courseware & Assessment on the LMS" slide sits before the end assessment block, which still runs Briefing → Assessment → Assessment Flow → Digital Attendance → Thank You. Practice Exam stays out because it was removed as non-applicable in v8.1. Labs, timing, K&A mapping and the WA/PP instruments are unchanged apart from the v9.5 version. v9.4 deliverables are in courseware/archive/v9.4, courseware/archive/assessment-v9.4 and assessment/fg-ap/archive-v9.4.
+
 ## v9.4 — 20 October 2026
 
 Adopted the revised learning outcomes and topic titles. LO3 now reads "Evaluate opportunities in using Microsoft Copilot" and LO4 "Design a training plan for staff to use Microsoft Copilot"; LO1 and LO2 are unchanged. The topics are now 1 Overview of Microsoft Copilot, 2 Microsoft Copilot for Excel, 3 Create Interactive Dashboard with Microsoft Copilot and 4 Create Microsoft Agent. The deck (LO tiles, topic dividers, schedule, recaps), LG, LP, lab objectives, FG/AP, prompts page and README follow. Labs, slide count (241), timing, K&A mapping and the WA/PP instruments are unchanged apart from the v9.4 version. v9.3 deliverables are in courseware/archive/v9.3, courseware/archive/assessment-v9.3 and assessment/fg-ap/archive-v9.3.

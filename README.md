@@ -9,7 +9,7 @@ A two-day WSQ course in which you use Microsoft 365 Copilot across Excel, Word, 
 | Duration | 2 days · 16 hours (14 training hours + 2 assessment hours) |
 | Registration | [View course details and register](https://www.tertiarycourses.com.sg/wsq-enhance-work-productivity-with-microsoft-365-copilot.html) |
 | Funding | Up to 70% WSQ course fee funding for eligible Singapore Citizens and PRs (up to 50% baseline). Eligibility and terms apply — see the course page. |
-| Current release | v9.4 · 20 October 2026 |
+| Current release | v9.5 · 21 October 2026 |
 
 **[Open the copy-ready lab prompts →](https://tertiarycourses.github.io/TGS-2024043856-Enhance-Work-Productivity-with-Microsoft-365-Copilot/prompts/)** Each lab shows every step first, with its prompt and a **Copy** button directly underneath.
 
@@ -58,7 +58,7 @@ Each lab folder holds an instruction PDF, a printable README, copy-ready prompts
 
 ## Public package
 
-- Trainer slides: [v9.4 PPTX](courseware/Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot-v9.4.pptx) · [PDF](courseware/Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot-v9.4.pdf)
+- Trainer slides: [v9.5 PPTX](courseware/Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot-v9.5.pptx) · [PDF](courseware/Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot-v9.5.pdf)
 - Lesson Plan: [Word](courseware/LP-Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot.docx) · [PDF](courseware/LP-Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot.pdf)
 - Learner Guide: [Word](courseware/LG-Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot.docx) · [PDF](courseware/LG-Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot.pdf) · [Markdown](LG-Enhance%20Work%20Productivity%20with%20Microsoft%20365%20Copilot.md)
 - [Labs index](labs/README.md) · [Prompt library source](docs/prompts/README.md)

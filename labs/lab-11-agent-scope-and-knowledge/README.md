@@ -1,6 +1,6 @@
 # Lab 11: Design the HR Policy Agent: Users, Knowledge and Skill
 
-**Topic 4 · 30 minutes · v9.4 · 20 October 2026**
+**Topic 4 · 30 minutes · v9.5 · 21 October 2026**
 
 Design Lumina HR Policy Agent, an HR helpdesk agent that answers employees’ HR questions from approved knowledge. Decide who it serves and which questions it must answer, inventory and check the HR Policy Handbook and case snapshot it will use, review the hr-policy-qa Skill that shapes every answer, and draft the agent in Agent Builder. The agent explains policy; it never approves, sends or changes records.
 
